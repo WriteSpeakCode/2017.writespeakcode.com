@@ -1,0 +1,70 @@
+/* 
+EVENTICKA II CUSTOM STYLESHEET
+--------------------------
+
+Instructions:
+
+Add your custom styles in this file instead of style.css so it 
+is easier to update the theme. Simply copy an existing style 
+from style.css to this file, and modify it to your liking. */
+
+/* Hide an element */
+.hidden {
+	display: none;
+}
+
+
+/* ASSIGN CUSTOM PRIMARY FONT */
+
+#qcPriNav > li > a, .digit, #qcSlideText h1, #qcTabNav li a, #qcTabTitle h1, #qcPageContentTabs > ul li > a, .qcScheduleList > li .time, .qcScheduleList > li h3, .qcScheduleList > li .speakers, .qcScheduleList > li .speakers, #qcAddress h3, #qcVenueHotelsHead, .qcVenueHotels h2, .qcTicketHead h2, .qcTicketAction span, .qcTicketBox h3, .speakers .item-title h3, .speakers .item-desc h3, .abtCountNum, .abtCountTitle, #qcTabTitle #qcAbtHeading, #qcAbtHeadList, #qcFooterLogo h2, #qcFormText h2, .qcTcktRegForm li label, .qcTcktSubmit button {
+	font-family: 'Dosis', sans-serif;
+}
+
+/* ASSIGN CUSTOM SECONDARY FONT */
+
+body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_title, #qcSlideText #slidenumber, .speakers .item-title p, .speakers .item-desc p, .speakers .item-title .read-more, .speakers .item-desc p.text, .qcFaqHead > div:last-child, #qcFormText p, .qcTcktRegForm li input, .qcTcktRegForm li textarea, .error {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+/* 	ASSIGN CUSTOM PRIMARY HIGHLIGHT COLOR */
+
+#qcWidgets, .qcOrderedList.check li:before {
+	background-color: #1DB6AD;
+}
+#qcHeader {
+	border-top-color: #1DB6AD;
+}
+body.home:after {
+	/*background: rgba(29,182,173,0.7);*/
+	background: #272e41;
+}
+
+/* 	ASSIGN CUSTOM SECONDARY HIGHLIGHT COLOR */
+
+#qcPageContentTabs > ul li.active:before, .qcScheduleList > li.toggle:hover:before, .qcScheduleList > li.toggle.active:before, .qcVenueHotels li:hover .action a, .qcTicketAction:hover, #qcSubscribeWidget input[type=submit]:hover, .qcTcktSubmit button:hover {
+	background-color: red;
+}
+#qcTabNav li.active a, #qcTabNav li.active a:hover, #qcTabNav li.active a i, #qcPageContentTabs > ul li.active > a,  .qcVenueHotels li:hover h2, .speakers .item:hover .item-title .read-more, .speakers .item-desc h3, .speakers .item-desc p, #qcPriFooter nav li a:hover, .copyrights a:hover, .qcCheckboxText a:hover, .error {
+	color: red;
+}
+#qcPageContentTabs > ul li.active:after {
+	border-top-color: red;
+}
+.copyrights a:hover, .qcCheckboxText a:hover {
+	border-bottom-color: red;
+}
+
+/* 	ASSIGN CUSTOM TERTIARY HIGHLIGHT COLOR */
+
+#qcCountdown, .qcScheduleList > li.toggle:before, .qcTicketAction, #qcSubscribeWidget input[type=submit] {
+	background-color: orange;
+}
+#qcPriNav > li.active > a, #qcPriNav ul > li.active > a {
+	color: orange;
+}
+
+/* ASSIGN CUSTOM PAGE BACKGROUND COLOR/IMAGE */
+
+body.home.static {
+	background: #fff url('');
+}
