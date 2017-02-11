@@ -69,7 +69,7 @@ if (jQuery.isFunction(jQuery.fn.countDown)) {
 $('#qcCountdown').countDown({
 	targetDate: {
 		'day': 		23,
-		'month': 	08,
+		'month': 	8,
 		'year': 	2017,
 		'hour': 	0,
 		'min': 		0,
@@ -98,7 +98,7 @@ $(".qcSpeakerList").owlCarousel({
 });
 
 // --- SPONSORS -- //
-$(".qcSposnsorList").owlCarousel({
+$(".qcSponsorList").owlCarousel({
 	items : 5, //10 items above 1000px browser width
 	itemsDesktop : [1080,3], //5 items between 1000px and 901px
 	itemsDesktopSmall : [900,4], // betweem 900px and 601px
@@ -214,7 +214,7 @@ if (document.getElementById('qcContactMap')) {
 	google.maps.event.addListener(marker, 'click', function() {
 		infowindow.open(map,marker);
 	});
-	
+
 	/* RESIZE MAP ON TAB CHANGE */
 	$('#qcTabNav li').click(function() {
 		if($('#qcContactMap').is(':visible')) {
@@ -264,7 +264,7 @@ $('.qcForm').submit(function() {
 		var formInput = $(this).serialize();
 		var hideForm = $(this);
 		$.post($(this).attr('action'),formInput, function(data){
-			$(hideForm).slideUp( "fast", function() {				   
+			$(hideForm).slideUp( "fast", function() {
 				$(this).before( '<p class="info">Thank you! Your email was successfully sent.</p>' );
 			});
 		});

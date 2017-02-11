@@ -23,7 +23,11 @@ We have volunteers who work on our website to make sure it is up-to-date for all
 
 Coming soon!
 
-<!-- Our site is deployed to Heroku. If you have rights, you can publish
+<!--
+
+https://dashboard.heroku.com/pipelines/ebe10265-7105-40ec-b2b0-9b554da09992
+
+Our site is deployed to Heroku. If you have rights, you can publish
 the site there.
 
 1. Ensure that your remote names match this guide. `upstream` = the official repository

@@ -11,11 +11,11 @@ Copyright: © 2016 QuadCodes.
 	1. GLOBAL
 	2. SITE NAVIGATION
 	3. HOMEPAGE
-		3.1 HOME BODY 
+		3.1 HOME BODY
 		3.2 HOME STATIC
-		3.3 HOME COUNTDOWN TIMER 
-		3.4 HOME SLIDER		
-		3.5 HOME FULLSCREEN VIDEO	
+		3.3 HOME COUNTDOWN TIMER
+		3.4 HOME SLIDER
+		3.5 HOME FULLSCREEN VIDEO
 	4. PAGES
 		4.1 PAGE TAB NAV
 		4.2 PAGE TAB TITLE
@@ -26,7 +26,7 @@ Copyright: © 2016 QuadCodes.
 		4.7 GALLERY
 		4.8 SPEAKERS
 		4.9 ABOUT
-		4.10 FAQ		
+		4.10 FAQ
 	5. WIDGETS
 		5.1 TESTIMONIAL WIDGET
 		5.2 SUBSCRIBE WIDGET
@@ -106,7 +106,7 @@ body {
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 }
-#qcPriNav { 
+#qcPriNav {
 	display: inline-block;
 	padding: 35px 60px;
 	background: rgba(22,22,22,0.5);
@@ -123,12 +123,12 @@ body {
 #qcPriNav li a:hover {
 	color: #fff;
 }
-#qcPriNav > li.active > a, #qcPriNav ul > li.active > a { 
+#qcPriNav > li.active > a, #qcPriNav ul > li.active > a {
 	color: orange;
 }
 #qcPriNav ul {
 	display: none;
-	padding: 5px 0;	
+	padding: 5px 0;
 }
 #qcPriNav ul > li > a {
 	display: block;
@@ -387,8 +387,8 @@ video#qcBgVid {
 
 /* === 4.1 PAGE TAB NAV === */
 
-#qcMbTrigger { 
-    display: none; 
+#qcMbTrigger {
+    display: none;
 }
 #qcTabNav {
     position: relative;
@@ -455,7 +455,7 @@ video#qcBgVid {
 	padding: 60px 0;
 	border-bottom: 1px #555 solid;
 }
-#qcTabTitle.qcBorderTop { 
+#qcTabTitle.qcBorderTop {
 	border-top: 1px #aaa solid;
 }
 #qcTabTitle p {
@@ -538,7 +538,7 @@ video#qcBgVid {
 	text-transform: uppercase;
 	background: #fff5ee;
 	border-bottom: 1px #ffbf95 solid;
-	
+
 	letter-spacing: 0.03em;
 }
 .qcTabHead > .col:last-child {
@@ -561,7 +561,7 @@ video#qcBgVid {
 	border: 0;
 }
 .qcScheduleList > li.toggle {
-	cursor: pointer;	
+	cursor: pointer;
 }
 .qcScheduleList > li.toggle:before {
 	content: "+";
@@ -708,7 +708,7 @@ video#qcBgVid {
 #qcVenueHotelsHead {
 	margin-top: 40px;
 	color: #444;
-	font: 500 20px/100px "Dosis", Helvetica, sans-serif;	
+	font: 500 20px/100px "Dosis", Helvetica, sans-serif;
 	letter-spacing: 0.02em;
 	text-transform: uppercase;
 	text-align: center;
@@ -782,7 +782,7 @@ video#qcBgVid {
 	letter-spacing: 0.02em;
 	text-transform: uppercase;
 	padding-bottom: 40px;
-	border-bottom: 1px #FFBF95 solid;	
+	border-bottom: 1px #FFBF95 solid;
 }
 .qcTicketHead p {
 	color: #999;
@@ -902,7 +902,7 @@ video#qcBgVid {
 	width: 100%;
 	display: block;
 	-webkit-filter: grayscale(100%);
-	filter: gray; 
+	filter: gray;
 	filter: grayscale(100%);
 }
 .speakers .item:hover > img {
@@ -927,9 +927,9 @@ video#qcBgVid {
 	transition: all .2s linear;
     -o-transition: all .2s linear;
     -moz-transition: all .2s linear;
-    -webkit-transition: all .2s linear;		
+    -webkit-transition: all .2s linear;
 }
-.speakers .item:hover .item-title { 
+.speakers .item:hover .item-title {
 	padding-bottom: 150px;
 	margin-top: -50px;
 }
@@ -973,7 +973,7 @@ video#qcBgVid {
 }
 .speakers .item-desc h3, .speakers .item-desc p {
 	color: red;
-} 
+}
 .speakers .item-desc p {
 	padding-bottom: 30px;
 	color: #888;
@@ -1273,26 +1273,26 @@ video#qcBgVid {
 
 /* === 5.3 SPONSORS WIDGET === */
 
-.qcSposnsorList {
+.qcSponsorList {
     margin-top: 0px;
 }
-.qcSposnsorList li a {
+.qcSponsorList li a {
     display: block;
     padding: 20px;
 }
-.qcSposnsorList li img {
+.qcSponsorList li img {
     display: block;
     width: 100%;
 }
-.qcSposnsorList .owl-controls {
+.qcSponsorList .owl-controls {
     position: absolute;
     top: -90px;
     right: 0;
 }
-.qcSposnsorList .owl-prev {
+.qcSponsorList .owl-prev {
 	margin-left: -70px;
 }
-.qcSposnsorList .owl-buttons > .owl-prev, .qcSposnsorList .owl-buttons > .owl-next {
+.qcSponsorList .owl-buttons > .owl-prev, .qcSponsorList .owl-buttons > .owl-next {
 	background-image: url('../img/theme/carouselNav_light.png');
 }
 
@@ -2223,7 +2223,7 @@ ul#slide-list li a:hover {
 	#qcCloseNav {
 		right: 45px;
 	}
-	#qcTabNav li { 
+	#qcTabNav li {
 		width: 100px;
 	}
 	#qcTabNav li a {
@@ -2272,8 +2272,8 @@ ul#slide-list li a:hover {
 	}
 	#qcTopNav .qcContainer > ul, #qcTopNav .qcContainer > ul li a, #qcTopNav .qcContainer > ul ul, #qcLogin, #qcLogin span,  #qcCountdown, .digits, .dash_title span, #qcEventBanner, #qcEventBanner ul {
 		right: 0;
-		-webkit-transform: none; 
-		-moz-transform: none; 
+		-webkit-transform: none;
+		-moz-transform: none;
 		-o-transform: none;
 	}
 	#qcEventBanner {
@@ -2282,7 +2282,7 @@ ul#slide-list li a:hover {
 	#qcEventBanner ul li {
 		text-indent: 20px;
 	}
-	#qcSlideText { 
+	#qcSlideText {
 		margin: 30px 50px;
 		width: auto;
 		text-align: center;
@@ -2310,7 +2310,7 @@ ul#slide-list li a:hover {
 	.speakers .item-title {
 		padding: 40px 35px 80px 35px;
 	}
-	.speakers .item:hover .item-title { 
+	.speakers .item:hover .item-title {
 		padding-bottom: 130px;
 		margin-top: -50px;
 	}
@@ -2345,7 +2345,7 @@ ul#slide-list li a:hover {
 		top: 30px;
 		font-size: 100px;
 	}
-	
+
 }
 
 
@@ -2363,7 +2363,7 @@ ul#slide-list li a:hover {
 	#qcHeader {
 		padding: 40px 0 20px 0;
 	}
-	#qcTabNav li { 
+	#qcTabNav li {
 		width: 90px;
 	}
 	#qcTabNav li a {
@@ -2412,8 +2412,8 @@ ul#slide-list li a:hover {
 	}
 	#qcTopNav .qcContainer > ul, #qcTopNav .qcContainer > ul li a, #qcTopNav .qcContainer > ul ul, #qcLogin, #qcLogin span,  #qcCountdown, .digits, .dash_title span, #qcEventBanner, #qcEventBanner ul {
 		right: 0;
-		-webkit-transform: none; 
-		-moz-transform: none; 
+		-webkit-transform: none;
+		-moz-transform: none;
 		-o-transform: none;
 	}
 	#qcEventBanner {
@@ -2422,7 +2422,7 @@ ul#slide-list li a:hover {
 	#qcEventBanner ul li {
 		text-indent: 20px;
 	}
-	#qcSlideText { 
+	#qcSlideText {
 		margin: 30px 50px;
 		width: auto;
 		text-align: center;
@@ -2456,7 +2456,7 @@ ul#slide-list li a:hover {
 	.speakers .item-title .read-more {
 		font-size: 14px;
 	}
-	.speakers .item:hover .item-title { 
+	.speakers .item:hover .item-title {
 		padding-bottom: 130px;
 		margin-top: -50px;
 	}
@@ -2525,9 +2525,9 @@ ul#slide-list li a:hover {
 	#qcCloseNav {
 		right: 45px;
 	}
-	#qcMbTrigger { 
-    	display: block;    
-    	position: relative;	
+	#qcMbTrigger {
+    	display: block;
+    	position: relative;
     	line-height: 60px;
     	font-size: 16px;
     	line-height: 54px;
@@ -2579,7 +2579,7 @@ ul#slide-list li a:hover {
     	left: 46px;
         font-size: 13px;
     }
-    .qcScheduleList .col-9 { 
+    .qcScheduleList .col-9 {
 	    width: 100%;
 	}
     .qcScheduleList .col-3 {
@@ -2604,7 +2604,7 @@ ul#slide-list li a:hover {
 		-moz-column-count: 3;
 		-webkit-column-count: 3;
 		column-count: 3;
-	}	
+	}
 	.qcTicketBox > .col, .qcTcktRegForm li, #qcSubscribeWidget input[type="text"], #qcSubscribeWidget input[type="submit"] {
 		width: 100%;
 	}
@@ -2707,7 +2707,7 @@ ul#slide-list li a:hover {
 		padding-left: 110px;
 		top: 15px;
 		font-size: 16px;
-	}	
+	}
 	#qcTestimonial p {
 		margin-top: 30px;
 		font-size: 16px;

@@ -1,12 +1,20 @@
-/* 
+/*
 EVENTICKA II CUSTOM STYLESHEET
 --------------------------
 
 Instructions:
 
-Add your custom styles in this file instead of style.css so it 
-is easier to update the theme. Simply copy an existing style 
+Add your custom styles in this file instead of style.css so it
+is easier to update the theme. Simply copy an existing style
 from style.css to this file, and modify it to your liking. */
+
+/*
+Brand Colors
+---------------
+Coral: 235,104,82 RGB or #EB6851
+Yellow: 248,235,96 RGB or #F7EA5F
+Blue: 23,39,82 RGB or #172751
+*/
 
 /* Hide an element */
 .hidden {
@@ -17,54 +25,65 @@ from style.css to this file, and modify it to your liking. */
 /* ASSIGN CUSTOM PRIMARY FONT */
 
 #qcPriNav > li > a, .digit, #qcSlideText h1, #qcTabNav li a, #qcTabTitle h1, #qcPageContentTabs > ul li > a, .qcScheduleList > li .time, .qcScheduleList > li h3, .qcScheduleList > li .speakers, .qcScheduleList > li .speakers, #qcAddress h3, #qcVenueHotelsHead, .qcVenueHotels h2, .qcTicketHead h2, .qcTicketAction span, .qcTicketBox h3, .speakers .item-title h3, .speakers .item-desc h3, .abtCountNum, .abtCountTitle, #qcTabTitle #qcAbtHeading, #qcAbtHeadList, #qcFooterLogo h2, #qcFormText h2, .qcTcktRegForm li label, .qcTcktSubmit button {
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 /* ASSIGN CUSTOM SECONDARY FONT */
 
-body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_title, #qcSlideText #slidenumber, .speakers .item-title p, .speakers .item-desc p, .speakers .item-title .read-more, .speakers .item-desc p.text, .qcFaqHead > div:last-child, #qcFormText p, .qcTcktRegForm li input, .qcTcktRegForm li textarea, .error {
-	font-family: 'Titillium Web', sans-serif;
+body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_title, #qcSlideText p, #qcSlideText #slidenumber, .speakers .item-title p, .speakers .item-desc p, .speakers .item-title .read-more, .speakers .item-desc p.text, .qcFaqHead > div:last-child, #qcFormText p, .qcTcktRegForm li input, .qcTcktRegForm li textarea, .error {
+	font-family: 'PT Sans', sans-serif;
 }
 
 /* 	ASSIGN CUSTOM PRIMARY HIGHLIGHT COLOR */
 
 #qcWidgets, .qcOrderedList.check li:before {
-	background-color: #1DB6AD;
+	background-color: #EB6851;
 }
 #qcHeader {
-	border-top-color: #1DB6AD;
-}
-body.home:after {
-	/*background: rgba(29,182,173,0.7);*/
-	background: #272e41;
+	border-top-color: #172751;
 }
 
 /* 	ASSIGN CUSTOM SECONDARY HIGHLIGHT COLOR */
 
 #qcPageContentTabs > ul li.active:before, .qcScheduleList > li.toggle:hover:before, .qcScheduleList > li.toggle.active:before, .qcVenueHotels li:hover .action a, .qcTicketAction:hover, #qcSubscribeWidget input[type=submit]:hover, .qcTcktSubmit button:hover {
-	background-color: red;
+	background-color: #EB6851;
 }
 #qcTabNav li.active a, #qcTabNav li.active a:hover, #qcTabNav li.active a i, #qcPageContentTabs > ul li.active > a,  .qcVenueHotels li:hover h2, .speakers .item:hover .item-title .read-more, .speakers .item-desc h3, .speakers .item-desc p, #qcPriFooter nav li a:hover, .copyrights a:hover, .qcCheckboxText a:hover, .error {
-	color: red;
+	color: #EB6851;
 }
 #qcPageContentTabs > ul li.active:after {
-	border-top-color: red;
+	border-top-color: #EB6851;
 }
 .copyrights a:hover, .qcCheckboxText a:hover {
-	border-bottom-color: red;
+	border-bottom-color: #EB6851;
 }
 
 /* 	ASSIGN CUSTOM TERTIARY HIGHLIGHT COLOR */
 
 #qcCountdown, .qcScheduleList > li.toggle:before, .qcTicketAction, #qcSubscribeWidget input[type=submit] {
-	background-color: orange;
+	background-color: #EB6851;
 }
 #qcPriNav > li.active > a, #qcPriNav ul > li.active > a {
-	color: orange;
+	color: #EB6851;
 }
 
 /* ASSIGN CUSTOM PAGE BACKGROUND COLOR/IMAGE */
 
 body.home.static {
-	background: #fff url('');
+	background: url('../img/WSC-bg.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+body.home:after {
+	background: none;
+}
+
+#qcSlideText .qcTargetLink {
+	color: #EB6851;
+}
+
+#qcWidgets, .qcOrderedList.check li:before {
+	background-color: #172751;
 }
