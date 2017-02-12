@@ -1,0 +1,234 @@
+<!doctype html>
+<html>
+<head>
+	<!-- ## SITE META ## -->
+	<meta charset="utf-8">
+	<title>Eventicka II</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" href="./includes/img/placeholder/favicon.ico">
+
+	<!-- ## LOAD STYLSHEETS ## -->
+	<link rel="stylesheet" media="all" href="./assets/css/style.css"/>
+	
+	<!-- ## GOOGLE FONTS ## -->
+	<link href='https://fonts.googleapis.com/css?family=Titillium+Web:200,400' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Dosis:300,500' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+	
+	<!-- ## SITE NAV ## -->
+	<aside id="qcSiteNav">
+		<div class="box">
+			<h4>NAvigation</h4>
+			<ul id="qcPriNav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">Event</a>
+					<!-- ## SUBMENU ## -->
+					<ul>
+						<li><a href="schedule.html">Schedule</a></li>
+						<li><a href="speakers.html">Speakers</a></li>
+						<li><a href="venue.html">Venue</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="ticket.html">Tickets</a></li>
+						<li><a href="faq.html">FAQ's</a></li>
+					</ul>
+				</li>
+				<li><a href="about.html">About</a></li>
+				<li class="active"><a href="contact.html">Contact</a></li>
+				<li><a href="#">Login / Signup</a></li>
+			</ul>
+			<div id="qcCloseNav"></div>
+		</div>
+	</aside>
+	<!-- ## SITE NAV END ## -->
+		
+	<!-- ## PRIMARY HEADER ## -->
+	<header id="qcHeader">
+		<div class="qcContainer clearfix">
+			<div id="qcNavLogo" class="col-6 col">
+				<a href="index.html">
+					<img src="./assets/img/placeholder/logo.png" alt="LOGO" />
+				</a>
+			</div>
+			<div class="col-6 col">
+				<div id="qcOpenNav" class="tips" title="NAVIGATION"></div>
+			</div>
+		</div>
+	</header>
+	
+	<!-- ## MOB NAV ## -->
+	<div class="qcContainer clearfix">
+		<div id="qcMbTrigger"></div>
+	</div>
+	
+	<!-- ## PAGE HEADER ## -->
+	<header id="qcTabTitle" class="qcBorderTop qcContainer clearfix">
+		<!-- ## PAGE TITLE ## -->
+		<div class="col-4 col">
+			<p>Get in tocuh with us</p>
+			<h1>Contact</h1>
+		</div>
+		<!-- ## PAGE DESC ## -->
+		<div class="col-8 col">
+			<p class="qcTabDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, amet, natus autem doloremque alias ducimus eum minima accusamus iste nihil veritatis eius voluptatum temporibus ullam consequatur velit aspernatur. Molestiae, quasi.</p>
+		</div>
+	</header>
+	
+	
+	<!-- ## PAGE CONTENT ## -->
+	<div class="hentry qcContainer">
+		
+		<!-- ## ADDRESS BOX ## -->
+		<div id="qcAddressBox">
+		    <div id="qcContactMap"></div>
+			<div id="qcMapAddress" data-lat="37.4416" data-lng="-122.1516" data-add="1600, Amphitheatre Parkway, Mountain View, CA 94043"></div>
+			<div id="qcAddress" class="contact">
+				<div>
+					<h3>Our Office</h3> 
+					1600 Amphitheatre Parkway, <br /> 
+					Mountain View, <br /> 
+					CA 94043 <br />
+					Phone : +00 - 1234567890 <br />
+					Email : abc@def.com
+				</div>
+			</div>
+		</div>
+		
+		<!-- ## FORM TEXT ## -->
+		<div id="qcFormText">
+			<h2>Contact Form</h2>
+			<p>Fill out the form below & we will get back to you shortly.</p>
+		</div>
+		    				
+		<!-- ## CONTACT FORM ## -->
+		<div class="qcTcktRegForm">
+			<form action="./assets/form/qcForm.php" id="qcContactForm" class="qcForm" name="qcContactForm" method="post">
+				<ul class="clearfix">
+					<li>
+						<div class="wrapper">
+							<label for="contact-name">Name</label>
+							<input type="text" id="contact-name" name="contact-name" class="requiredField" value="" placeholder="Enter full name" />
+						</div>
+					</li>
+					<li>
+						<div class="wrapper">
+							<label for="contact-email">Email</label>
+							<input type="text" id="contact-email" name="contact-email" class="email requiredField" value="" placeholder="Enter email-id" />
+						</div>
+					</li>
+					<li>
+						<div class="wrapper">
+							<label for="contact-phone">Phone</label>
+							<input type="text" id="contact-phone" name="contact-phone" class="requiredField" value="" placeholder="Enter contact number" />
+						</div>
+					</li>
+					<li>
+						<div class="wrapper">
+							<label for="contact-subject">Subject</label>
+							<select name="contact-subject" id="contact-subject" class="requiredField">
+								<option value="">Select</option>
+								<option value="sales">Sales</option>
+								<option value="support">Support</option>
+								<option value="marketing">Marketing</option>
+								<option value="other">Other</option>
+							</select>
+						</div>
+					</li>
+					<li class="full">
+						<div class="wrapper">
+							<label for="contact-message">Message</label>
+							<textarea id="contact-message" name="contact-message" placeholder="Enter message you want to send..."></textarea>
+						</div>
+					</li>
+				</ul>
+				<div class="qcTcktSubmit">
+					<input type="hidden" name="formtype" value="contact"/>
+					<button type="submit" class="submit">Submit form</button>
+				</div>
+					
+			</form>		
+		</div>
+		<!-- ## CONTACT FORM END ## -->
+		
+	</div>
+	<!-- ## PAGE CONTENT END ## -->
+	
+	
+	<!-- ## PAGE WIDGET ## -->
+	<div id="qcWidgets">
+		<div class="qcContainer clearfix">
+			<div class="widget">
+				<p class="qcWidgetTitle">Subscribe to our newsletter</p>
+				
+				<!-- ## SUBSCRIBE WIDGET ## -->
+				<div id="qcSubscribeWidget">
+					<form action="#">
+						<input type="text" value="" placeholder="Enter your email id..."/>
+						<input type="submit" value="Subscribe" />
+					</form>
+					<p>NOTE: We respect your privacy & do not share your email id with 3rd party companies Or send you spams.</p>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!-- ## PAGE WIDGETS END ## -->
+
+	
+	<!-- ## FOOTER ## -->
+	<footer id="qcPriFooter">
+		<nav>
+			<div class="qcContainer clearfix">
+				<!-- ## FOOTER LOGO ## -->
+				<div class="col-3 col">
+					<div id="qcFooterLogo">
+						<h2>Supersonic</h2>
+					</div>
+				</div>
+				<!-- ## FOOTER NAV ## -->
+				<div class="col-6 col">
+					<ul class="clearfix">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">T&C</a></li>
+						<li><a href="#">Disclaimers</a></li>
+					</ul>
+				</div>
+				<!-- ## FOOTER SOCIAL ## -->
+				<div class="col-3 col">
+					<ul id="qcFooterSocial" class="clearfix">
+						<li><a href="#" class="tips" title="FACEBOOK"><i class="icon-facebook icon"></i></a></li>
+						<li><a href="#" class="tips" title="TWITTER"><i class="icon-twitter icon"></i></a></li>
+						<li><a href="#" class="tips" title="SOUNDCLOUD"><i class="icon-soundcloud icon"></i></a></li>
+						<li><a href="#" class="tips" title="GITHUB"><i class="icon-github icon"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="extra">
+			<!-- ## FOOTER COPYRIGHTS ## -->
+			<div class="qcContainer clearfix">
+				<div class="disclaimer col-6 col">Lorem ipsum <strong>dolor</strong> sit amet, consectetur adipisicing elit. Ullam, modi, repellendus excepturi commodi aperiam <i>numquam</i> quos dolores.</div>
+				<div class="copyrights col-6 col">
+					©Copyrights <a href="#">QuadCodes</a> 2016 <br /> All rights reserved
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- ## FOOTER END ## -->
+
+
+	<!-- ## LOAD JAVASCRIPTS ## -->
+	<script src="./assets/js/2.2.2.jquery.min.js" type="text/javascript"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&#038;sensor=false&#038;ver=3.5" type="text/javascript"></script>
+	<script src="./assets/js/owl.carousel.min.js" type="text/javascript"></script>
+	<script src="./assets/js/library.js" type="text/javascript"></script>
+	<script src="./assets/js/init.js" type="text/javascript"></script>
+
+</body>
+
+</html>
