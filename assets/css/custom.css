@@ -43,7 +43,7 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 	background-color: #EB6851;
 }
 #qcHeader {
-	border-top-color: #172751;
+	border-top: 0;
 }
 
 /* 	ASSIGN CUSTOM SECONDARY HIGHLIGHT COLOR */
@@ -72,15 +72,18 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 
 /* ASSIGN CUSTOM PAGE BACKGROUND COLOR/IMAGE */
 
-body.home.static {
+.page-intro {
 	background: url('../img/WSC-bg.jpg') no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
+	 padding-bottom: 3em;
+	 border-bottom: 5px solid #EB6851;
 }
-body.home:after {
-	background: none;
+
+.page-intro #qcOpenNav {
+    background: url(../img/theme/openNavInvert.png) center center;
 }
 
 #qcSlideText .qcTargetLink {
