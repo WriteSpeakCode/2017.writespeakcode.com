@@ -27,6 +27,7 @@ the site there (ping Jessica if you don't). The workflow is as follows:
 
 #### Deploy to staging:
 
+- `git pull origin master` to get latest update
 - `git rebase master` to prevent regression!
 - Navigate to [staging deployment page](https://dashboard.heroku.com/apps/writespeakcode2017-staging/deploy/github)
 - Scroll to `Manual deploy` & select your branch from `Deploy a GitHub branch`
