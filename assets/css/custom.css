@@ -17,6 +17,14 @@ mint #C5E8D3
 gold: #D5A96C
 blush: #F1D8D3
 */
+
+/*
+Breakpoints for Grid
+--------------------
+XS <= 767px
+SM 768-1023px
+MD 1024-1199px
+LG >=1200px
 */
 
 /* Hide an element */
@@ -90,6 +98,56 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 	color: #EB6851;
 }
 
-#qcWidgets, .qcOrderedList.check li:before {
+/* SPONSERs SECTION */
+.sponsors-section {
+	padding: 3em 0;
+}
+
+.sponsors-section h2 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #172751;
+	font-size: 40px;
+}
+
+.sponsors-section h3 {
+	font-size: 28px;
+	color: #EB6851;
+	border-bottom: 2px solid #EB6851;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	padding-bottom: 8px;
+}
+
+.sponsors-section p {
+	line-height: 1.5em;
+	margin-bottom: 16px;
+}
+
+.sponsors-section img {
+	width: 100%;
+}
+
+.sponsors-section .prospectus-link {
 	background-color: #172751;
+	border-radius: 8px;
+	color: white;
+	padding: 8px 16px;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 1.5;
+}
+
+@media (max-width:1199px) {
+	.sponsors-section .prospectus-link {
+		margin-top: 16px;
+		margin-bottom: 8px;
+		font-size: 12px;
+		padding: 16px;
+	}
+}
+
+.sponsors-section .prospectus-link:hover {
+	background-color: #EB6851;
 }
