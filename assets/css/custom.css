@@ -139,7 +139,7 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 	line-height: 1.5;
 }
 
-@media (max-width:1199px) {
+@media (max-width:1022px) {
 	.sponsors-section .prospectus-link {
 		margin-top: 16px;
 		margin-bottom: 8px;
@@ -150,4 +150,12 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 
 .sponsors-section .prospectus-link:hover {
 	background-color: #EB6851;
+}
+
+.sponsors-section .sponsor-level a {
+	color: #EB6851;
+}
+
+.sponsors-section .sponsor-level a:hover {
+	color: #172751;
 }
