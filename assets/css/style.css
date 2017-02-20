@@ -185,13 +185,13 @@ body {
 
 /* === 3.1 HOME BODY === */
 
-body.home {
+/*body.home {
 	overflow: hidden;
 	background: #000;
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
-}
+}*/
 body.home:after {
 	content: "";
 	position: absolute;
@@ -212,13 +212,13 @@ body.home:after {
 
 /* === 3.2 HOME STATIC === */
 
-body.home.static {
+/*body.home.static {
 	overflow: hidden;
 	background: #000 url('http://placehold.it/1280x1024');
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
-}
+}*/
 
 
 /* === 3.3 HOME COUNTDOWN TIMER === */
