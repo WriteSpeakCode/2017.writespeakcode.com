@@ -87,3 +87,14 @@ body.home:after {
 #qcWidgets, .qcOrderedList.check li:before {
 	background-color: #172751;
 }
+
+#slidedesc {
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+}
+
+@media only screen and (max-width: 335px) {
+.wsc {
+  font-size: 28px;
+}
