@@ -11,7 +11,7 @@ from style.css to this file, and modify it to your liking. */
 /*
 Brand Colors
 ---------------
-coral :#EB6851
+coral: #EB6851
 navy: #172751
 mint #C5E8D3
 gold: #D5A96C
@@ -27,11 +27,16 @@ MD 1024-1199px
 LG >=1200px
 */
 
-/* Hide an element */
+/* HIDING ELEMENTS */
 .hidden {
 	display: none;
 }
 
+@media (max-width: 768px) {
+	.hidden-on-xs {
+		display: none;
+	}
+}
 
 /* ASSIGN CUSTOM PRIMARY FONT */
 
@@ -98,6 +103,44 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 	color: #EB6851;
 }
 
+/* BUTTON AND LINK STYLES */
+
+a:not(.button) {
+	color: #EB6851;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+a:not(.button):hover {
+	color: #172751;
+	cursor: pointer;
+}
+
+.button.prospectus-link {
+	background-color: #172751;
+	border-radius: 8px;
+	color: white;
+	padding: 8px 16px;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 1.5;
+}
+
+@media (max-width:1022px) {
+	.button.prospectus-link {
+		margin-top: 16px;
+		margin-bottom: 8px;
+		font-size: 12px;
+		padding: 16px;
+	}
+}
+
+.button.prospectus-link:hover {
+	background-color: #EB6851;
+	cursor: pointer;
+}
+
 /* SPONSORS SECTION STYLES */
 .sponsors-section {
 	padding: 3em 0;
@@ -128,34 +171,19 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 	width: 100%;
 }
 
-.sponsors-section .prospectus-link {
-	background-color: #172751;
-	border-radius: 8px;
-	color: white;
-	padding: 8px 16px;
-	display: inline-block;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	line-height: 1.5;
-}
-
 @media (max-width:1022px) {
-	.sponsors-section .prospectus-link {
-		margin-top: 16px;
-		margin-bottom: 8px;
-		font-size: 12px;
-		padding: 16px;
+	.sponsors-section img {
+		max-width: 300px;
 	}
 }
 
-.sponsors-section .prospectus-link:hover {
-	background-color: #EB6851;
+.sponsors-section .prospectus-quote {
+	border-radius: 16px;
+	background-color: #F1D8D3;
+	padding: 32px;
 }
 
-.sponsors-section .sponsor-level a {
-	color: #EB6851;
-}
-
-.sponsors-section .sponsor-level a:hover {
+.sponsors-section .prospectus-quote p {
 	color: #172751;
+	font-size: 18px;
 }
