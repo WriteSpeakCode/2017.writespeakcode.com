@@ -11,16 +11,32 @@ from style.css to this file, and modify it to your liking. */
 /*
 Brand Colors
 ---------------
-Coral: 235,104,82 RGB or #EB6851
-Yellow: 248,235,96 RGB or #F7EA5F
-Blue: 23,39,82 RGB or #172751
+coral: #EB6851
+navy: #172751
+mint #C5E8D3
+gold: #D5A96C
+blush: #F1D8D3
 */
 
-/* Hide an element */
+/*
+Breakpoints for Grid
+--------------------
+XS <= 767px
+SM 768-1023px
+MD 1024-1199px
+LG >=1200px
+*/
+
+/* HIDING ELEMENTS */
 .hidden {
 	display: none;
 }
 
+@media (max-width: 768px) {
+	.hidden-on-xs {
+		display: none;
+	}
+}
 
 /* ASSIGN CUSTOM PRIMARY FONT */
 
@@ -40,7 +56,7 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 	background-color: #EB6851;
 }
 #qcHeader {
-	border-top-color: #172751;
+	border-top: 0;
 }
 
 /* 	ASSIGN CUSTOM SECONDARY HIGHLIGHT COLOR */
@@ -69,21 +85,105 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 
 /* ASSIGN CUSTOM PAGE BACKGROUND COLOR/IMAGE */
 
-body.home.static {
+.page-intro {
 	background: url('../img/WSC-bg.jpg') no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
+	 padding-bottom: 3em;
+	 border-bottom: 5px solid #EB6851;
 }
-body.home:after {
-	background: none;
+
+.page-intro #qcOpenNav {
+    background: url(../img/theme/openNavInvert.png) center center;
 }
 
 #qcSlideText .qcTargetLink {
 	color: #EB6851;
 }
 
-#qcWidgets, .qcOrderedList.check li:before {
+/* BUTTON AND LINK STYLES */
+
+a:not(.button) {
+	color: #EB6851;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+a:not(.button):hover {
+	color: #172751;
+	cursor: pointer;
+}
+
+.button.prospectus-link {
 	background-color: #172751;
+	border-radius: 8px;
+	color: white;
+	padding: 8px 16px;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 1.5;
+}
+
+@media (max-width:1022px) {
+	.button.prospectus-link {
+		margin-top: 16px;
+		margin-bottom: 8px;
+		font-size: 12px;
+		padding: 16px;
+	}
+}
+
+.button.prospectus-link:hover {
+	background-color: #EB6851;
+	cursor: pointer;
+}
+
+/* SPONSORS SECTION STYLES */
+.sponsors-section {
+	padding: 3em 0;
+}
+
+.sponsors-section h2 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #172751;
+	font-size: 40px;
+}
+
+.sponsors-section h3 {
+	font-size: 28px;
+	color: #EB6851;
+	border-bottom: 2px solid #EB6851;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	padding-bottom: 8px;
+}
+
+.sponsors-section p {
+	line-height: 1.5em;
+	margin-bottom: 16px;
+}
+
+.sponsors-section img {
+	width: 100%;
+}
+
+@media (max-width:1022px) {
+	.sponsors-section img {
+		max-width: 300px;
+	}
+}
+
+.sponsors-section .prospectus-quote {
+	border-radius: 16px;
+	background-color: #F1D8D3;
+	padding: 32px;
+}
+
+.sponsors-section .prospectus-quote p {
+	color: #172751;
+	font-size: 18px;
 }
