@@ -100,7 +100,20 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 }
 
 #qcSlideText .qcTargetLink {
-	color: #EB6851;
+	color: white;
+	background: #EB6851;
+}
+
+#slidedesc {
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+}
+
+@media only screen and (max-width: 335px) {
+	#qcSlideText h1 {
+	  font-size: 28px;
+	}
 }
 
 /* BUTTON AND LINK STYLES */
