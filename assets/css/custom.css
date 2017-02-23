@@ -100,7 +100,9 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 }
 
 #qcSlideText .qcTargetLink {
-	color: #EB6851;
+	color: #ffffff;
+	background-color: #EB6851;
+	margin-top: 10px;
 }
 
 /* BUTTON AND LINK STYLES */
