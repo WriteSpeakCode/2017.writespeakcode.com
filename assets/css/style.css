@@ -1103,7 +1103,7 @@ video#qcBgVid {
 .qcFaqHead > div {
 	height: 80px;
 }
-.qcFaqHead > div:first-child {
+/*.qcFaqHead > div:first-child {
 	position: absolute;
 	width: 80px;
 	height: 80px;
@@ -1112,7 +1112,7 @@ video#qcBgVid {
     text-align: center;
 	background: #FFF5EE;
 	border-right: 1px #FFBF95 solid;
-	border-bottom: 1px #FFBF95 solid;
+	border-bottom: 1px #FFBF95 solid;*/
 }
 .active .qcFaqHead > div:first-child, #qcFaqList li:hover .qcFaqHead > div:first-child {
 	color: #fff;
@@ -2704,7 +2704,7 @@ ul#slide-list li a:hover {
 		left: auto;
 	}
 	.qcFaqHead > div:last-child {
-		padding-left: 110px;
+		/*padding-left: 110px;*/
 		top: 15px;
 		font-size: 16px;
 	}

@@ -87,3 +87,25 @@ body.home:after {
 #qcWidgets, .qcOrderedList.check li:before {
 	background-color: #172751;
 }
+
+/* ASSIGN CUSTOM FORMATTING FOR FAQ PAGE */
+
+
+}
+.qcFaqHead > div:last-child {
+	padding-left: 0px;
+}
+
+body.faq {
+	background-color: #EB6851;
+}
+
+.hentry.qcContainer {
+	background-color: #FFFFFF;
+}
+
+li.faq, .qcFaqHead, .qcTogContent, .qcContainer {
+	background-color: #f6f6f6;
+}
+
+
