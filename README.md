@@ -9,7 +9,7 @@ We have volunteers who work on our website to make sure it is up-to-date for all
 
 ### Installation
 
-1. `git clone https://github.com/WriteSpeakCode/2017_conf.git`
+1. `git clone https://github.com/WriteSpeakCode/2017.writespeakcode.com.git`
 1. Open `index.html` in your favorite browser
 1. Profit!
 
@@ -18,6 +18,7 @@ We have volunteers who work on our website to make sure it is up-to-date for all
 - Create changes on a feature branch
 - Submit a pull request to the `master` branch
  - `master` branch must always be deployable, do not merge your branch until accepted by Jessica or team
+- Deploy to staging (see below)
 - Ping the [website team on Slack](https://writespeakcode.slack.com/messages/2017_conf_website/) for comments
 
 ### Publish
@@ -28,27 +29,36 @@ the site there (ping Jessica if you don't). The workflow is as follows:
 #### Deploy to staging:
 
 - `git pull origin master` to get latest update
-- `git rebase master` to prevent regression!
+- `git rebase master` on your branch (to prevent regression!)
 - Navigate to [staging deployment page](https://dashboard.heroku.com/apps/writespeakcode2017-staging/deploy/github)
 - Scroll to `Manual deploy` & select your branch from `Deploy a GitHub branch`
 - Click the `Deploy Branch` button
 - Verify that [staging looks & works right](https://writespeakcode2017-staging.herokuapp.com/index.html)
+ - Looks good on Chrome, Safari, and mobile
+ - Link to sponsor prospectus works
+ - Link to ticketing works
+ - Your feature works
 - Ping Jessica [on Slack](https://writespeakcode.slack.com/messages/@jarmstrong/) for acceptance
-- Move Trello card to QA column
+- Move Trello card to `QA` column
 
 #### Once your work is verified & accepted:
 
-1. Merge your branch to master on GitHub & delete your branch
+Merge your branch to master on GitHub & delete your branch
 
-1. Push to Heroku production:
+Push to Heroku production:
 
- - Navigate to Heroku [pipeline](https://dashboard.heroku.com/pipelines/ebe10265-7105-40ec-b2b0-9b554da09992)
- - Click the `Promote to production...` button
- - Verify the [production website](http://2017.writespeakcode.com/)
+- Navigate to [production deployment page](https://dashboard.heroku.com/apps/writespeakcode2017-production/deploy/github)
+- Scroll to `Manual deploy` & select your branch from `Deploy a GitHub branch`
+- Click the `Deploy Branch` button
+- Verify the [production website](http://2017.writespeakcode.com/)
+ - Looks good on Chrome, Safari, and mobile
+ - Link to sponsor prospectus works
+ - Link to ticketing works
+ - Your feature works
 
-1. Move Trello card to Done
+Move Trello card to Done
 
-1. Celebrate!
+Celebrate! :tada:
 
 ### Development Tips
 
