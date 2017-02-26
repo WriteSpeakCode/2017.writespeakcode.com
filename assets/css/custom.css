@@ -200,3 +200,20 @@ a:not(.button):hover {
 	color: #172751;
 	font-size: 18px;
 }
+
+/* FAQ SECTION STYLES */
+
+.faq-section {
+	background: url('../img/WSC-bg.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+	 padding-bottom: 3em;
+	 border-bottom: 5px solid #EB6851;
+
+}
+
+.faq-section div {
+	background: white;
+}
