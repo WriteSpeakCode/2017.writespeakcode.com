@@ -113,7 +113,6 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 }
 
 #qcCountdown {
-	color: #EB6851;
 	z-index: 11;
 }
 
@@ -123,12 +122,16 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 		height: 100%;
 	}
 	#qcHeader {
-		display: none;
+		padding-top: 1em;
+		margin: 0 auto 1em auto;
+    width: 60%;
 	}
 	#qcSlideText {
 		margin-top: 0;
-		padding-top: 30%;
 		height: 100%;
+	}
+	#qcCountdown {
+		background-color: rgba(126, 126, 126, 0.7);
 	}
 	.cta .video .register-cta {
 		display: none;
@@ -138,6 +141,9 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 @media only screen and (max-width: 335px) {
 	#qcSlideText h1 {
 	  font-size: 28px; /* shrink headline to fit on extra tiny screens */
+	}
+	#qcHeader {
+    width: 80%;
 	}
 }
 
@@ -206,16 +212,16 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 
 /* BUTTON AND LINK STYLES */
 
-/*a:not(.button) {
+a:not(.button) {
 	color: #EB6851;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-}*/
+}
 
-/*a:not(.button):hover {
+a:not(.button):hover {
 	color: #172751;
 	cursor: pointer;
-}*/
+}
 
 .button.prospectus-link {
 	background-color: #172751;
