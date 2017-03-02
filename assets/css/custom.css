@@ -85,6 +85,7 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 
 /* ASSIGN CUSTOM PAGE BACKGROUND COLOR/IMAGE */
 
+/* PAGE INTRO STYLES */
 .page-intro {
 	background: url('../img/WSC-bg.jpg') no-repeat center center fixed;
    -webkit-background-size: cover;
@@ -110,9 +111,97 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
   width: 80%;
 }
 
+#qcCountdown {
+	z-index: 11;
+}
+
+/* adapt page intro for mobile sticky nav  */
+.wsc-logo {
+	padding: 2em;
+}
+
+@media only screen and (max-width: 767px) {
+	#slideContent, .page-intro {
+		height: 100%;
+	}
+	#qcSlideText {
+		margin-top: 0;
+		height: 100%;
+	}
+	#qcCountdown {
+		background-color: rgba(126, 126, 126, 0.7);
+	}
+	.cta .video .register-cta {
+		display: none;
+	}
+}
+
 @media only screen and (max-width: 335px) {
 	#qcSlideText h1 {
-	  font-size: 28px;
+	  font-size: 28px; /* shrink headline to fit on extra tiny screens */
+	}
+}
+
+/* INTRO REGISTER NOW BUTTON */
+
+#qcSlideText .cta {
+	color: #fff;
+	line-height: 60px;
+	background: #EB6851;
+	text-transform: uppercase;
+	border-radius: 30px;
+}
+#qcSlideText .cta:hover {
+	background: rgba(0,0,0,0.3);
+}
+@media only screen and (max-width: 767px) {
+	#qcSlideText .cta.video {
+		display: none;
+	}
+}
+
+/* MOBILE STICKY BAR */
+
+@media only screen and (min-width: 768px) {
+	#mobileNav {
+		display: none;
+	}
+}
+
+#qcPriNav #nav-register a {
+	color: #EB6851;
+}
+
+@media only screen and (max-width: 767px) {
+	#mobileNav {
+		background-color: #172751;
+		position: fixed;
+	  bottom: 0;
+	  left: 0;
+	  z-index: 990;
+	  width: 100%;
+	  height: 64px;
+	}
+	#qcOpenNav {
+	  background: url(../img/theme/openNavInvert.png) center center;
+	  top: 6px;
+	}
+
+	/* MOBILE STICKY REGISTER NOW BUTTON */
+
+	.cta {
+		padding: 10px 20px;
+		color: #fff;
+		line-height: 64px;
+		background: #EB6851;
+		text-transform: uppercase;
+		border-radius: 30px;
+	}
+}
+
+@media only screen and (max-width: 343px){
+	#mobile-cta {
+		text-transform: none; /* Stops button breaking in half on tiny screens */
 	}
 }
 
@@ -199,4 +288,10 @@ a:not(.button):hover {
 .sponsors-section .prospectus-quote p {
 	color: #172751;
 	font-size: 18px;
+}
+
+/* FOOTER STYLES */
+
+.footer {
+	height: 64px;
 }
