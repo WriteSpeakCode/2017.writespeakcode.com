@@ -86,7 +86,6 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 /* ASSIGN CUSTOM PAGE BACKGROUND COLOR/IMAGE */
 
 /* PAGE INTRO STYLES */
-
 .page-intro {
 	background: url('../img/WSC-bg.jpg') no-repeat center center fixed;
    -webkit-background-size: cover;
@@ -117,14 +116,13 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 }
 
 /* adapt page intro for mobile sticky nav  */
+.wsc-logo {
+	padding: 2em;
+}
+
 @media only screen and (max-width: 767px) {
 	#slideContent, .page-intro {
 		height: 100%;
-	}
-	#qcHeader {
-		padding-top: 1em;
-		margin: 0 auto 1em auto;
-    width: 60%;
 	}
 	#qcSlideText {
 		margin-top: 0;
@@ -141,9 +139,6 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 @media only screen and (max-width: 335px) {
 	#qcSlideText h1 {
 	  font-size: 28px; /* shrink headline to fit on extra tiny screens */
-	}
-	#qcHeader {
-    width: 80%;
 	}
 }
 
