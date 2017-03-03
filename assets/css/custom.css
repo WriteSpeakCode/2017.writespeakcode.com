@@ -204,16 +204,17 @@ a:not(.button):hover {
 /* FAQ SECTION STYLES */
 
 .faq-section {
-	background: url('../img/WSC-bg.jpg') no-repeat center center fixed;
+	background: url('../img/WSC-coral-bg.jpg') no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
+   background-color: #F1D8D3
 	 padding-bottom: 3em;
 	 border-bottom: 5px solid #EB6851;
 
 }
 
 .faq-section div {
-	background: white;
+	background-color: #ffffff
 }
