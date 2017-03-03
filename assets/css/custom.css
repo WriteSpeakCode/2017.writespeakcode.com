@@ -302,14 +302,34 @@ a:not(.button):hover {
    background-color: #F1D8D3
 	 padding-bottom: 3em;
 	 border-bottom: 5px solid #EB6851;
-
 }
 
 .faq-section div {
-	background-color: #ffffff
+	background-color: #ffffff;
+}
+
+.qcScheduleList > li.active{
+	background-color: #ffffff;
+}
+
+#qcFaqList li.active .qcTogContent {
+	background-color: #ffffff;
+}
+
+#qcFaqList .qcTogContent {
+	padding: 20px 10px;
+}
+
+.qcScheduleList > li {
+	min-height: 62px;
+}
+
+.qcScheduleList > li.toggle:before {
+	line-height: 62px;
+}
 
 /* FOOTER STYLES */
 
 .footer {
-	height: 64px;
+	height: 61px;
 }
