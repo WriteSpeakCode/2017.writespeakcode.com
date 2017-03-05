@@ -96,6 +96,11 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 	 border-bottom: 5px solid #EB6851;
 }
 
+.title-subheader{
+	color: white;
+	opacity: 0.8;
+}
+
 .page-intro #qcOpenNav {
     background: url(../img/theme/openNavInvert.png) center center;
 }
@@ -243,17 +248,24 @@ a:not(.button):hover {
 	cursor: pointer;
 }
 
-/* SPONSORS SECTION STYLES */
-.sponsors-section {
-	padding: 3em 0;
-}
-
-.sponsors-section h2 {
+.section-title{
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	color: #172751;
 	font-size: 40px;
 }
+
+/* SPONSORS SECTION STYLES */
+.sponsors-section {
+	padding: 3em 0;
+}
+
+/*.sponsors-section h2 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #172751;
+	font-size: 40px;
+}*/
 
 .sponsors-section h3 {
 	font-size: 28px;
@@ -280,7 +292,6 @@ a:not(.button):hover {
 }
 
 .sponsors-section .prospectus-quote {
-	border-radius: 16px;
 	background-color: #F1D8D3;
 	padding: 32px;
 }
@@ -295,17 +306,31 @@ a:not(.button):hover {
 
 .faq-section {
 	background: url('../img/WSC-coral-bg.jpg') no-repeat center center fixed;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   background-color: #F1D8D3
-	 padding-bottom: 3em;
-	 border-bottom: 5px solid #EB6851;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #F1D8D3;
+	border-bottom: 5px solid #EB6851;
+	padding: 2em;
+
 }
 
 .faq-section div {
 	background-color: #ffffff;
+	line-height: 26px;
+}
+
+.toggle div {
+	padding: 0.5em 0;
+}
+
+.rounded-corners{
+	border-radius: 16px;
+}
+
+.faq-section h2 {
+	margin: 0 0 1.25em -22px;
 }
 
 .qcScheduleList > li.active{
