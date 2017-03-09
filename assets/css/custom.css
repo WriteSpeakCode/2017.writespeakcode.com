@@ -307,6 +307,48 @@ section.speakers .qcTabTitle .section-title {
 	color: #EB6851;
 }
 
+/* SCHEDULE SECTION STYLES */
+
+#qcTabTitle p.qcTabDesc{
+	color: #666;
+}
+
+#qcPageContentTabs > ul li > a{
+	letter-spacing: 0px !important;
+}
+
+.bullets{
+	padding: 15px 0px 15px 30px;
+	list-style: disc;
+	line-height: 30px;
+}
+
+.bullets > li {
+	border: none;
+	min-height: 40px !important;
+}
+
+.bullets > li{
+	padding-left: 10px !important;
+}
+
+.coming-soon{
+	padding-top: 10px;
+}
+
+@media only screen and (max-width: 1080px){
+	#qcTabTitle > .col-8 {
+    display: inherit;
+	}
+}
+@media only screen and (max-width: 1080px){
+#qcTabTitle p.qcTabDesc {
+		border: none;
+    padding: 20px 0px 0px 0px;
+	}
+}
+
+
 /* SPONSORS SECTION STYLES */
 .sponsors-section {
 	margin-top: 3em;
