@@ -27,17 +27,6 @@ MD 1024-1199px
 LG >=1200px
 */
 
-/* HIDING ELEMENTS */
-.hidden {
-	display: none;
-}
-
-@media (max-width: 768px) {
-	.hidden-on-xs {
-		display: none;
-	}
-}
-
 /* ASSIGN CUSTOM PRIMARY FONT */
 
 #qcPriNav > li > a, .digit, #qcSlideText h1, #qcTabNav li a, #qcTabTitle h1, #qcPageContentTabs > ul li > a, .qcScheduleList > li .time, .qcScheduleList > li h3, .qcScheduleList > li .speakers, .qcScheduleList > li .speakers, #qcAddress h3, #qcVenueHotelsHead, .qcVenueHotels h2, .qcTicketHead h2, .qcTicketAction span, .qcTicketBox h3, .speakers .item-title h3, .speakers .item-desc h3, .abtCountNum, .abtCountTitle, #qcTabTitle #qcAbtHeading, #qcAbtHeadList, #qcFooterLogo h2, #qcFormText h2, .qcTcktRegForm li label, .qcTcktSubmit button {
@@ -83,7 +72,70 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 	color: #EB6851;
 }
 
-/* ASSIGN CUSTOM PAGE BACKGROUND COLOR/IMAGE */
+/* END THEME CUSTOMIZATION */
+
+/* ---------- GLOBAL CLASSES ---------- */
+/* HIDING ELEMENTS */
+.hidden {
+	display: none;
+}
+
+@media (max-width: 768px) {
+	.hidden-on-xs {
+		display: none;
+	}
+}
+
+/* UTILITY CLASSES */
+.margin-bottom {
+	margin-bottom: 32px;
+}
+
+.section-title {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #172751;
+	font-size: 40px;
+}
+
+/* BUTTON AND LINK STYLES */
+a:not(.button) {
+	color: #EB6851;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+a:not(.button):hover {
+	color: #172751;
+	cursor: pointer;
+}
+
+.button.prospectus-link {
+	background-color: #172751;
+	border-radius: 8px;
+	color: white;
+	padding: 8px 16px;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 1.5;
+}
+
+@media (max-width:1022px) {
+	.button.prospectus-link {
+		margin-top: 16px;
+		margin-bottom: 8px;
+		font-size: 12px;
+		padding: 16px;
+	}
+}
+
+.button.prospectus-link:hover {
+	background-color: #EB6851;
+	cursor: pointer;
+}
+
+/* ---------- SECTION SPECIFIC STYLES ---------- */
 
 /* PAGE INTRO STYLES */
 .page-intro {
@@ -216,51 +268,6 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 	#mobile-cta {
 		text-transform: none; /* Stops button breaking in half on tiny screens */
 	}
-}
-
-/* BUTTON AND LINK STYLES */
-
-a:not(.button) {
-	color: #EB6851;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-}
-
-a:not(.button):hover {
-	color: #172751;
-	cursor: pointer;
-}
-
-.button.prospectus-link {
-	background-color: #172751;
-	border-radius: 8px;
-	color: white;
-	padding: 8px 16px;
-	display: inline-block;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	line-height: 1.5;
-}
-
-@media (max-width:1022px) {
-	.button.prospectus-link {
-		margin-top: 16px;
-		margin-bottom: 8px;
-		font-size: 12px;
-		padding: 16px;
-	}
-}
-
-.button.prospectus-link:hover {
-	background-color: #EB6851;
-	cursor: pointer;
-}
-
-.section-title{
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	color: #172751;
-	font-size: 40px;
 }
 
 /* SPONSORS SECTION STYLES */
