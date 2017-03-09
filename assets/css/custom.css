@@ -304,6 +304,41 @@ a:not(.button):hover {
 	}
 }
 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+	#qcPageContentTabs > ul li > a {
+	  font-size: 16px;
+	}
+	#qcPageContentTabs > ul li.active:before {
+		top: 48px;
+	}
+	#qcPageContentTabs > ul li.active:after  {
+		top: 50px;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	#qcPageContentTabs > ul li > a {
+	  font-size: 14px;
+	}
+	#qcPageContentTabs > ul li.active:before {
+		top: 58px;
+	}
+	#qcPageContentTabs > ul li.active:after  {
+		top: 60px;
+	}
+}
+
+@media only screen and (max-width: 360px){
+	#qcPageContentTabs > ul li {
+	  width: 65px;
+	}
+	#qcPageContentTabs > ul li.active:before {
+		top: 78px;
+	}
+	#qcPageContentTabs > ul li.active:after  {
+		top: 81px;
+	}
+}
 
 /* SPONSORS SECTION STYLES */
 .sponsors-section {
