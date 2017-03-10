@@ -348,39 +348,44 @@ section.speakers .qcTabTitle .section-title {
 	}
 }
 
+@media only screen and (max-width: 1080px){
+ .wsc-schedule-tabs > ul li > a {
+    font-size: 16px !important;
+}
+
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
-	#qcPageContentTabs > ul li > a {
-	  font-size: 16px;
+	.wsc-schedule-tabs > ul li > a {
+	  font-size: 14px !important;
 	}
-	#qcPageContentTabs > ul li.active:before {
-		top: 48px;
+	.wsc-schedule-tabs > ul li.active:before {
+		top: 48px !important;
 	}
-	#qcPageContentTabs > ul li.active:after  {
-		top: 50px;
+	.wsc-schedule-tabs > ul li.active:after  {
+		top: 50px !important;
 	}
 }
 
 @media only screen and (max-width: 767px){
-	#qcPageContentTabs > ul li > a {
-	  font-size: 14px;
+	.wsc-schedule-tabs > ul li > a {
+	  font-size: 14px !important;
 	}
-	#qcPageContentTabs > ul li.active:before {
-		top: 58px;
+	.wsc-schedule-tabs > ul li.active:before {
+		top: 58px !important;
 	}
-	#qcPageContentTabs > ul li.active:after  {
-		top: 60px;
+	.wsc-schedule-tabs > ul li.active:after  {
+		top: 60px !important;
 	}
 }
 
 @media only screen and (max-width: 360px){
-	#qcPageContentTabs > ul li {
-	  width: 65px;
+	.wsc-schedule-tabs > ul li {
+	  width: 65px !important;
 	}
-	#qcPageContentTabs > ul li.active:before {
-		top: 78px;
+	.wsc-schedule-tabs > ul li.active:before {
+		top: 78px !important;
 	}
-	#qcPageContentTabs > ul li.active:after  {
-		top: 81px;
+	.wsc-schedule-tabs > ul li.active:after  {
+		top: 81px !important;
 	}
 }
 
