@@ -929,7 +929,7 @@ video#qcBgVid {
     -moz-transition: all .2s linear;
     -webkit-transition: all .2s linear;
 }
-.speakers .item .item-title {
+.speakers .item:hover .item-title {
 	padding-bottom: 150px;
 	margin-top: -50px;
 }
@@ -958,7 +958,7 @@ video#qcBgVid {
 	text-transform: uppercase;
 	border-top: 1px #ccc solid;
 }
-.speakers .item .item-title .read-more {
+.speakers .item:hover .item-title .read-more {
 	color: red;
 }
 .speakers .item-desc {
@@ -990,7 +990,7 @@ video#qcBgVid {
 	position: absolute;
 	margin-top: 20px;
 }
-.speakers .item .spkr-social {
+.speakers .item:hover .spkr-social {
 	display: block;
 }
 .spkr-social li {
@@ -1002,7 +1002,7 @@ video#qcBgVid {
 	color: #aaa;
 	font-size: 16px;
 }
-.spkr-social li a:hover{
+.spkr-social li a:hover {
 	color: #444;
 }
 .qcSpeakerList .owl-controls {
@@ -2456,7 +2456,7 @@ ul#slide-list li a:hover {
 	.speakers .item-title .read-more {
 		font-size: 14px;
 	}
-	.speakers .item .item-title {
+	.speakers .item:hover .item-title {
 		padding-bottom: 130px;
 		margin-top: -50px;
 	}
