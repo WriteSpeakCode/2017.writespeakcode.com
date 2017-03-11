@@ -15,7 +15,7 @@ We have volunteers who work on our website to make sure it is up-to-date for all
 
 ### Create a pull request
 
-- Create changes on a feature branch
+- Create changes on a feature branch, **squashing all your work into 1 commit**
 - Submit a pull request to the `master` branch
  - `master` branch must always be deployable, do not merge your branch until accepted by Jessica or team
 - Deploy to staging (see below)
