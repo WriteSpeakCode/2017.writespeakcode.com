@@ -75,6 +75,12 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 /* END THEME CUSTOMIZATION */
 
 /* ---------- GLOBAL CLASSES ---------- */
+
+/* Clears focus color on touch devices*/
+body {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
 /* HIDING ELEMENTS */
 .hidden {
 	display: none;
@@ -268,6 +274,12 @@ a:not(.button):hover {
 	#mobile-cta {
 		text-transform: none; /* Stops button breaking in half on tiny screens */
 	}
+}
+
+/* SPEAKERS SECTION STYLES */
+/* If speaker name is long keeps design consistent*/
+.speakers .item-title h3 {
+ 	min-height: 36px;
 }
 
 /* SPONSORS SECTION STYLES */

@@ -920,17 +920,13 @@ video#qcBgVid {
 }
 .speakers .item-title {
 	position: relative;
-	padding: 50px 35px 100px 35px;
+	padding: 50px 35px 80px 35px;
 	background: #fff;
 	text-align: left;
 	z-index: 2;
-	transition: all .2s linear;
-    -o-transition: all .2s linear;
-    -moz-transition: all .2s linear;
-    -webkit-transition: all .2s linear;
 }
 .speakers .item .item-title {
-	padding-bottom: 150px;
+	padding-bottom: 100px;
 	margin-top: -50px;
 }
 .speakers .item-title h3, .speakers .item-desc h3 {
@@ -953,13 +949,9 @@ video#qcBgVid {
 	bottom: 0;
 	right: 0;
 	padding: 0 50px;
-	color: #666;
 	font: 400 16px/60px "Titillium Web", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	border-top: 1px #ccc solid;
-}
-.speakers .item .item-title .read-more {
-	color: red;
 }
 .speakers .item-desc {
 	display: none;
@@ -986,8 +978,6 @@ video#qcBgVid {
 	border: 0;
 }
 .spkr-social {
-	display: none;
-	position: absolute;
 	margin-top: 20px;
 }
 .speakers .item .spkr-social {
@@ -2310,9 +2300,9 @@ ul#slide-list li a:hover {
 	.speakers .item-title {
 		padding: 40px 35px 80px 35px;
 	}
-	.speakers .item:hover .item-title {
-		padding-bottom: 130px;
-		margin-top: -50px;
+	.speakers .item .item-title {
+		padding-bottom: 120px;
+		margin-top: -20px;
 	}
 	#qcTestimonial {
 		padding-left: 30px;
@@ -2457,8 +2447,8 @@ ul#slide-list li a:hover {
 		font-size: 14px;
 	}
 	.speakers .item .item-title {
-		padding-bottom: 130px;
-		margin-top: -50px;
+		padding-bottom: 80px;
+		margin-top: -20px;
 	}
 	.speakers .item-desc p.text {
 		font-size: 14px;
