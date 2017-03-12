@@ -316,11 +316,11 @@ section.speakers .qcTabTitle .section-title {
 	color: #666;
 }
 
+
 .wsc-schedule-tabs > ul li > a{
 	letter-spacing: 0px !important;
 	font-size: 15px !important;
 }
-
 
 .bullets{
 	padding: 15px 0px 15px 30px;
@@ -374,10 +374,24 @@ section.speakers .qcTabTitle .section-title {
 	}
 }
 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+	.wsc-schedule-tabs > ul li > a {
+	  font-size: 14px !important;
+	}
+	.wsc-schedule-tabs > ul li.active:before {
+		top: 48px !important;
+	}
+	.wsc-schedule-tabs > ul li.active:after  {
+		top: 50px !important;
+	}
+}
+
 @media only screen and (max-width: 767px){
 	.wsc-schedule-tabs > ul li > a {
+
 	  font-size: 12px !important;
 	}
+
 	.wsc-schedule-tabs > ul li.active:before {
 		top: 58px !important;
 	}
