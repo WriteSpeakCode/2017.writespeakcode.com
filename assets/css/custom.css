@@ -308,6 +308,9 @@ section.speakers .qcTabTitle .section-title {
 }
 
 /* SCHEDULE SECTION STYLES */
+.schedule-section{
+	padding-top: 50px;
+}
 
 #qcTabTitle p.qcTabDesc{
 	color: #666;
