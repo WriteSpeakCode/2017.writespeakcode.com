@@ -451,25 +451,25 @@ video#qcBgVid {
 
 /* === 4.2 PAGE TAB TITLE === */
 
-#qcTabTitle {
+.qcTabTitle {
 	padding: 60px 0;
 	border-bottom: 1px #555 solid;
 }
-#qcTabTitle.qcBorderTop {
+.qcTabTitle.qcBorderTop {
 	border-top: 1px #aaa solid;
 }
-#qcTabTitle p {
+.qcTabTitle p {
 	margin: 0 0 12px 0;
 	color: #888;
 	font: 300 18px/18px "Titillium Web", Helvetica, sans-serif;
 }
-#qcTabTitle h1 {
+.qcTabTitle h1 {
 	text-transform: uppercase;
 	color: #333;
 	font: 500 48px/48px "Dosis", Helvetica, sans-serif;
 	letter-spacing: -0.016em;
 }
-#qcTabTitle p.qcTabDesc {
+.qcTabTitle p.qcTabDesc {
 	padding-left: 40px;
 	color: #999;
 	font: 500 16px/26px "Titillium Web", Helvetica, sans-serif;
@@ -920,17 +920,13 @@ video#qcBgVid {
 }
 .speakers .item-title {
 	position: relative;
-	padding: 50px 35px 100px 35px;
+	padding: 50px 35px 80px 35px;
 	background: #fff;
 	text-align: left;
 	z-index: 2;
-	transition: all .2s linear;
-    -o-transition: all .2s linear;
-    -moz-transition: all .2s linear;
-    -webkit-transition: all .2s linear;
 }
-.speakers .item:hover .item-title {
-	padding-bottom: 150px;
+.speakers .item .item-title {
+	padding-bottom: 100px;
 	margin-top: -50px;
 }
 .speakers .item-title h3, .speakers .item-desc h3 {
@@ -953,13 +949,9 @@ video#qcBgVid {
 	bottom: 0;
 	right: 0;
 	padding: 0 50px;
-	color: #666;
 	font: 400 16px/60px "Titillium Web", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	border-top: 1px #ccc solid;
-}
-.speakers .item:hover .item-title .read-more {
-	color: red;
 }
 .speakers .item-desc {
 	display: none;
@@ -986,11 +978,9 @@ video#qcBgVid {
 	border: 0;
 }
 .spkr-social {
-	display: none;
-	position: absolute;
 	margin-top: 20px;
 }
-.speakers .item:hover .spkr-social {
+.speakers .item .spkr-social {
 	display: block;
 }
 .spkr-social li {
@@ -1002,7 +992,7 @@ video#qcBgVid {
 	color: #aaa;
 	font-size: 16px;
 }
-.spkr-social li a:hover {
+.spkr-social li a:hover{
 	color: #444;
 }
 .qcSpeakerList .owl-controls {
@@ -1066,7 +1056,7 @@ video#qcBgVid {
 #qcContent #qcAbtCount > .col:last-child .box {
     border: 0;
 }
-#qcTabTitle #qcAbtHeading {
+.qcTabTitle #qcAbtHeading {
 	margin-top: 0px;
 	text-align: center;
     color: #FF4700;
@@ -2229,19 +2219,19 @@ ul#slide-list li a:hover {
 	#qcTabNav li a {
     	font-size: 14px;
     }
-	#qcTabTitle {
+	.qcTabTitle {
 		padding: 42px 0;
 	}
-	#qcTabTitle > .col-4 {
+	.qcTabTitle > .col-4 {
 		width: 100%;
 	}
-	#qcTabTitle > .col-8 {
+	.qcTabTitle > .col-8 {
 		display: none;
 	}
-	#qcTabTitle p {
+	.qcTabTitle p {
 		margin-bottom: 3px;
 	}
-	#qcTabTitle h1 {
+	.qcTabTitle h1 {
 		font-size: 40px;
 	}
 	#qcPageContentTabs > ul li {
@@ -2310,9 +2300,9 @@ ul#slide-list li a:hover {
 	.speakers .item-title {
 		padding: 40px 35px 80px 35px;
 	}
-	.speakers .item:hover .item-title {
-		padding-bottom: 130px;
-		margin-top: -50px;
+	.speakers .item .item-title {
+		padding-bottom: 120px;
+		margin-top: -20px;
 	}
 	#qcTestimonial {
 		padding-left: 30px;
@@ -2369,19 +2359,19 @@ ul#slide-list li a:hover {
 	#qcTabNav li a {
     	font-size: 14px;
     }
-	#qcTabTitle {
+	.qcTabTitle {
 		padding: 42px 0;
 	}
-	#qcTabTitle > .col-4 {
+	.qcTabTitle > .col-4 {
 		width: 100%;
 	}
-	#qcTabTitle > .col-8 {
+	.qcTabTitle > .col-8 {
 		display: none;
 	}
-	#qcTabTitle p {
+	.qcTabTitle p {
 		margin-bottom: 3px;
 	}
-	#qcTabTitle h1 {
+	.qcTabTitle h1 {
 		font-size: 40px;
 	}
 	#qcPageContentTabs > ul li {
@@ -2456,9 +2446,9 @@ ul#slide-list li a:hover {
 	.speakers .item-title .read-more {
 		font-size: 14px;
 	}
-	.speakers .item:hover .item-title {
-		padding-bottom: 130px;
-		margin-top: -50px;
+	.speakers .item .item-title {
+		padding-bottom: 80px;
+		margin-top: -20px;
 	}
 	.speakers .item-desc p.text {
 		font-size: 14px;
@@ -2513,10 +2503,10 @@ ul#slide-list li a:hover {
 	#qcHeader {
 		padding: 0;
 	}
-	#qcTabTitle {
+	.qcTabTitle {
 		padding: 30px 0;
 	}
-	#qcTabTitle p {
+	.qcTabTitle p {
 		font-size: 14px;
 	}
 	#qcPageContentTabs > ul li {
