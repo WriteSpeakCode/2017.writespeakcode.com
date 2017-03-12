@@ -29,7 +29,7 @@ LG >=1200px
 
 /* ASSIGN CUSTOM PRIMARY FONT */
 
-#qcPriNav > li > a, .digit, #qcSlideText h1, #qcTabNav li a, #qcTabTitle h1, #qcPageContentTabs > ul li > a, .qcScheduleList > li .time, .qcScheduleList > li h3, .qcScheduleList > li .speakers, .qcScheduleList > li .speakers, #qcAddress h3, #qcVenueHotelsHead, .qcVenueHotels h2, .qcTicketHead h2, .qcTicketAction span, .qcTicketBox h3, .speakers .item-title h3, .speakers .item-desc h3, .abtCountNum, .abtCountTitle, #qcTabTitle #qcAbtHeading, #qcAbtHeadList, #qcFooterLogo h2, #qcFormText h2, .qcTcktRegForm li label, .qcTcktSubmit button {
+#qcPriNav > li > a, .digit, #qcSlideText h1, #qcTabNav li a, .qcTabTitle h1, #qcPageContentTabs > ul li > a, .qcScheduleList > li .time, .qcScheduleList > li h3, .qcScheduleList > li .speakers, .qcScheduleList > li .speakers, #qcAddress h3, #qcVenueHotelsHead, .qcVenueHotels h2, .qcTicketHead h2, .qcTicketAction span, .qcTicketBox h3, .speakers .item-title h3, .speakers .item-desc h3, .abtCountNum, .abtCountTitle, .qcTabTitle #qcAbtHeading, #qcAbtHeadList, #qcFooterLogo h2, #qcFormText h2, .qcTcktRegForm li label, .qcTcktSubmit button {
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -70,6 +70,10 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 }
 #qcPriNav > li.active > a, #qcPriNav ul > li.active > a {
 	color: #EB6851;
+}
+
+.qcTabTitle {
+	border-color: #172751;
 }
 
 /* END THEME CUSTOMIZATION */
@@ -125,14 +129,16 @@ a:not(.button):hover {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	line-height: 1.5;
+	margin-top: 16px;
+	font-size: 12px;
+	padding: 16px;
 }
 
-@media (max-width:1022px) {
+@media (min-width:768px) {
 	.button.prospectus-link {
-		margin-top: 16px;
-		margin-bottom: 8px;
-		font-size: 12px;
-		padding: 16px;
+		margin-top: -16px;
+		font-size: 14px;
+		padding: 12px;
 	}
 }
 
@@ -181,6 +187,13 @@ a:not(.button):hover {
 /* adapt page intro for mobile sticky nav  */
 .wsc-logo {
 	padding: 2em;
+	width: 300px;
+}
+
+@media only screen and (max-width: 767px){
+	.wsc-logo {
+		width: 200px;
+	}
 }
 
 @media only screen and (max-width: 767px) {
@@ -282,15 +295,34 @@ a:not(.button):hover {
  	min-height: 36px;
 }
 
+section.speakers {
+	background-color: #172751;
+}
+
+section.speakers .qcTabTitle {
+	border-color: #EB6851;
+}
+
+section.speakers .qcTabTitle .section-title {
+	color: #EB6851;
+}
+
 /* SPONSORS SECTION STYLES */
 .sponsors-section {
-	padding: 3em 0;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+.sponsors-section .sponsor-level {
+	border: 2px solid #F1D8D3;
+	border-radius: 16px;
+	margin: 2em 0;
+	padding: 1em;
 }
 
 .sponsors-section h3 {
 	font-size: 28px;
 	color: #EB6851;
-	border-bottom: 2px solid #EB6851;
 	margin-top: 16px;
 	margin-bottom: 16px;
 	padding-bottom: 8px;
@@ -346,10 +378,6 @@ a:not(.button):hover {
 
 .rounded-corners{
 	border-radius: 16px;
-}
-
-.faq-section h2 {
-	margin: 0 0 1.25em -22px;
 }
 
 .qcScheduleList > li.active{

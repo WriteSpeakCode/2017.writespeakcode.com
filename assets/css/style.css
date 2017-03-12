@@ -451,25 +451,25 @@ video#qcBgVid {
 
 /* === 4.2 PAGE TAB TITLE === */
 
-#qcTabTitle {
+.qcTabTitle {
 	padding: 60px 0;
 	border-bottom: 1px #555 solid;
 }
-#qcTabTitle.qcBorderTop {
+.qcTabTitle.qcBorderTop {
 	border-top: 1px #aaa solid;
 }
-#qcTabTitle p {
+.qcTabTitle p {
 	margin: 0 0 12px 0;
 	color: #888;
 	font: 300 18px/18px "Titillium Web", Helvetica, sans-serif;
 }
-#qcTabTitle h1 {
+.qcTabTitle h1 {
 	text-transform: uppercase;
 	color: #333;
 	font: 500 48px/48px "Dosis", Helvetica, sans-serif;
 	letter-spacing: -0.016em;
 }
-#qcTabTitle p.qcTabDesc {
+.qcTabTitle p.qcTabDesc {
 	padding-left: 40px;
 	color: #999;
 	font: 500 16px/26px "Titillium Web", Helvetica, sans-serif;
@@ -1056,7 +1056,7 @@ video#qcBgVid {
 #qcContent #qcAbtCount > .col:last-child .box {
     border: 0;
 }
-#qcTabTitle #qcAbtHeading {
+.qcTabTitle #qcAbtHeading {
 	margin-top: 0px;
 	text-align: center;
     color: #FF4700;
@@ -2219,19 +2219,19 @@ ul#slide-list li a:hover {
 	#qcTabNav li a {
     	font-size: 14px;
     }
-	#qcTabTitle {
+	.qcTabTitle {
 		padding: 42px 0;
 	}
-	#qcTabTitle > .col-4 {
+	.qcTabTitle > .col-4 {
 		width: 100%;
 	}
-	#qcTabTitle > .col-8 {
+	.qcTabTitle > .col-8 {
 		display: none;
 	}
-	#qcTabTitle p {
+	.qcTabTitle p {
 		margin-bottom: 3px;
 	}
-	#qcTabTitle h1 {
+	.qcTabTitle h1 {
 		font-size: 40px;
 	}
 	#qcPageContentTabs > ul li {
@@ -2359,19 +2359,19 @@ ul#slide-list li a:hover {
 	#qcTabNav li a {
     	font-size: 14px;
     }
-	#qcTabTitle {
+	.qcTabTitle {
 		padding: 42px 0;
 	}
-	#qcTabTitle > .col-4 {
+	.qcTabTitle > .col-4 {
 		width: 100%;
 	}
-	#qcTabTitle > .col-8 {
+	.qcTabTitle > .col-8 {
 		display: none;
 	}
-	#qcTabTitle p {
+	.qcTabTitle p {
 		margin-bottom: 3px;
 	}
-	#qcTabTitle h1 {
+	.qcTabTitle h1 {
 		font-size: 40px;
 	}
 	#qcPageContentTabs > ul li {
@@ -2503,10 +2503,10 @@ ul#slide-list li a:hover {
 	#qcHeader {
 		padding: 0;
 	}
-	#qcTabTitle {
+	.qcTabTitle {
 		padding: 30px 0;
 	}
-	#qcTabTitle p {
+	.qcTabTitle p {
 		font-size: 14px;
 	}
 	#qcPageContentTabs > ul li {
