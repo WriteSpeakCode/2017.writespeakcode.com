@@ -307,6 +307,113 @@ section.speakers .qcTabTitle .section-title {
 	color: #EB6851;
 }
 
+
+/* SCHEDULE SECTION STYLES */
+.schedule-section{
+	padding-top: 50px;
+}
+
+#qcTabTitle p.qcTabDesc{
+	color: #666;
+}
+
+#qcPageContentTabs.qcScheduleTabs .box {
+    border: 1px #EB6851 solid;
+}
+
+.conf_dates{
+	color: #EB6851;
+	border-bottom: 1px #eb6851 solid;
+}
+
+.wsc-schedule-tabs > ul li > a{
+	letter-spacing: 0px;
+	font-size: 15px !important;
+}
+
+.bullets{
+	padding: 15px 0px 15px 30px;
+	list-style: disc;
+	line-height: 30px;
+}
+
+.bullets > li {
+	border: none;
+	min-height: 40px !important;
+}
+
+.bullets > li{
+	padding-left: 10px;
+}
+
+.coming-soon{
+	padding-top: 10px;
+}
+
+@media only screen and (max-width: 920px){
+	.conf_dates{
+		line-height: 34px;
+		font-size: 13px ;
+	}
+}
+
+@media only screen and (max-width: 1080px){
+	#qcTabTitle > .col-8 {
+    display: inherit;
+	}
+}
+@media only screen and (max-width: 1080px){
+#qcTabTitle p.qcTabDesc {
+		border: none;
+    padding: 20px 0px 0px 0px;
+	}
+}
+
+@media only screen and (max-width: 1080px){
+ .wsc-schedule-tabs > ul li > a {
+    font-size: 13px;
+	}
+}
+
+@media only screen and (max-device-width : 1080px) and (min-device-width : 768px){
+
+	.wsc-schedule-tabs > ul li > a {
+	  font-size: 13px;
+	  width: 123px;
+	}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+	.wsc-schedule-tabs > ul li > a {
+	  font-size: 14px;
+	}
+	.wsc-schedule-tabs > ul li.active:before {
+		top: 48px !important;
+	}
+	.wsc-schedule-tabs > ul li.active:after  {
+		top: 50px !important;
+	}
+}
+
+@media only screen and (max-width: 760px){
+	.wsc-schedule-tabs > ul li > a {
+	  font-size: 12px !important;
+	}
+
+	.wsc-schedule-tabs > ul li.active:before {
+		top: 58px !important;
+	}
+	.wsc-schedule-tabs > ul li.active:after  {
+		top: 60px !important;
+	}
+}
+
+@media only screen and (max-width: 360px){
+	.wsc-schedule-tabs > ul li {
+	  width: 65px !important;
+	}
+}
+
 /* SPONSORS SECTION STYLES */
 .sponsors-section {
 	margin-top: 3em;
