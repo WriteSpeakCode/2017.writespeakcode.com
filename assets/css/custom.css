@@ -134,7 +134,7 @@ a:not(.button):hover {
 	padding: 16px;
 }
 
-@media (min-width:768px) {
+@media (min-width:1080px) {
 	.button.prospectus-link {
 		margin-top: -16px;
 		font-size: 14px;
@@ -296,8 +296,9 @@ a:not(.button):hover {
   padding-top: 50px;
 }
 
-#qcTabTitle p.qcTabDesc{
+.qcTabTitle p.qcTabDesc{
   color: #666;
+	font-family: "PT Sans", sans-serif;
 }
 
 #qcPageContentTabs.qcScheduleTabs .box {
@@ -341,12 +342,12 @@ a:not(.button):hover {
 }
 
 @media only screen and (max-width: 1080px){
-  #qcTabTitle > .col-8 {
-    display: inherit;
+  .qcTabTitle > .col-8 {
+    display: block;
   }
 }
 @media only screen and (max-width: 1080px){
-#qcTabTitle p.qcTabDesc {
+.qcTabTitle p.qcTabDesc {
     border: none;
     padding: 20px 0px 0px 0px;
   }
@@ -421,6 +422,11 @@ section.speakers .qcTabTitle .section-title {
 	margin-top: 3em;
 	margin-bottom: 3em;
 }
+@media (min-width:1080px) {
+	.sponsors-section .col-8 {
+		text-align: right;
+	}
+}
 
 .sponsors-section .sponsor-level {
 	border: 2px solid #F1D8D3;
@@ -431,7 +437,7 @@ section.speakers .qcTabTitle .section-title {
 
 .sponsors-section h3 {
 	font-size: 28px;
-	color: #EB6851;
+	color:#172751;
 	margin-top: 16px;
 	margin-bottom: 16px;
 	padding-bottom: 8px;
