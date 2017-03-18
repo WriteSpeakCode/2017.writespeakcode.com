@@ -289,8 +289,6 @@ a:not(.button):hover {
 	}
 }
 
-
-
 /* SCHEDULE SECTION STYLES */
 .schedule-section{
   padding-top: 50px;
@@ -360,7 +358,6 @@ a:not(.button):hover {
 }
 
 @media only screen and (max-device-width : 1080px) and (min-device-width : 768px){
-
   .wsc-schedule-tabs > ul li > a {
     font-size: 13px;
     width: 123px;
@@ -371,33 +368,44 @@ a:not(.button):hover {
   .wsc-schedule-tabs > ul li > a {
     font-size: 14px;
   }
-  .wsc-schedule-tabs > ul li.active:before {
-    top: 48px !important;
-  }
-  .wsc-schedule-tabs > ul li.active:after  {
-    top: 50px !important;
-  }
 }
 
-@media only screen and (max-width: 760px){
+@media only screen and (max-width: 600px){
   .wsc-schedule-tabs > ul li > a {
     font-size: 12px !important;
   }
+}
 
+#qcPageContentTabs > ul li {
+	width: 24%;
+}
+
+@media (max-width: 519px) {
   .wsc-schedule-tabs > ul li.active:before {
-    top: 58px !important;
+    top: 61px !important;
   }
   .wsc-schedule-tabs > ul li.active:after  {
-    top: 60px !important;
+    top: 65px !important;
   }
 }
 
-@media only screen and (max-width: 360px){
-  .wsc-schedule-tabs > ul li {
-    width: 65px !important;
+@media (min-width: 600px) {
+  .wsc-schedule-tabs > ul li.active:before {
+    top: 61px !important;
+  }
+  .wsc-schedule-tabs > ul li.active:after  {
+    top: 65px !important;
   }
 }
 
+@media (min-width: 638px) {
+  .wsc-schedule-tabs > ul li.active:before {
+    top: 41px !important;
+  }
+  .wsc-schedule-tabs > ul li.active:after  {
+    top: 45px !important;
+  }
+}
 
 /* SPEAKERS SECTION STYLES */
 /* If speaker name is long keeps design consistent*/
