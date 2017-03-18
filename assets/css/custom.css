@@ -417,6 +417,35 @@ section.speakers .qcTabTitle .section-title {
 	color: #EB6851;
 }
 
+/* VENUE SECTION STYLES */
+
+.venue-section {
+	background-color: #F1D8D3;
+}
+
+.venue-section .venue-info-bg {
+	background-color: #172751;
+}
+
+.venue-section .venue-info-map {
+	margin: 0;
+}
+
+.venue-section .venue-info-bg {
+	padding: 3em;
+	color: #F1D8D3;
+	line-height: 2.4;
+}
+
+.venue-section iframe {
+	width: 100%;
+	height: 100%;
+}
+
+.venue-section .venue-info-content a:hover {
+	color: #F1D8D3;
+}
+
 /* SPONSORS SECTION STYLES */
 .sponsors-section {
 	margin-top: 3em;
