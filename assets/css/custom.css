@@ -184,10 +184,29 @@ a:not(.button):hover {
 	z-index: 11;
 }
 
+.cfp-banner {
+	margin-top: 2em;
+	padding: 1em;
+	background-color: RGBA(241, 216, 211, .25);
+	color: white;
+	border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+.cfp-banner .submit-talk {
+		text-align: right;
+	}
+}
+@media (min-width: 768px) {
+.cfp-banner .cfp {
+		text-align: left;
+	}
+}
+
 /* adapt page intro for mobile sticky nav  */
 .wsc-logo {
 	padding: 2em;
-	width: 300px;
+	width: 250px;
 }
 
 @media only screen and (max-width: 767px){
@@ -233,7 +252,7 @@ a:not(.button):hover {
 	line-height: 60px;
 	background: #EB6851;
 	text-transform: uppercase;
-	border-radius: 30px;
+	border-radius: 8px;
 }
 #qcSlideText .cta:hover {
 	background: rgba(0,0,0,0.3);
