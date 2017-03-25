@@ -191,16 +191,9 @@ a:not(.button):hover {
 	color: white;
 	border-radius: 8px;
 }
-
-@media (min-width: 768px) {
-.cfp-banner .submit-talk {
-		text-align: right;
-	}
-}
-@media (min-width: 768px) {
-.cfp-banner .cfp {
-		text-align: left;
-	}
+.cfp-banner a {
+	padding-left: 1em;
+	display: inline-block;
 }
 
 /* adapt page intro for mobile sticky nav  */
