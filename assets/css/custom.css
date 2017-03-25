@@ -218,7 +218,7 @@ a:not(.button):hover {
 @media only screen and (max-width: 767px) {
 	#slideContent, .page-intro {
 		height: 100%;
-		min-height: 600px;
+		min-height: 680px;
 	}
 	#qcSlideText {
 		margin-top: 0;
