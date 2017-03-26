@@ -29,7 +29,7 @@ LG >=1200px
 
 /* ASSIGN CUSTOM PRIMARY FONT */
 
-#qcPriNav > li > a, .digit, #qcSlideText h1, #qcTabNav li a, .qcTabTitle h1, #qcPageContentTabs > ul li > a, .qcScheduleList > li .time, .qcScheduleList > li h3, .qcScheduleList > li .speakers, .qcScheduleList > li .speakers, #qcAddress h3, #qcVenueHotelsHead, .qcVenueHotels h2, .qcTicketHead h2, .qcTicketAction span, .qcTicketBox h3, .speakers .item-title h3, .speakers .item-desc h3, .abtCountNum, .abtCountTitle, .qcTabTitle #qcAbtHeading, #qcAbtHeadList, #qcFooterLogo h2, #qcFormText h2, .qcTcktRegForm li label, .qcTcktSubmit button {
+#qcPriNav > li > a, .digit, #qcSlideText h1, #qcTabNav li a, .qcTabTitle h1, .qcPageContentTabs > ul li > a, .qcScheduleList > li .time, .qcScheduleList > li h3, .qcScheduleList > li .speakers, .qcScheduleList > li .speakers, #qcAddress h3, #qcVenueHotelsHead, .qcVenueHotels h2, .qcTicketHead h2, .qcTicketAction span, .qcTicketBox h3, .speakers .item-title h3, .speakers .item-desc h3, .abtCountNum, .abtCountTitle, .qcTabTitle #qcAbtHeading, #qcAbtHeadList, #qcFooterLogo h2, #qcFormText h2, .qcTcktRegForm li label, .qcTcktSubmit button {
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -50,13 +50,13 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 
 /* 	ASSIGN CUSTOM SECONDARY HIGHLIGHT COLOR */
 
-#qcPageContentTabs > ul li.active:before, .qcScheduleList > li.toggle:hover:before, .qcScheduleList > li.toggle.active:before, .qcVenueHotels li:hover .action a, .qcTicketAction:hover, #qcSubscribeWidget input[type=submit]:hover, .qcTcktSubmit button:hover {
+.qcPageContentTabs > ul li.active:before, .qcScheduleList > li.toggle:hover:before, .qcScheduleList > li.toggle.active:before, .qcVenueHotels li:hover .action a, .qcTicketAction:hover, #qcSubscribeWidget input[type=submit]:hover, .qcTcktSubmit button:hover {
 	background-color: #EB6851;
 }
-#qcTabNav li.active a, #qcTabNav li.active a:hover, #qcTabNav li.active a i, #qcPageContentTabs > ul li.active > a,  .qcVenueHotels li:hover h2, .speakers .item:hover .item-title .read-more, .speakers .item-desc h3, .speakers .item-desc p, #qcPriFooter nav li a:hover, .copyrights a:hover, .qcCheckboxText a:hover, .error {
+#qcTabNav li.active a, #qcTabNav li.active a:hover, #qcTabNav li.active a i, .qcPageContentTabs > ul li.active > a,  .qcVenueHotels li:hover h2, .speakers .item:hover .item-title .read-more, .speakers .item-desc h3, .speakers .item-desc p, #qcPriFooter nav li a:hover, .copyrights a:hover, .qcCheckboxText a:hover, .error {
 	color: #EB6851;
 }
-#qcPageContentTabs > ul li.active:after {
+.qcPageContentTabs > ul li.active:after {
 	border-top-color: #EB6851;
 }
 .copyrights a:hover, .qcCheckboxText a:hover {
@@ -83,6 +83,14 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 /* Clears focus color on touch devices*/
 body {
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* Stops long links from breaking out of container, use on <a> tag */
+.dont-break-out {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-all;
 }
 
 /* HIDING ELEMENTS */
@@ -302,119 +310,116 @@ a:not(.button):hover {
 }
 
 /* SCHEDULE SECTION STYLES */
-.schedule-section{
-  padding-top: 50px;
-}
-
-.qcTabTitle p.qcTabDesc{
+.schedule-section .qcTabTitle p.qcTabDesc{
   color: #666;
 	font-family: "PT Sans", sans-serif;
 }
 
-#qcPageContentTabs.qcScheduleTabs .box {
+.schedule-section .qcPageContentTabs.qcScheduleTabs .box {
     border: 1px #EB6851 solid;
 }
 
-.conf_dates{
+.schedule-section .conf_dates{
   color: #EB6851;
   border-bottom: 1px #eb6851 solid;
 }
 
-.wsc-schedule-tabs > ul li > a{
+.schedule-section .wsc-schedule-tabs > ul li > a{
   letter-spacing: 0px;
   font-size: 15px !important;
 }
 
-.bullets{
+.schedule-section .bullets {
   padding: 15px 0px 15px 30px;
   list-style: disc;
   line-height: 30px;
 }
 
-.bullets > li {
+.schedule-section .bullets > li {
   border: none;
   min-height: 40px !important;
 }
 
-.bullets > li{
+.schedule-section .bullets > li{
   padding-left: 10px;
 }
 
-.coming-soon{
+.schedule-section .coming-soon{
   padding-top: 10px;
 }
 
 @media only screen and (max-width: 920px){
-  .conf_dates{
+  .schedule-section .conf_dates{
     line-height: 34px;
     font-size: 13px ;
   }
 }
 
 @media only screen and (max-width: 1080px){
-  .qcTabTitle > .col-8 {
+  .schedule-section .qcTabTitle > .col-8 {
     display: block;
-  }
-}
-@media only screen and (max-width: 1080px){
-.qcTabTitle p.qcTabDesc {
-    border: none;
-    padding: 20px 0px 0px 0px;
   }
 }
 
 @media only screen and (max-width: 1080px){
- .wsc-schedule-tabs > ul li > a {
+	.schedule-section .qcTabTitle p.qcTabDesc {
+	    border: none;
+	    padding: 20px 0px 0px 0px;
+	  }
+}
+
+@media only screen and (max-width: 1080px){
+  .schedule-section .wsc-schedule-tabs > ul li > a {
     font-size: 13px;
   }
 }
 
 @media only screen and (max-device-width : 1080px) and (min-device-width : 768px){
-  .wsc-schedule-tabs > ul li > a {
+  .schedule-section .wsc-schedule-tabs > ul li > a {
     font-size: 13px;
     width: 123px;
   }
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
-  .wsc-schedule-tabs > ul li > a {
+  .schedule-section .wsc-schedule-tabs > ul li > a {
     font-size: 14px;
   }
 }
 
 @media only screen and (max-width: 600px){
-  .wsc-schedule-tabs > ul li > a {
+  .schedule-section .wsc-schedule-tabs > ul li > a {
     font-size: 12px !important;
   }
 }
 
-#qcPageContentTabs > ul li {
+.schedule-section .qcPageContentTabs > ul li {
 	width: 24%;
 }
 
 @media (max-width: 519px) {
-  .wsc-schedule-tabs > ul li.active:before {
+  .schedule-section .wsc-schedule-tabs > ul li.active:before {
     top: 61px !important;
   }
-  .wsc-schedule-tabs > ul li.active:after  {
+  .schedule-section .wsc-schedule-tabs > ul li.active:after  {
     top: 65px !important;
   }
 }
 
 @media (min-width: 600px) {
-  .wsc-schedule-tabs > ul li.active:before {
+  .schedule-section .wsc-schedule-tabs > ul li.active:before {
     top: 61px !important;
   }
-  .wsc-schedule-tabs > ul li.active:after  {
+  .schedule-section .wsc-schedule-tabs > ul li.active:after  {
     top: 65px !important;
   }
 }
 
 @media (min-width: 638px) {
-  .wsc-schedule-tabs > ul li.active:before {
+  .schedule-section .wsc-schedule-tabs > ul li.active:before {
     top: 41px !important;
   }
-  .wsc-schedule-tabs > ul li.active:after  {
+  .schedule-section .wsc-schedule-tabs > ul li.active:after  {
     top: 45px !important;
   }
 }
@@ -525,48 +530,67 @@ section.speakers .qcTabTitle .section-title {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	background-color: #F1D8D3;
-	border-bottom: 5px solid #EB6851;
-	padding: 2em;
-
+	min-height: 550px
 }
 
-.faq-section div {
+.faq-section .toggle{
 	background-color: #ffffff;
 	line-height: 26px;
 }
 
-.toggle div {
+.faq-section .toggle div {
 	padding: 0.5em 0;
 }
 
-.rounded-corners{
-	border-radius: 16px;
-}
-
-.qcScheduleList > li.active{
+.faq-section .qcScheduleList > li.active{
 	background-color: #ffffff;
 }
 
-#qcFaqList li.active .qcTogContent {
+.faq-section .qcFaqList li.active .qcTogContent {
 	background-color: #ffffff;
 }
 
-#qcFaqList .qcTogContent {
-	padding: 20px 10px;
+.faq-section .qcFaqList .qcTogContent,
+.faq-section .qcFaqList div:first-of-type {
+	padding: 20px 0;
 }
 
-.qcScheduleList > li {
+.faq-section .qcScheduleList > li {
 	min-height: 62px;
 }
 
-.qcScheduleList > li.toggle:before {
+.faq-section .qcScheduleList > li.toggle:before {
 	line-height: 62px;
 }
 
-@media only screen and (max-width: 920px) {
-	.hentry {
-		padding-bottom: 25px;
+.faq-section #qcFaqContentTabs > ul li.active > a,
+.faq-section #qcFaqContentTabs > ul li.active:before {
+	color: #172751;
+}
+
+.faq-section .qcScheduleList > li.toggle:before,
+.faq-section #qcFaqContentTabs > ul li.active:before {
+	background-color: #172751;
+}
+
+.faq-section #qcFaqContentTabs > ul li.active:after {
+	border-top-color: #172751;
+}
+
+.faq-section .qcPageContentTabs > ul li > a {
+	color: #F1D8D3;
+}
+
+.faq-section .qcPageContentTabs > ul {
+	border-bottom-color: #F1D8D3;
+}
+
+.faq-section .qcPageContentTabs > ul li {
+	width: 49%;
+}
+@media (min-width:1023px) {
+	.faq-section .qcPageContentTabs > ul li {
+		width: 24%;
 	}
 }
 

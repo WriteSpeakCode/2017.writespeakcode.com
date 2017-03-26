@@ -479,11 +479,11 @@ video#qcBgVid {
 
 /* === 4.3 PAGE CONTENT TAB === */
 
-#qcPageContentTabs > ul {
+.qcPageContentTabs > ul {
 	padding-bottom: 6px;
 	border-bottom: 4px #444 solid;
 }
-#qcPageContentTabs > ul li {
+.qcPageContentTabs > ul li {
 	float: left;
 	position: relative;
 	top: -15px;
@@ -491,10 +491,10 @@ video#qcBgVid {
 	text-align: center;
 	border-right: 1px #444 solid;
 }
-#qcPageContentTabs > ul li:last-child {
+.qcPageContentTabs > ul li:last-child {
 	border-right: 0;
 }
-#qcPageContentTabs > ul li.active:before {
+.qcPageContentTabs > ul li.active:before {
 	content: "";
 	position: absolute;
 	top: 41px;
@@ -503,7 +503,7 @@ video#qcBgVid {
 	height: 4px;
 	background: red;
 }
-#qcPageContentTabs > ul li.active:after {
+.qcPageContentTabs > ul li.active:after {
 	content: "";
 	position: absolute;
 	top: 45px;
@@ -514,20 +514,20 @@ video#qcBgVid {
 	border-top: 8px solid red;
 	z-index: 99;
 }
-#qcPageContentTabs > ul li > a {
+.qcPageContentTabs > ul li > a {
 	display: block;
 	color: #444;
     font: 500 20px/20px "Dosis", Helvetica, sans-serif;
 	text-transform: uppercase;
 }
-#qcPageContentTabs > ul li.active > a {
+.qcPageContentTabs > ul li.active > a {
 	color: red;
 }
-#qcPageContentTabs. .box {
+.qcPageContentTabs. .box {
 	margin-top: 0px;
 	border-top: 0;
 }
-#qcPageContentTabs.qcScheduleTabs .box {
+.qcPageContentTabs.qcScheduleTabs .box {
 	border: 1px #ffbf95 solid;
 }
 .qcTabHead {
@@ -770,7 +770,7 @@ video#qcBgVid {
 	background: #FFF5EE;
 	border-right: 1px #FFBF95 solid;
 }
-#qcPageContentTabs .qcTicketBox .box {
+.qcPageContentTabs .qcTicketBox .box {
 	padding: 40px;
 	border: 0;
 }
@@ -1084,7 +1084,7 @@ video#qcBgVid {
 
 /* === 4.10 FAQ === */
 
-#qcFaqList li {
+.qcFaqList li {
 	position: relative;
 	border: 1px #ddd solid;
 	cursor: pointer;
@@ -1104,7 +1104,7 @@ video#qcBgVid {
 	border-right: 1px #FFBF95 solid;
 	border-bottom: 1px #FFBF95 solid;
 }
-.active .qcFaqHead > div:first-child, #qcFaqList li:hover .qcFaqHead > div:first-child {
+.active .qcFaqHead > div:first-child, .qcFaqList li:hover .qcFaqHead > div:first-child {
 	color: #fff;
 	background: #FF6600;
 	border-right: 1px #FF6600 solid;
@@ -1137,12 +1137,12 @@ video#qcBgVid {
 .qcFaqHead:hover:before {
 	background: #666;
 }
-#qcFaqList .qcTogContent {
+.qcFaqList .qcTogContent {
 	padding: 35px 40px;
 	margin: 0;
 	border-top: 1px #ddd solid;
 }
-#qcFaqList li.active .qcTogContent {
+.qcFaqList li.active .qcTogContent {
 	background: #f6f6f6;
 }
 
@@ -2234,10 +2234,10 @@ ul#slide-list li a:hover {
 	.qcTabTitle h1 {
 		font-size: 40px;
 	}
-	#qcPageContentTabs > ul li {
+	.qcPageContentTabs > ul li {
 		width: 100px;
 	}
-	#qcPageContentTabs > ul li > a {
+	.qcPageContentTabs > ul li > a {
 		font-size: 18px;
 	}
 	#qcWidgets {
@@ -2374,10 +2374,10 @@ ul#slide-list li a:hover {
 	.qcTabTitle h1 {
 		font-size: 40px;
 	}
-	#qcPageContentTabs > ul li {
+	.qcPageContentTabs > ul li {
 		width: 100px;
 	}
-	#qcPageContentTabs > ul li > a {
+	.qcPageContentTabs > ul li > a {
 		font-size: 18px;
 	}
 	#qcWidgets {
@@ -2509,7 +2509,7 @@ ul#slide-list li a:hover {
 	.qcTabTitle p {
 		font-size: 14px;
 	}
-	#qcPageContentTabs > ul li {
+	.qcPageContentTabs > ul li {
 		width: 80px;
 	}
 	#qcCloseNav {
