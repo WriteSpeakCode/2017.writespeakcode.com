@@ -128,7 +128,9 @@ $('#qcTestimonialList li a').click(function() {
 
 
 // --------- 5. SCHEDULE TABS ----------  //
-$('#qcPageContentTabs').tabslet();
+$('#qcScheduleContentTabs').tabslet();
+$('#qcFaqContentTabs').tabslet();
+$('#qcVenueContentTabs').tabslet();
 
 
 
@@ -173,7 +175,7 @@ $('.speakers .item').click(function() {
 });
 
 /* SCHEDULE TOGGLE */
-$('.qcScheduleList .toggle, #qcFaqList .toggle').click(function() {
+$('.qcScheduleList .toggle, .qcFaqList .toggle').click(function() {
 	$(this).toggleClass('active');
 	var toggle = $(this).find('.qcTogContent');
     if (toggle.is(':visible')) {
