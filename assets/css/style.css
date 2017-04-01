@@ -294,9 +294,6 @@ body.home.static {
 
 /* === 3.4 HOME SLIDER  === */
 
-#slideContent {
-	display: none;
-}
 #qcSlideText {
 	position: relative;
 	margin: 0 auto;

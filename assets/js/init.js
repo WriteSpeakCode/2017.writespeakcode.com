@@ -279,10 +279,3 @@ $('.qcForm').submit(function() {
 // --------------------  //
 
 });
-
-
-// --------- WINDOW LOAD FUNCTIONS ----------  //
-
-$(window).load(function() {
-	$('#slideContent').fadeIn();
-});
