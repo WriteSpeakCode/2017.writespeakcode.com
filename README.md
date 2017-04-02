@@ -1,5 +1,5 @@
 # 2017.writespeakcode.com
-[2017 Conference Website](2017.writespeakcode.com)
+[2017 Conference Website](http://2017.writespeakcode.com)
 
 ## Contributing
 
