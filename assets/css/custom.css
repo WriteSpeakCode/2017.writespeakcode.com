@@ -165,7 +165,6 @@ a:not(.button):hover {
    -o-background-size: cover;
    background-size: cover;
 	 padding-bottom: 3em;
-/*	 border-bottom: 5px solid #EB6851;*/
 }
 
 .title-subheader{
@@ -270,6 +269,10 @@ a:not(.button):hover {
   z-index: 9;
   height: 100px;
   background-color: #172751;
+}
+
+.addSpace {
+  padding-top : 100px;
 }
 
 .desktopNav .stickyHeader {
