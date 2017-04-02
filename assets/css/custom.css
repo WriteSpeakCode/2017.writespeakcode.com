@@ -177,7 +177,7 @@ a:not(.button):hover {
    -o-background-size: cover;
    background-size: cover;
 	 padding-bottom: 3em;
-	 border-bottom: 5px solid #EB6851;
+/*	 border-bottom: 5px solid #EB6851;*/
 }
 
 .title-subheader{
@@ -274,6 +274,80 @@ a:not(.button):hover {
 	#qcSlideText .cta.video {
 		display: none;
 	}
+}
+
+/* DESKTOP/TABLET STICKY NAV BAR */
+
+.desktopNav .middleHeader{
+  z-index: 9;
+  height: 100px;
+  background-color: #172751;
+}
+
+.desktopNav .stickyHeader {
+  position: fixed;
+  background-color: #172751;
+  z-index: 9;
+  top: 0px;
+  left: 0;
+  right: 0;
+}
+
+.desktopNav .stickyHeader #qcTabNav li a{
+  padding: 20px 0;
+}
+
+.desktopNav #qcTabNav{
+  border: none;
+}
+
+.desktopNav #qcTabNav li {
+ width: 15%;
+ margin-left: -20px;
+ border: none;
+}
+
+.desktopNav #qcTabNav li a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.desktopNav #qcTabNav li a.video {
+  color: #EB6851;
+}
+
+.desktopNav #qcTabNav li.active {
+    border: none;
+    box-shadow: none;
+}
+
+.desktopNav #qcTabNav li a:hover {
+    color: #000;
+}
+
+@media only screen and (max-width: 1225px) and (min-width: 768px){
+  .desktopNav #qcTabNav li {
+    width: 16%;
+    margin-left: -28px;
+  }
+}
+
+@media (max-width: 1167px){
+  .desktopNav #qcTabNav li a {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 881px){
+  .desktopNav #qcTabNav li a {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 767px){
+  .desktopNav {
+    display: none;
+  }
 }
 
 /* MOBILE STICKY BAR */
