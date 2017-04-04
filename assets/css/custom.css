@@ -86,11 +86,13 @@ body {
 }
 
 /* Stops long links from breaking out of container, use on <a> tag */
-.dont-break-out {
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  -ms-word-break: break-all;
-  word-break: break-all;
+@media (max-width:400px) {
+	.dont-break-out {
+		overflow-wrap: break-word;
+		word-wrap: break-word;
+		-ms-word-break: break-all;
+		word-break: break-all;
+	}
 }
 
 /* HIDING ELEMENTS */
@@ -484,7 +486,6 @@ section.speakers .qcTabTitle .section-title {
 
 /* SPONSORS SECTION STYLES */
 .sponsors-section {
-	margin-top: 3em;
 	margin-bottom: 3em;
 }
 
@@ -538,12 +539,20 @@ section.speakers .qcTabTitle .section-title {
 }
 .code-of-conduct-section h3 {
 	font-size: 1.5em;
+	margin-bottom: .5em;
+}
+.code-of-conduct-section .quick-version {
+	line-height: 1.7;
+}
+.code-of-conduct-section .need-help {
+	font-size: 18px;
 }
 .code-of-conduct-section .need-help,
 .code-of-conduct-page .need-help {
 	background-color: #F1D8D3;
 	color:  #172751;
 	padding: 2em;
+	line-height: 1.5;
 }
 .code-of-conduct-section .qcTabTitle {
   border-color: #F1D8D3;
@@ -584,11 +593,12 @@ section.speakers .qcTabTitle .section-title {
 }
 .code-of-conduct-page h4 {
 	margin: 1em 0;
+	font-size: 1.15em;
+	color: #172751;
 	letter-spacing: 2px;
-	text-transform: uppercase;
 }
 .code-of-conduct-page p {
-	margin: .5em 0;
+	margin: 1em 0;
 	line-height: 1.5;
 }
 .code-of-conduct-page .quick-version {
