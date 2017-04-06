@@ -541,8 +541,9 @@ section.speakers .qcTabTitle .section-title {
 	font-size: 1.5em;
 	margin-bottom: .5em;
 }
-.code-of-conduct-section .quick-version {
+.code-of-conduct-section .quick-version-description {
 	line-height: 1.7;
+	font-size: 17px;
 }
 .code-of-conduct-section .need-help {
 	font-size: 18px;
@@ -578,8 +579,7 @@ section.speakers .qcTabTitle .section-title {
 	}
 }
 .code-of-conduct-page section {
-	padding: 3em 1em;
-	color: #172751;
+	padding: 3em 0;
 	line-height: 1.8;
 }
 .code-of-conduct-page .page-intro h1 {
@@ -589,13 +589,13 @@ section.speakers .qcTabTitle .section-title {
 	line-height: 1.5;
 }
 .code-of-conduct-page h3 {
+	color: #172751;
 	font-size: 1.5em;
 }
 .code-of-conduct-page h4 {
 	margin: 1em 0;
 	font-size: 1.15em;
 	color: #172751;
-	letter-spacing: 2px;
 }
 .code-of-conduct-page p {
 	margin: 1em 0;
