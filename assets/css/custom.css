@@ -276,79 +276,67 @@ a:not(.button):hover {
 }
 
 /* DESKTOP/TABLET STICKY NAV BAR */
-
-.desktopNav .middleHeader{
-  z-index: 9;
-  height: 100px;
-  background-color: #172751;
+/* Adds pseudo content before anchor ids so when you link to them, they aren't hidden by the sticky nav*/
+#speakers:target:before,
+#venue:target:before,
+#sponsors:target:before,
+#code-of-conduct:target:before,
+#faq:target:before {
+  content:' ';
+  display: block;
+  height: 40px;
 }
 
-.addSpace {
-  padding-top : 100px;
+.nav-section {
+	background-color: #172751;
+	text-align: center;
 }
-
-.desktopNav .stickyHeader {
+.nav-section .middleHeader {
+	position: absolute;
+	background-color: #172751;
+	text-align: center;
+	width: 100%;
+}
+.nav-section ul li {
+	display: inline-block;
+	padding: 1em;
+	font-size: 12px;
+}
+@media (min-width: 900px) {
+	.nav-section ul li {
+		padding: 1em 1.25em;
+		font-size: 14px;
+	}
+}
+@media (min-width: 1165px) {
+	.nav-section ul li {
+		font-size: 16px;
+	}
+}
+.nav-section a {
+	color: white;
+}
+.nav-section a.register-now {
+	color: #EB6851;
+}
+.nav-section li:hover {
+	background-color: white;
+	color: #172751;
+}
+.nav-section a.register-now li:hover {
+	background-color: #EB6851;
+	color: white;
+}
+.nav-section .stickyHeader {
   position: fixed;
   background-color: #172751;
-  z-index: 9;
   top: 0px;
-  left: 0;
-  right: 0;
+	width: 100%;
+	/* Prevents pseudo elements from appearing on top of nav */
+	z-index: 100;
 }
-
-.desktopNav .stickyHeader #qcTabNav li a{
-  padding: 20px 0;
-}
-
-.desktopNav #qcTabNav{
-  border: none;
-}
-
-.desktopNav #qcTabNav li {
- width: 15%;
- margin-left: -20px;
- border: none;
-}
-
-.desktopNav #qcTabNav li a {
-  color: #fff;
-  font-weight: bold;
-}
-
-.desktopNav #qcTabNav li a.video {
-  color: #EB6851;
-}
-
-.desktopNav #qcTabNav li.active {
-    border: none;
-    box-shadow: none;
-}
-
-.desktopNav #qcTabNav li a:hover {
-    color: #000;
-}
-
-@media only screen and (max-width: 1225px) and (min-width: 768px){
-  .desktopNav #qcTabNav li {
-    width: 16%;
-    margin-left: -28px;
-  }
-}
-
-@media (max-width: 1167px){
-  .desktopNav #qcTabNav li a {
-    font-size: 13px;
-  }
-}
-
-@media (max-width: 881px){
-  .desktopNav #qcTabNav li a {
-    font-size: 11px;
-  }
-}
-
 @media (max-width: 767px){
-  .desktopNav {
+  .nav-section {
     display: none;
   }
 }
@@ -399,6 +387,9 @@ a:not(.button):hover {
 }
 
 /* SCHEDULE SECTION STYLES */
+.schedule-section {
+	padding-top: 60px;
+}
 .schedule-section .qcTabTitle p.qcTabDesc{
   color: #666;
 	font-family: "PT Sans", sans-serif;
