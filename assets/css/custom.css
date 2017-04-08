@@ -438,18 +438,25 @@ a:not(.button):hover {
 
 /* SPEAKERS SECTION STYLES */
 /* If speaker name is long keeps design consistent*/
-.speakers .item-title h3 {
- 	min-height: 36px;
+section.speakers .item .item-title {
+ 	min-height: 144px;
+	margin-top: 0;
+	padding-bottom: 50px;
 }
-
+@media (min-width: 1000px) {
+	section.speakers .item .item-title {
+		padding-bottom: 80px;
+	}
+}
+section.speakers .item-title h3 {
+	font-size: 16px;
+}
 section.speakers {
 	background-color: #172751;
 }
-
 section.speakers .qcTabTitle {
 	border-color: #EB6851;
 }
-
 section.speakers .qcTabTitle .section-title {
 	color: #EB6851;
 }
