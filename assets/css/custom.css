@@ -177,7 +177,6 @@ a:not(.button):hover {
    -o-background-size: cover;
    background-size: cover;
 	 padding-bottom: 3em;
-	 border-bottom: 5px solid #EB6851;
 }
 
 .title-subheader{
@@ -276,6 +275,72 @@ a:not(.button):hover {
 	}
 }
 
+/* DESKTOP/TABLET STICKY NAV BAR */
+/* Adds pseudo content before anchor ids so when you link to them, they aren't hidden by the sticky nav*/
+#speakers:target:before,
+#venue:target:before,
+#sponsors:target:before,
+#code-of-conduct:target:before,
+#faq:target:before {
+  content:' ';
+  display: block;
+  height: 40px;
+}
+
+.nav-section {
+	background-color: #172751;
+	text-align: center;
+}
+.nav-section .middleHeader {
+	position: absolute;
+	background-color: #172751;
+	text-align: center;
+	width: 100%;
+}
+.nav-section ul li {
+	display: inline-block;
+	padding: 1em;
+	font-size: 12px;
+}
+@media (min-width: 900px) {
+	.nav-section ul li {
+		padding: 1em 1.25em;
+		font-size: 14px;
+	}
+}
+@media (min-width: 1165px) {
+	.nav-section ul li {
+		font-size: 16px;
+	}
+}
+.nav-section a {
+	color: white;
+}
+.nav-section a.register-now {
+	color: #EB6851;
+}
+.nav-section li:hover {
+	background-color: white;
+	color: #172751;
+}
+.nav-section a.register-now li:hover {
+	background-color: #EB6851;
+	color: white;
+}
+.nav-section .stickyHeader {
+  position: fixed;
+  background-color: #172751;
+  top: 0px;
+	width: 100%;
+	/* Prevents pseudo elements from appearing on top of nav */
+	z-index: 100;
+}
+@media (max-width: 767px){
+  .nav-section {
+    display: none;
+  }
+}
+
 /* MOBILE STICKY BAR */
 
 @media only screen and (min-width: 768px) {
@@ -322,6 +387,9 @@ a:not(.button):hover {
 }
 
 /* SCHEDULE SECTION STYLES */
+.schedule-section {
+	padding-top: 60px;
+}
 .schedule-section .qcTabTitle p.qcTabDesc{
   color: #666;
 	font-family: "PT Sans", sans-serif;

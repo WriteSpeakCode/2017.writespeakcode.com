@@ -14,3 +14,18 @@ $(document).ready(function() {
   });
 
 });
+
+//sticky desktop nav bar
+$(function() {
+    //sticky nav located under coutdown, sticks to top on scroll
+    var navBar = $('.middleHeader');
+    var pageIntroHeight = $('.page-intro').height();
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if (scroll >= pageIntroHeight + 48) {
+            navBar.removeClass('middleHeader').addClass('stickyHeader');
+        } else {
+            navBar.removeClass('stickyHeader').addClass('middleHeader');
+        }
+    });
+});
