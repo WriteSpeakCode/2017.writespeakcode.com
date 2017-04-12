@@ -794,6 +794,16 @@ section.speakers .qcTabTitle .section-title {
 		font-size: 16px;
 	}
 }
+.faq-section ul.faq-content-list {
+	margin-left: 1em;
+	list-style: disc;
+}
+.faq-section ul.faq-content-list li {
+	position: static;
+	border: none;
+	cursor: auto;
+	margin: 1em 0;
+}
 
 /* FOOTER STYLES */
 
