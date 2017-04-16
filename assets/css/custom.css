@@ -121,7 +121,7 @@ a:not(.button):hover {
 	color: #172751;
 	cursor: pointer;
 }
-a.link {
+a.link, button {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
@@ -315,6 +315,12 @@ a.link.white {
 }
 .nav-section a.register-now {
 	color: #EB6851;
+}
+
+.nav-section button {
+	color: #EB6851;
+	border: none;
+	background-color: #172751;
 }
 .nav-section li:hover {
 	background-color: white;
