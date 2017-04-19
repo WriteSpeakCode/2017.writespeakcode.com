@@ -701,12 +701,6 @@ section.speakers .qcTabTitle .section-title {
 	margin-top: 1em;
 	line-height: 1.2;
 }
-.code-of-conduct-page footer {
-	background-color: #172751;
-	padding: 1em;
-	text-align: center;
-	color: #F1D8D3;
-}
 
 /* FAQ SECTION STYLES */
 .faq-section {
@@ -812,6 +806,7 @@ section.speakers .qcTabTitle .section-title {
 .footer-section {
 	padding: 2em 1em;
 	text-align: center;
+	background-color: #050a17;
 }
 @media (max-width: 768px) {
 	.footer-section {
