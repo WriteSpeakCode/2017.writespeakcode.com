@@ -272,6 +272,24 @@ a.link.white {
 	}
 }
 
+.page-intro .tito-tickets-button {
+	color: #fff;
+	line-height: 60px;
+	background: #EB6851;
+	background-color: #EB6851;
+	border: none;
+	border-radius: 8px;
+	letter-spacing: 1px;
+	color: white;
+	cursor: pointer;
+	padding: 0 40px;
+  margin-top: 50px;
+	font-size: 16px;
+}
+.page-intro .tito-tickets-button:hover {
+  background: rgba(0,0,0,0.3);
+}
+
 /* DESKTOP/TABLET STICKY NAV BAR */
 /* Adds pseudo content before anchor ids so when you link to them, they aren't hidden by the sticky nav*/
 #speakers:target:before,
@@ -313,23 +331,31 @@ a.link.white {
 .nav-section a {
 	color: white;
 }
-.nav-section a.register-now {
+
+.nav-section .tito-tickets-button {
+	border: none;
+	border-radius: 8px;
 	color: #EB6851;
+	background-color: rgba(0,0,0,0);
+	font-size: 12px;
 }
 
-.nav-section button {
-	color: #EB6851;
-	border: none;
-	background-color: #172751;
+@media (min-width: 900px) {
+	.nav-section .tito-tickets-button {
+		font-size: 14px;
+	}
 }
+@media (min-width: 1165px) {
+	.nav-section .tito-tickets-button {
+		font-size: 16px;
+	}
+}
+
 .nav-section li:hover {
 	background-color: white;
 	color: #172751;
 }
-.nav-section a.register-now li:hover {
-	background-color: #EB6851;
-	color: white;
-}
+
 .nav-section .stickyHeader {
   position: fixed;
   background-color: #172751;
@@ -350,10 +376,6 @@ a.link.white {
 	#mobileNav {
 		display: none;
 	}
-}
-
-#qcPriNav #nav-register a {
-	color: #EB6851;
 }
 
 @media only screen and (max-width: 767px) {
