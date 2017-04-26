@@ -606,6 +606,7 @@ section.speakers .qcTabTitle .section-title {
 .sponsors-section .prospectus-quote p {
 	color: #172751;
 	font-size: 18px;
+	font-family: 'PT Sans', sans-serif;
 }
 @media (max-width: 1023px) {
 	.sponsors-section .prospectus-quote {
