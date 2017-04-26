@@ -384,8 +384,10 @@ a.link.white {
 }
 
 /* SCHEDULE SECTION STYLES */
-.schedule-section {
-	padding-top: 60px;
+@media screen and (min-width: 768px) {
+	.schedule-section {
+		padding-top: 60px;
+	}
 }
 .schedule-section .qcTabTitle p.qcTabDesc{
   color: #666;
