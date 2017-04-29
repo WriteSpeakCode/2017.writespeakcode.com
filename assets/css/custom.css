@@ -275,7 +275,7 @@ a.link.white {
 /* DESKTOP/TABLET STICKY NAV BAR */
 /* Adds pseudo content before anchor ids so when you link to them, they aren't hidden by the sticky nav*/
 #speakers:target:before,
-#venue:target:before,
+#location:target:before,
 #sponsors:target:before,
 #code-of-conduct:target:before,
 #faq:target:before {
@@ -530,33 +530,78 @@ section.speakers .qcTabTitle .section-title {
 
 /* VENUE SECTION STYLES */
 
-.venue-section {
+.location-section {
 	background-color: #F1D8D3;
 }
 
-.venue-section .venue-info-bg {
+.location-section .venue-info-bg {
 	background-color: #172751;
 }
 
-.venue-section .venue-info-map {
+.location-section .venue-info-map {
 	margin: 0;
 }
 
-.venue-section .venue-info-bg {
+.location-section .venue-info-bg {
 	padding: 3em;
 	color: #F1D8D3;
 	line-height: 2.4;
 }
 
-.venue-section iframe {
+.location-section iframe {
 	width: 100%;
 	height: 100%;
 	pointer-events: none;
 }
 
-.venue-section .venue-info-content a:hover {
+.location-section .venue-info-content a:hover {
 	color: #F1D8D3;
 }
+
+.location-section .hotel-section{
+  color: #172751;
+  background: #fff;
+  padding: 20px;
+}
+
+.location-section .hotel-blurb{
+  font-size: 18px;
+  color: #172751;
+  padding-top: 20px;
+}
+.location-section .hotel-info{
+  font-size: 17px;
+}
+
+.hotel-section .action a {
+  background: #172751;
+  margin-top: 0;
+}
+
+.hotel-section #qcVenueHotelsHead {
+  font: 500 20px/70px 'Open Sans', sans-serif;
+}
+
+@media only screen and (min-device-width: 768px) {
+  .hotel-section .mobile-hide {
+    color: #000 !important;
+    text-decoration: none !important;
+    pointer-events: none;
+  }
+}
+
+@media (max-width: 768px)  {
+  .hotel-section #qcVenueHotelsHead > div {
+    margin-left: 1px;
+  }
+  .hotel-section .hotel-col {
+    width: 37%;
+  }
+  .hotel-section #qcVenueHotelsHead {
+    font: 500 16px/62px 'Open Sans', sans-serif;
+  }
+}
+
 
 /* SPONSORS SECTION STYLES */
 .sponsors-section {
