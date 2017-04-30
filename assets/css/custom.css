@@ -30,50 +30,50 @@ LG >=1200px
 /* ASSIGN CUSTOM PRIMARY FONT */
 
 #qcPriNav > li > a, .digit, #qcSlideText h1, #qcTabNav li a, .qcTabTitle h1, .qcPageContentTabs > ul li > a, .qcScheduleList > li .time, .qcScheduleList > li h3, .qcScheduleList > li .speakers, .qcScheduleList > li .speakers, #qcAddress h3, #qcVenueHotelsHead, .qcVenueHotels h2, .qcTicketHead h2, .qcTicketAction span, .qcTicketBox h3, .speakers .item-title h3, .speakers .item-desc h3, .abtCountNum, .abtCountTitle, .qcTabTitle #qcAbtHeading, #qcAbtHeadList, #qcFooterLogo h2, #qcFormText h2, .qcTcktRegForm li label, .qcTcktSubmit button {
-	font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* ASSIGN CUSTOM SECONDARY FONT */
 
 body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_title, #qcSlideText p, #qcSlideText #slidenumber, .speakers .item-title p, .speakers .item-desc p, .speakers .item-title .read-more, .speakers .item-desc p.text, .qcFaqHead > div:last-child, #qcFormText p, .qcTcktRegForm li input, .qcTcktRegForm li textarea, .error {
-	font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
-/* 	ASSIGN CUSTOM PRIMARY HIGHLIGHT COLOR */
+/*  ASSIGN CUSTOM PRIMARY HIGHLIGHT COLOR */
 
 #qcWidgets, .qcOrderedList.check li:before {
-	background-color: #EB6851;
+  background-color: #EB6851;
 }
 #qcHeader {
-	border-top: 0;
+  border-top: 0;
 }
 
-/* 	ASSIGN CUSTOM SECONDARY HIGHLIGHT COLOR */
+/*  ASSIGN CUSTOM SECONDARY HIGHLIGHT COLOR */
 
 .qcPageContentTabs > ul li.active:before, .qcScheduleList > li.toggle:hover:before, .qcScheduleList > li.toggle.active:before, .qcVenueHotels li:hover .action a, .qcTicketAction:hover, #qcSubscribeWidget input[type=submit]:hover, .qcTcktSubmit button:hover {
-	background-color: #EB6851;
+  background-color: #EB6851;
 }
 #qcTabNav li.active a, #qcTabNav li.active a:hover, #qcTabNav li.active a i, .qcPageContentTabs > ul li.active > a,  .qcVenueHotels li:hover h2, .speakers .item:hover .item-title .read-more, .speakers .item-desc h3, .speakers .item-desc p, #qcPriFooter nav li a:hover, .copyrights a:hover, .qcCheckboxText a:hover, .error {
-	color: #EB6851;
+  color: #EB6851;
 }
 .qcPageContentTabs > ul li.active:after {
-	border-top-color: #EB6851;
+  border-top-color: #EB6851;
 }
 .copyrights a:hover, .qcCheckboxText a:hover {
-	border-bottom-color: #EB6851;
+  border-bottom-color: #EB6851;
 }
 
-/* 	ASSIGN CUSTOM TERTIARY HIGHLIGHT COLOR */
+/*  ASSIGN CUSTOM TERTIARY HIGHLIGHT COLOR */
 
 #qcCountdown, .qcScheduleList > li.toggle:before, .qcTicketAction, #qcSubscribeWidget input[type=submit] {
-	background-color: #EB6851;
+  background-color: #EB6851;
 }
 #qcPriNav > li.active > a, #qcPriNav ul > li.active > a {
-	color: #EB6851;
+  color: #EB6851;
 }
 
 .qcTabTitle {
-	border-color: #172751;
+  border-color: #172751;
 }
 
 /* END THEME CUSTOMIZATION */
@@ -82,103 +82,103 @@ body, #qcSiteNav h4, #qcPriNav ul > li > a, #qcPriNav ul ul > li > a, .dash_titl
 
 /* Clears focus color on touch devices*/
 body {
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 /* HIDING ELEMENTS */
 .hidden {
-	display: none;
+  display: none;
 }
 
 @media (max-width: 768px) {
-	.hidden-on-xs {
-		display: none;
-	}
+  .hidden-on-xs {
+    display: none;
+  }
 }
 
 /* UTILITY CLASSES */
 .margin-bottom {
-	margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .section-title {
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	color: #172751;
-	font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #172751;
+  font-size: 40px;
 }
 
 .rounded-corners {
-	border-radius: 8px;
+  border-radius: 8px;
 }
 
 /* BUTTON AND LINK STYLES */
 a:not(.button) {
-	color: #EB6851;
+  color: #EB6851;
 }
 
 a:not(.button):hover {
-	color: #172751;
-	cursor: pointer;
+  color: #172751;
+  cursor: pointer;
 }
 a.link {
-	text-transform: uppercase;
-	letter-spacing: 2px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 a.link.coral {
-	color: #EB6851;
+  color: #EB6851;
 }
 a.link.white {
-	color: white;
+  color: white;
 }
 .button.secondary {
-	background-color: #172751;
-	border-radius: 8px;
-	color: white;
-	padding: 8px 16px;
-	display: inline-block;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	line-height: 1.5;
-	margin-top: 16px;
-	font-size: 12px;
-	padding: 16px;
+  background-color: #172751;
+  border-radius: 8px;
+  color: white;
+  padding: 8px 16px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  margin-top: 16px;
+  font-size: 12px;
+  padding: 16px;
 }
 
 @media (min-width:768px) {
-	.button.secondary {
-		margin-top: 0px;
-		font-size: 14px;
-		padding: 12px;
-	}
+  .button.secondary {
+    margin-top: 0px;
+    font-size: 14px;
+    padding: 12px;
+  }
 }
 
 .button.secondary:hover {
-	background-color: #EB6851;
-	cursor: pointer;
+  background-color: #EB6851;
+  cursor: pointer;
 }
 
 @media (min-width:768px) {
-	.section-button-cta {
-		text-align: right;
-	}
+  .section-button-cta {
+    text-align: right;
+  }
 }
 
 /* ---------- SECTION SPECIFIC STYLES ---------- */
 
 /* PAGE INTRO STYLES */
 .page-intro {
-	background: url('../img/WSC-bg.jpg') no-repeat center center fixed;
+  background: url('../img/WSC-bg.jpg') no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-	 padding-bottom: 3em;
+   padding-bottom: 3em;
 }
 
 .title-subheader{
-	color: white;
-	opacity: 0.8;
+  color: white;
+  opacity: 0.8;
 }
 
 .page-intro #qcOpenNav {
@@ -186,8 +186,8 @@ a.link.white {
 }
 
 #qcSlideText .qcTargetLink {
-	color: white;
-	background: #EB6851;
+  color: white;
+  background: #EB6851;
 }
 
 #slidedesc {
@@ -197,79 +197,79 @@ a.link.white {
 }
 
 #qcCountdown {
-	z-index: 11;
+  z-index: 11;
 }
 
 .cfp-banner {
-	margin-top: 2em;
-	padding: 1em;
-	background-color: RGBA(241, 216, 211, .25);
-	color: white;
-	border-radius: 8px;
+  margin-top: 2em;
+  padding: 1em;
+  background-color: RGBA(241, 216, 211, .25);
+  color: white;
+  border-radius: 8px;
 }
 .cfp-banner a {
-	padding-left: 1em;
-	display: inline-block;
+  padding-left: 1em;
+  display: inline-block;
 }
 
 /* adapt page intro for mobile sticky nav  */
 .wsc-logo {
-	padding: 2em;
-	width: 250px;
+  padding: 2em;
+  width: 250px;
 }
 
 @media only screen and (max-width: 767px){
-	.wsc-logo {
-		width: 200px;
-	}
+  .wsc-logo {
+    width: 200px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
-	#slideContent, .page-intro {
-		height: 100%;
-		min-height: 680px;
-	}
-	#qcSlideText {
-		margin-top: 0;
-		height: 100%;
-	}
-	#qcCountdown {
-		background-color: rgba(126, 126, 126, 0.7);
-	}
-	.cta .video .register-cta {
-		display: none;
-	}
+  #slideContent, .page-intro {
+    height: 100%;
+    min-height: 680px;
+  }
+  #qcSlideText {
+    margin-top: 0;
+    height: 100%;
+  }
+  #qcCountdown {
+    background-color: rgba(126, 126, 126, 0.7);
+  }
+  .cta .video .register-cta {
+    display: none;
+  }
 }
 
 @media only screen and (max-height: 510px) and (max-width: 767px) {
-	#slideContent, .page-intro {
-		height: calc(100% + 60px);
-		min-height: 600px;
-	}
+  #slideContent, .page-intro {
+    height: calc(100% + 60px);
+    min-height: 600px;
+  }
 }
 
 @media only screen and (max-width: 335px) {
-	#qcSlideText h1 {
-	  font-size: 28px; /* shrink headline to fit on extra tiny screens */
-	}
+  #qcSlideText h1 {
+    font-size: 28px; /* shrink headline to fit on extra tiny screens */
+  }
 }
 
 /* INTRO REGISTER NOW BUTTON */
 
 #qcSlideText .cta {
-	color: #fff;
-	line-height: 60px;
-	background: #EB6851;
-	text-transform: uppercase;
-	border-radius: 8px;
+  color: #fff;
+  line-height: 60px;
+  background: #EB6851;
+  text-transform: uppercase;
+  border-radius: 8px;
 }
 #qcSlideText .cta:hover {
-	background: rgba(0,0,0,0.3);
+  background: rgba(0,0,0,0.3);
 }
 @media only screen and (max-width: 767px) {
-	#qcSlideText .cta.video {
-		display: none;
-	}
+  #qcSlideText .cta.video {
+    display: none;
+  }
 }
 
 /* DESKTOP/TABLET STICKY NAV BAR */
@@ -285,52 +285,52 @@ a.link.white {
 }
 
 .nav-section {
-	background-color: #172751;
-	text-align: center;
+  background-color: #172751;
+  text-align: center;
 }
 .nav-section .middleHeader {
-	position: absolute;
-	background-color: #172751;
-	text-align: center;
-	width: 100%;
+  position: absolute;
+  background-color: #172751;
+  text-align: center;
+  width: 100%;
 }
 .nav-section ul li {
-	display: inline-block;
-	padding: 1em;
-	font-size: 12px;
+  display: inline-block;
+  padding: 1em;
+  font-size: 12px;
 }
 @media (min-width: 900px) {
-	.nav-section ul li {
-		padding: 1em 1.25em;
-		font-size: 14px;
-	}
+  .nav-section ul li {
+    padding: 1em 1.25em;
+    font-size: 14px;
+  }
 }
 @media (min-width: 1165px) {
-	.nav-section ul li {
-		font-size: 16px;
-	}
+  .nav-section ul li {
+    font-size: 16px;
+  }
 }
 .nav-section a {
-	color: white;
+  color: white;
 }
 .nav-section a.register-now {
-	color: #EB6851;
+  color: #EB6851;
 }
 .nav-section li:hover {
-	background-color: white;
-	color: #172751;
+  background-color: white;
+  color: #172751;
 }
 .nav-section a.register-now li:hover {
-	background-color: #EB6851;
-	color: white;
+  background-color: #EB6851;
+  color: white;
 }
 .nav-section .stickyHeader {
   position: fixed;
   background-color: #172751;
   top: 0px;
-	width: 100%;
-	/* Prevents pseudo elements from appearing on top of nav */
-	z-index: 100;
+  width: 100%;
+  /* Prevents pseudo elements from appearing on top of nav */
+  z-index: 100;
 }
 @media (max-width: 767px){
   .nav-section {
@@ -341,57 +341,57 @@ a.link.white {
 /* MOBILE STICKY BAR */
 
 @media only screen and (min-width: 768px) {
-	#mobileNav {
-		display: none;
-	}
+  #mobileNav {
+    display: none;
+  }
 }
 
 #qcPriNav #nav-register a {
-	color: #EB6851;
+  color: #EB6851;
 }
 
 @media only screen and (max-width: 767px) {
-	#mobileNav {
-		background-color: #172751;
-		position: fixed;
-	  bottom: 0;
-	  left: 0;
-	  z-index: 990;
-	  width: 100%;
-	  height: 64px;
-	}
-	#qcOpenNav {
-	  background: url(../img/theme/openNavInvert.png) center center;
-	  top: 6px;
-	}
+  #mobileNav {
+    background-color: #172751;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 990;
+    width: 100%;
+    height: 64px;
+  }
+  #qcOpenNav {
+    background: url(../img/theme/openNavInvert.png) center center;
+    top: 6px;
+  }
 
-	/* MOBILE STICKY REGISTER NOW BUTTON */
+  /* MOBILE STICKY REGISTER NOW BUTTON */
 
-	.cta {
-		padding: 10px 20px;
-		color: #fff;
-		line-height: 64px;
-		background: #EB6851;
-		text-transform: uppercase;
-		border-radius: 30px;
-	}
+  .cta {
+    padding: 10px 20px;
+    color: #fff;
+    line-height: 64px;
+    background: #EB6851;
+    text-transform: uppercase;
+    border-radius: 30px;
+  }
 }
 
 @media only screen and (max-width: 343px){
-	#mobile-cta {
-		text-transform: none; /* Stops button breaking in half on tiny screens */
-	}
+  #mobile-cta {
+    text-transform: none; /* Stops button breaking in half on tiny screens */
+  }
 }
 
 /* SCHEDULE SECTION STYLES */
 @media screen and (min-width: 768px) {
-	.schedule-section {
-		padding-top: 60px;
-	}
+  .schedule-section {
+    padding-top: 60px;
+  }
 }
 .schedule-section .qcTabTitle p.qcTabDesc{
   color: #666;
-	font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 .schedule-section .qcPageContentTabs.qcScheduleTabs .box {
@@ -441,10 +441,10 @@ a.link.white {
 }
 
 @media only screen and (max-width: 1080px){
-	.schedule-section .qcTabTitle p.qcTabDesc {
-	    border: none;
-	    padding: 20px 0px 0px 0px;
-	  }
+  .schedule-section .qcTabTitle p.qcTabDesc {
+      border: none;
+      padding: 20px 0px 0px 0px;
+    }
 }
 
 @media only screen and (max-width: 1080px){
@@ -473,7 +473,7 @@ a.link.white {
 }
 
 .schedule-section .qcPageContentTabs > ul li {
-	width: 24%;
+  width: 24%;
 }
 
 @media (max-width: 519px) {
@@ -506,71 +506,72 @@ a.link.white {
 /* SPEAKERS SECTION STYLES */
 /* If speaker name is long keeps design consistent*/
 section.speakers .item .item-title {
- 	min-height: 144px;
-	margin-top: 0;
-	padding-bottom: 50px;
+  min-height: 144px;
+  margin-top: 0;
+  padding-bottom: 50px;
 }
 @media (min-width: 1000px) {
-	section.speakers .item .item-title {
-		padding-bottom: 80px;
-	}
+  section.speakers .item .item-title {
+    padding-bottom: 80px;
+  }
 }
 section.speakers .item-title h3 {
-	font-size: 16px;
+  font-size: 16px;
 }
 section.speakers {
-	background-color: #172751;
+  background-color: #172751;
 }
 section.speakers .qcTabTitle {
-	border-color: #EB6851;
+  border-color: #EB6851;
 }
 section.speakers .qcTabTitle .section-title {
-	color: #EB6851;
+  color: #EB6851;
 }
 
 /* VENUE SECTION STYLES */
 
 .location-section {
-	background-color: #F1D8D3;
+  background-color: #F1D8D3;
 }
 
 .location-section .venue-info-bg {
-	background-color: #172751;
+  background-color: #172751;
 }
 
 .location-section .venue-info-map {
-	margin: 0;
+  margin: 0;
 }
 
 .location-section .venue-info-bg {
-	padding: 3em;
-	color: #F1D8D3;
-	line-height: 2.4;
+  padding: 3em;
+  color: #F1D8D3;
+  line-height: 2.4;
 }
 
 .location-section iframe {
-	width: 100%;
-	height: 100%;
-	pointer-events: none;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
 }
 
 .location-section .venue-info-content a:hover {
-	color: #F1D8D3;
+  color: #F1D8D3;
 }
 
 .location-section .hotel-section{
-  color: #172751;
+  color: #444;
   background: #fff;
   padding: 20px;
 }
 
 .location-section .hotel-blurb{
-  font-size: 18px;
-  color: #172751;
+  font-size: 16px;
+  color: rgb(102, 102, 102);
   padding-top: 20px;
 }
 .location-section .hotel-info{
   font-size: 17px;
+  line-height: 1.5em;
 }
 
 .hotel-section .action a {
@@ -583,8 +584,8 @@ section.speakers .qcTabTitle .section-title {
 }
 
 @media only screen and (min-device-width: 768px) {
-  .hotel-section .mobile-hide {
-    color: #000 !important;
+  .hotel-section .tel-mobile-show {
+    color: #444 !important;
     text-decoration: none !important;
     pointer-events: none;
   }
@@ -605,200 +606,200 @@ section.speakers .qcTabTitle .section-title {
 
 /* SPONSORS SECTION STYLES */
 .sponsors-section {
-	margin-bottom: 3em;
+  margin-bottom: 3em;
 }
 
 .sponsors-section .sponsor-level {
-	border: 2px solid #F1D8D3;
-	border-radius: 16px;
-	margin: 2em 0;
-	padding: 1em;
+  border: 2px solid #F1D8D3;
+  border-radius: 16px;
+  margin: 2em 0;
+  padding: 1em;
 }
 
 .sponsors-section h3 {
-	font-size: 28px;
-	color:#172751;
-	margin-top: 16px;
-	margin-bottom: 16px;
-	padding-bottom: 8px;
+  font-size: 28px;
+  color:#172751;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
 }
 
 .sponsors-section p {
-	line-height: 1.5em;
-	margin-bottom: 16px;
+  line-height: 1.5em;
+  margin-bottom: 16px;
 }
 
 .sponsors-section img {
-	width: 100%;
+  width: 100%;
 }
 @media (max-width: 768px) {
-	.sponsors-section .logo {
-		margin-top: 1em;
-	}
+  .sponsors-section .logo {
+    margin-top: 1em;
+  }
 }
 @media (max-width:1022px) {
-	.sponsors-section img {
-		max-width: 300px;
-	}
+  .sponsors-section img {
+    max-width: 300px;
+  }
 }
 
 .sponsors-section .prospectus-quote {
-	background-color: #F1D8D3;
-	padding: 32px;
-	margin-left: 1em;
+  background-color: #F1D8D3;
+  padding: 32px;
+  margin-left: 1em;
 }
 
 .sponsors-section .prospectus-quote p {
-	color: #172751;
-	font-size: 18px;
-	font-family: 'PT Sans', sans-serif;
+  color: #172751;
+  font-size: 18px;
+  font-family: 'PT Sans', sans-serif;
 }
 @media (max-width: 1023px) {
-	.sponsors-section .prospectus-quote {
-		display: none;
-	}
+  .sponsors-section .prospectus-quote {
+    display: none;
+  }
 }
 
 /* CODE OF CONDUCT SECTION & PAGE STYLES */
 .code-of-conduct-section {
-	background-color: #172751;
-	color: #F1D8D3;
+  background-color: #172751;
+  color: #F1D8D3;
 }
 .code-of-conduct-section .section-title {
-	color: #F1D8D3;
+  color: #F1D8D3;
 }
 .code-of-conduct-section h3 {
-	font-size: 1.5em;
-	margin-bottom: .5em;
+  font-size: 1.5em;
+  margin-bottom: .5em;
 }
 .code-of-conduct-section .quick-version-description {
-	line-height: 1.7;
-	font-size: 17px;
+  line-height: 1.7;
+  font-size: 17px;
 }
 .code-of-conduct-section .need-help {
-	font-size: 18px;
+  font-size: 18px;
 }
 .code-of-conduct-section .need-help,
 .code-of-conduct-page .need-help {
-	background-color: #F1D8D3;
-	color:  #172751;
-	padding: 2em;
-	line-height: 1.5;
+  background-color: #F1D8D3;
+  color:  #172751;
+  padding: 2em;
+  line-height: 1.5;
 }
 .code-of-conduct-section .qcTabTitle {
   border-color: #F1D8D3;
 }
 .code-of-conduct-section .button,
 .code-of-conduct-page .button {
-	color: #EB6851;
-	border: 2px solid #EB6851;
+  color: #EB6851;
+  border: 2px solid #EB6851;
 }
 .code-of-conduct-section .button:hover,
 .code-of-conduct-page .button:hover {
-	color: #F1D8D3;
+  color: #F1D8D3;
 }
 .code-of-conduct-page .button {
-	background-color: rgba(0,0,0,0);
-	margin-top: 1em;
-	text-align: center;
+  background-color: rgba(0,0,0,0);
+  margin-top: 1em;
+  text-align: center;
 }
 @media only screen and (max-width: 767px) {
-	.code-of-conduct-page .page-intro {
-	  height: auto;
-	  min-height: 0;
-	}
+  .code-of-conduct-page .page-intro {
+    height: auto;
+    min-height: 0;
+  }
 }
 .code-of-conduct-page section {
-	padding: 3em 0;
-	line-height: 1.8;
+  padding: 3em 0;
+  line-height: 1.8;
 }
 .code-of-conduct-page .page-intro h1 {
-	font-size: 2.5em;
-	color: white;
-	text-transform: uppercase;
-	line-height: 1.5;
+  font-size: 2.5em;
+  color: white;
+  text-transform: uppercase;
+  line-height: 1.5;
 }
 .code-of-conduct-page h3 {
-	color: #172751;
-	font-size: 1.5em;
+  color: #172751;
+  font-size: 1.5em;
 }
 .code-of-conduct-page h4 {
-	margin: 1em 0;
-	font-size: 1.15em;
-	color: #172751;
+  margin: 1em 0;
+  font-size: 1.15em;
+  color: #172751;
 }
 .code-of-conduct-page p {
-	margin: 1em 0;
-	line-height: 1.5;
+  margin: 1em 0;
+  line-height: 1.5;
 }
 .code-of-conduct-page .quick-version {
-	border-bottom: 3px solid #EB6851;
-	padding: 2em 0;
+  border-bottom: 3px solid #EB6851;
+  padding: 2em 0;
 }
 .code-of-conduct-page .long-version {
-	padding: 2em 0;
+  padding: 2em 0;
 }
 .code-of-conduct-page .long-version ul,
 .code-of-conduct-page .need-help ul {
-	list-style-type: disc;
-	padding-left: 1em;
-	margin-bottom: 2em;
+  list-style-type: disc;
+  padding-left: 1em;
+  margin-bottom: 2em;
 }
 .code-of-conduct-page .long-version ul li,
 .code-of-conduct-page .need-help ul li {
-	margin-top: 1em;
-	line-height: 1.2;
+  margin-top: 1em;
+  line-height: 1.2;
 }
 
 /* FAQ SECTION STYLES */
 .faq-section {
-	background: url('../img/WSC-coral-bg.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	min-height: 550px
+  background: url('../img/WSC-coral-bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 550px
 }
 .faq-section .toggle{
-	background-color: #ffffff;
-	line-height: 26px;
+  background-color: #ffffff;
+  line-height: 26px;
 }
 .faq-section .toggle div {
-	padding: 0.5em 0;
+  padding: 0.5em 0;
 }
 .faq-section .qcScheduleList > li.active{
-	background-color: #ffffff;
+  background-color: #ffffff;
 }
 .faq-section .qcFaqList li.active .qcTogContent {
-	background-color: #ffffff;
+  background-color: #ffffff;
 }
 .faq-section .qcFaqList .qcTogContent,
 .faq-section .qcFaqList div:first-of-type {
-	padding: 20px 0;
-	color: #172751;
+  padding: 20px 0;
+  color: #172751;
 }
 .faq-section .qcScheduleList > li {
-	min-height: 62px;
+  min-height: 62px;
 }
 .faq-section .qcScheduleList > li.toggle:before {
-	line-height: 62px;
+  line-height: 62px;
 }
 .faq-section #qcFaqContentTabs > ul li.active > a,
 .faq-section #qcFaqContentTabs > ul li.active:before {
-	color: #172751;
+  color: #172751;
 }
 .faq-section .qcScheduleList > li.toggle:before,
 .faq-section #qcFaqContentTabs > ul li.active:before {
-	background-color: #172751;
+  background-color: #172751;
 }
 .faq-section #qcFaqContentTabs > ul li.active:after {
-	border-top-color: #172751;
+  border-top-color: #172751;
 }
 .faq-section .qcPageContentTabs > ul li > a {
-	color: #F1D8D3;
+  color: #F1D8D3;
 }
 .faq-section .qcPageContentTabs > ul {
-	border-bottom-color: #F1D8D3;
+  border-bottom-color: #F1D8D3;
 }
 .faq-section .qcPageContentTabs > ul li {
   float: none;
@@ -810,67 +811,67 @@ section.speakers .qcTabTitle .section-title {
   padding-bottom: 1em;
 }
 .faq-section #qcFaqContentTabs > ul li.active:before {
-	display: none;
+  display: none;
 }
 .faq-section #qcFaqContentTabs > ul li.active:after {
-	display: none;
+  display: none;
 }
 @media (min-width: 500px) {
-	.faq-section .qcPageContentTabs > ul li {
-		width: 33%;
-		float: left;
-		padding-bottom: 0;
-	}
-	.faq-section .qcPageContentTabs > ul li:not(:last-child) {
-		border-right: 1px solid #172751;
-	}
-	.faq-section .qcPageContentTabs > ul li a {
-		font-size: 12px;
-	}
-	.faq-section #qcFaqContentTabs > ul li.active:before {
-		display: block;
-	}
-	.faq-section #qcFaqContentTabs > ul li.active:after {
-		display: block;
-	}
+  .faq-section .qcPageContentTabs > ul li {
+    width: 33%;
+    float: left;
+    padding-bottom: 0;
+  }
+  .faq-section .qcPageContentTabs > ul li:not(:last-child) {
+    border-right: 1px solid #172751;
+  }
+  .faq-section .qcPageContentTabs > ul li a {
+    font-size: 12px;
+  }
+  .faq-section #qcFaqContentTabs > ul li.active:before {
+    display: block;
+  }
+  .faq-section #qcFaqContentTabs > ul li.active:after {
+    display: block;
+  }
 }
 @media (min-width: 700px) {
-	.faq-section .qcPageContentTabs > ul li a {
-		font-size: 16px;
-	}
+  .faq-section .qcPageContentTabs > ul li a {
+    font-size: 16px;
+  }
 }
 .faq-section ul.faq-content-list {
-	margin-left: 1em;
-	list-style: disc;
+  margin-left: 1em;
+  list-style: disc;
 }
 .faq-section ul.faq-content-list li {
-	position: static;
-	border: none;
-	cursor: auto;
-	margin: 1em 0;
+  position: static;
+  border: none;
+  cursor: auto;
+  margin: 1em 0;
 }
 
 /* FOOTER STYLES */
 .footer-section {
-	padding: 2em 1em;
-	text-align: center;
-	background-color: #050a17;
+  padding: 2em 1em;
+  text-align: center;
+  background-color: #050a17;
 }
 @media (max-width: 768px) {
-	.footer-section {
-		padding-bottom: 80px;
-	}
-	.footer-section .social-links,
-	.footer-section .past-years {
-		padding-top: 1em;
-	}
+  .footer-section {
+    padding-bottom: 80px;
+  }
+  .footer-section .social-links,
+  .footer-section .past-years {
+    padding-top: 1em;
+  }
 }
 .footer-section a:hover {
-	color: #F1D8D3;
+  color: #F1D8D3;
 }
 .footer-section .past-years h5,
 .footer-section .past-years li,
 .footer-section .social-links li {
   display: inline-block;
-	padding-left: .75em;
+  padding-left: .75em;
 }
