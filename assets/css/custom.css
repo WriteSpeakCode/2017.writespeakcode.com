@@ -565,12 +565,13 @@ section.speakers .qcTabTitle .section-title {
 }
 
 .location-section .hotel-blurb{
-  font-size: 18px;
-  color: #172751;
+  font-size: 16px;
+  color: rgb(102, 102, 102);
   padding-top: 20px;
 }
 .location-section .hotel-info{
   font-size: 17px;
+  line-height: 1.5em;
 }
 
 .hotel-section .action a {
@@ -583,7 +584,7 @@ section.speakers .qcTabTitle .section-title {
 }
 
 @media only screen and (min-device-width: 768px) {
-  .hotel-section .mobile-hide {
+  .hotel-section .tel-mobile-show {
     color: #000 !important;
     text-decoration: none !important;
     pointer-events: none;
