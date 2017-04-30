@@ -96,6 +96,27 @@ body {
   }
 }
 
+/* Styles for all section titles and descriptions */
+.qcTabTitle p.qcTabDesc{
+  color: #666;
+	font-family: "PT Sans", sans-serif;
+	margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1080px){
+  .qcTabTitle > .col-8 {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1080px){
+	.qcTabTitle p.qcTabDesc {
+	    border: none;
+	    padding: 20px 0px 0px 0px;
+	  }
+}
+
+
 /* UTILITY CLASSES */
 .margin-bottom {
   margin-bottom: 32px;
@@ -127,6 +148,9 @@ a.link {
 }
 a.link.coral {
   color: #EB6851;
+}
+a.link.coral:hover {
+	color: #172751;
 }
 a.link.white {
   color: white;
@@ -225,20 +249,12 @@ a.link.white {
 }
 
 @media only screen and (max-width: 767px) {
-  #slideContent, .page-intro {
-    height: 100%;
-    min-height: 680px;
-  }
-  #qcSlideText {
-    margin-top: 0;
-    height: 100%;
-  }
-  #qcCountdown {
-    background-color: rgba(126, 126, 126, 0.7);
-  }
-  .cta .video .register-cta {
-    display: none;
-  }
+	#qcCountdown {
+		background-color: rgba(126, 126, 126, 0.7);
+	}
+	.cta .video .register-cta {
+		display: none;
+	}
 }
 
 @media only screen and (max-height: 510px) and (max-width: 767px) {
@@ -389,10 +405,6 @@ a.link.white {
     padding-top: 60px;
   }
 }
-.schedule-section .qcTabTitle p.qcTabDesc{
-  color: #666;
-  font-family: "PT Sans", sans-serif;
-}
 
 .schedule-section .qcPageContentTabs.qcScheduleTabs .box {
     border: 1px #EB6851 solid;
@@ -432,19 +444,6 @@ a.link.white {
     line-height: 34px;
     font-size: 13px ;
   }
-}
-
-@media only screen and (max-width: 1080px){
-  .schedule-section .qcTabTitle > .col-8 {
-    display: block;
-  }
-}
-
-@media only screen and (max-width: 1080px){
-  .schedule-section .qcTabTitle p.qcTabDesc {
-      border: none;
-      padding: 20px 0px 0px 0px;
-    }
 }
 
 @media only screen and (max-width: 1080px){
