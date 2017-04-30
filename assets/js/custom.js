@@ -13,6 +13,15 @@ $(document).ready(function() {
     $('.venue-info-map iframe').css("pointer-events", "none");
   });
 
+  $("#tito-button").click(function(e) {
+    if (window.location.protocol != "https:") {
+      console.log('not https');
+      window.location.replace("https://ti.to/write-speak-code/2017-conference/")
+    } else {
+      console.log(window.location.protocol);
+    }
+    console.log( "Handler for .click() called.")
+  });
 });
 
 //sticky desktop nav bar
