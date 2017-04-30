@@ -142,7 +142,7 @@ a:not(.button):hover {
   color: #172751;
   cursor: pointer;
 }
-a.link {
+a.link, button {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -288,6 +288,27 @@ a.link.white {
   }
 }
 
+/* TITO BUTTON - INTRO */
+
+.page-intro .tito-tickets-button {
+  color: #fff;
+  line-height: 60px;
+  background: #EB6851;
+  background-color: #EB6851;
+  border: none;
+  border-radius: 8px;
+  letter-spacing: 1px;
+  color: white;
+  cursor: pointer;
+  padding: 0 40px;
+  margin-top: 50px;
+  font-size: 16px;
+}
+.page-intro .tito-tickets-button:hover {
+   background: rgba(0,0,0,0.3);
+}
+
+
 /* DESKTOP/TABLET STICKY NAV BAR */
 /* Adds pseudo content before anchor ids so when you link to them, they aren't hidden by the sticky nav*/
 #speakers:target:before,
@@ -315,14 +336,27 @@ a.link.white {
   padding: 1em;
   font-size: 12px;
 }
+.nav-section .tito-tickets-button {
+  border: none;
+  border-radius: 8px;
+  color: #EB6851;
+  background-color: rgba(0,0,0,0);
+  font-size: 12px;
+}
 @media (min-width: 900px) {
   .nav-section ul li {
     padding: 1em 1.25em;
     font-size: 14px;
   }
+  .nave-section .tito-tickets-button {
+    font-size: 14px;
+  }
 }
 @media (min-width: 1165px) {
   .nav-section ul li {
+    font-size: 16px;
+  }
+  .nav-section .tito-tickets-button {
     font-size: 16px;
   }
 }
