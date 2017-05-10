@@ -884,6 +884,38 @@ section.speakers .qcTabTitle .section-title {
   margin: 1em 0;
 }
 
+/* NEWSLETTER SUBSCRIPTION SECTION */
+
+#mailing-list{
+  border: 2px solid #F1D8D3;
+  border-radius: 16px;
+}
+
+.qcWidgetTitle{
+  color: #172751;
+}
+
+#qcWidgets {
+  background-color: #ffffff;
+}
+
+#qcSubscribeWidget input[type=text], input[type=email] {
+  border: 2px solid #F1D8D3;
+  border-radius: 16px;
+  width: auto;
+}
+
+#qcSubscribeWidget input[type=submit] {
+  margin: 0;
+  background: #eb6851;
+  border-radius: 16px;
+}
+#qcSubscribeWidget input[type=submit]:hover {
+  background: #172751;
+}
+
+
+
 /* FOOTER STYLES */
 .footer-section {
   padding: 2em 1em;
