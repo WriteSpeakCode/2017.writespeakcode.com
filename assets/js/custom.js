@@ -18,6 +18,16 @@ $(document).ready(function() {
     $('.venue-info-map iframe').css("pointer-events", "none");
   });
 
+  // Toggle Speaker Bios
+  $(".gridder").gridderExpander({
+    scroll: true,
+    scrollTo: "listitem", // "panel" or "listitem"
+    scrollOffset: 68,
+    animationSpeed: 500,
+    animationEasing: "easeInOutExpo",
+    showNav: false
+  });
+
 });
 
 //sticky desktop nav bar
