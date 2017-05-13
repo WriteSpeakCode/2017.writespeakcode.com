@@ -12,25 +12,16 @@ $(document).ready(function() {
   $( ".venue-info-map" ).mouseleave(function() {
     $('.venue-info-map iframe').css("pointer-events", "none");
   });
-  // Toggles speaker bios individually
-  $('.speaker-profile').click(function(){
-    $(this).toggleClass('is-expanded');
-    $(this.lastElementChild).slideToggle();
-  });
 
-  // Toggles ALL speaker bios
-  $('.js-toggle-bios').click(function(){
-    if (this.textContent == "Expand All Bios") {
-      $('.speaker-profile').addClass('is-expanded');
-      $('.js-bio').slideDown();
-    } else {
-      $('.speaker-profile').removeClass('is-expanded');
-      $('.js-bio').slideUp();
-    }
-    $(this).text(function(i, text){
-        return text === "Expand All Bios" ? "Collapse All Bios" : "Expand All Bios";
-    })
-  });
+  // Toggle Speaker Bios
+    $(".gridder").gridderExpander({
+      scroll: true,
+      scrollTo: "listitem", // "panel" or "listitem"
+      scrollOffset: 68,
+      animationSpeed: 500,
+      animationEasing: "easeInOutExpo",
+      showNav: false
+    });
 
 });
 
