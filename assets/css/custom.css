@@ -886,25 +886,21 @@ section.speakers .qcTabTitle .section-title {
 
 /* NEWSLETTER SUBSCRIPTION SECTION */
 
-#mailing-list{
-  display: block;
+.mailing-list-title{
   text-align: center;
-}
-
-.qcWidgetTitle{
   color: #172751;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 2em 1em;
 }
-
-#qcWidgets {
-  background-color: #ffffff;
-}
-
 
 .field {
   position: relative;
   padding-bottom: 1.875em;
   margin-bottom: 1.875em;
   max-width: 20em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .field__label {
@@ -939,11 +935,13 @@ section.speakers .qcTabTitle .section-title {
   border-bottom-color: #EB6851;
 }
 
-
 #qcSubscribeWidget input[type=submit] {
-  margin: 0;
   background: #eb6851;
   border-radius: 16px;
+  max-width: 20em;
+}
+#qcSubscribeWidget input[type="text"], input[type="email"] {
+  text-indent: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -951,11 +949,15 @@ section.speakers .qcTabTitle .section-title {
     width: auto;
     text-align: center;
   }
+}
+
+#qcSubscribeWidget {
+  margin-bottom: 2em;
+}
 
 #qcSubscribeWidget input[type=submit]:hover {
   background: #172751;
 }
-
 
 
 /* FOOTER STYLES */
