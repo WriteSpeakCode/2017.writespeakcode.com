@@ -887,6 +887,7 @@ section.speakers .qcTabTitle .section-title {
 /* NEWSLETTER SUBSCRIPTION SECTION */
 
 #mailing-list{
+  display: block;
   text-align: center;
 }
 
@@ -898,17 +899,46 @@ section.speakers .qcTabTitle .section-title {
   background-color: #ffffff;
 }
 
-#qcSubscribeWidget input[type=text], input[type=email] {
-  border: 2px solid #F1D8D3;
-  border-radius: 16px;
+
+.field {
+  position: relative;
+  padding-bottom: 1.875em;
+  margin-bottom: 1.875em;
+  max-width: 20em;
 }
 
-@media screen and (min-width: 768px) {
-  #qcSubscribeWidget input[type=text], input[type=email] {
-    width: auto;
-  }
-
+.field__label {
+  display: block;
+  position: absolute;
+  top: 1.25em;
+  font-size: 0.75em;
+  line-height: 1.25em;
+  font-weight: bold;
+  color: #EB6851;
 }
+
+.field__input {
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  font-size: 1em;
+  line-height: 1.25em;
+  padding: 0.3125em 0;
+  height: 1.875em;
+  width: 100%;
+  border: 0;
+  outline: none;
+  border-bottom: 0.125em solid #bbb;
+}
+.field__input:valid {
+  position: relative;
+  top: 1.875em;
+  margin-top: -1.875em;
+}
+.field__input:focus {
+  border-bottom-color: #EB6851;
+}
+
 
 #qcSubscribeWidget input[type=submit] {
   margin: 0;
@@ -919,6 +949,7 @@ section.speakers .qcTabTitle .section-title {
 @media screen and (min-width: 768px) {
   #qcSubscribeWidget input[type=submit] {
     width: auto;
+    text-align: center;
   }
 
 #qcSubscribeWidget input[type=submit]:hover {
