@@ -48,7 +48,7 @@ Merge your branch to master on GitHub & delete your branch
 Push to Heroku production:
 
 - Navigate to [production deployment page](https://dashboard.heroku.com/apps/writespeakcode2017-production/deploy/github)
-- Scroll to `Manual deploy` & select your branch from `Deploy a GitHub branch`
+- Scroll to `Manual deploy` & select 'master' branch from `Deploy a GitHub branch`
 - Click the `Deploy Branch` button
 - Verify the [production website](https://2017.writespeakcode.com/)
  - Looks good on Chrome, Safari, and mobile
