@@ -34,3 +34,21 @@ $(function() {
         }
     });
 });
+
+///Mailing list subscription form
+
+$(document).ready(function () {
+    $('input[type="text"], input[type="email"]').focusin(function(){
+        $(this).prev('label').addClass('label-floated');
+        $(this).parent().addClass('solid-border');
+    });
+    $('input[type="text"], input[type="email"]').focusout(function(){
+        if ($(this).val().length > 0) {
+            $(this).prev('label').addClass('label-floated');
+            $(this).parent().addClass('solid-border');
+        } else {
+            $(this).prev('label').removeClass('label-floated');
+            $(this).parent().removeClass('solid-border');
+        }
+    });
+});
