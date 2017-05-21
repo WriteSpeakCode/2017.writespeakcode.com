@@ -449,11 +449,6 @@ a.link.white {
   border-bottom: 1px #eb6851 solid;
 }
 
-.schedule-section .wsc-schedule-tabs > ul li > a{
-  letter-spacing: 0px;
-  font-size: 15px !important;
-}
-
 .schedule-section .bullets {
   padding: 15px 0px 15px 30px;
   list-style: disc;
@@ -480,59 +475,34 @@ a.link.white {
   }
 }
 
-@media only screen and (max-width: 1080px){
-  .schedule-section .wsc-schedule-tabs > ul li > a {
-    font-size: 13px;
+@media screen and (max-width: 599px) {
+  .schedule-section .wsc-schedule-tabs li {
+    width: 100%;
+    border-right: 0;
+    padding-bottom: 1em;
+  }
+
+  .schedule-section .qcScheduleTabs li a {
+    font-size: 18px;
+  }
+  .qcPageContentTabs > ul li.active::before,
+  .qcPageContentTabs > ul li.active::after {
+    display: none;
   }
 }
 
-@media only screen and (max-device-width : 1080px) and (min-device-width : 768px){
-  .schedule-section .wsc-schedule-tabs > ul li > a {
-    font-size: 13px;
-    width: 123px;
+@media screen and (min-width: 600px) {
+  .schedule-section .wsc-schedule-tabs li a {
+    font-size: 12px;
+  }
+  .schedule-section .wsc-schedule-tabs li {
+    width: 24%;
   }
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
-  .schedule-section .wsc-schedule-tabs > ul li > a {
-    font-size: 14px;
-  }
-}
-
-@media only screen and (max-width: 600px){
-  .schedule-section .wsc-schedule-tabs > ul li > a {
-    font-size: 12px !important;
-  }
-}
-
-.schedule-section .qcPageContentTabs > ul li {
-  width: 24%;
-}
-
-@media (max-width: 519px) {
-  .schedule-section .wsc-schedule-tabs > ul li.active:before {
-    top: 61px !important;
-  }
-  .schedule-section .wsc-schedule-tabs > ul li.active:after  {
-    top: 65px !important;
-  }
-}
-
-@media (min-width: 600px) {
-  .schedule-section .wsc-schedule-tabs > ul li.active:before {
-    top: 61px !important;
-  }
-  .schedule-section .wsc-schedule-tabs > ul li.active:after  {
-    top: 65px !important;
-  }
-}
-
-@media (min-width: 638px) {
-  .schedule-section .wsc-schedule-tabs > ul li.active:before {
-    top: 41px !important;
-  }
-  .schedule-section .wsc-schedule-tabs > ul li.active:after  {
-    top: 45px !important;
+@media screen and (min-width: 900px) {
+  .schedule-section .qcScheduleTabs li a {
+    font-size: 16px;
   }
 }
 
