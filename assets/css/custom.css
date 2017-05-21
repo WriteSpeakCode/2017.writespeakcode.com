@@ -524,6 +524,22 @@ section.speakers .qcTabTitle .section-title {
 	cursor: pointer;
 	filter: none;
 }
+.speakers .name-title::before {
+	content: "+";
+  color: #EB6851;
+  font-weight: bold;
+  font-size: 40px;
+  position: absolute;
+	top: 0px;
+  left: -30px;
+  z-index: 1;
+}
+@media screen and (max-width: 400px) {
+	.speakers .name-title::before {
+	  font-size: 30px;
+	  left: -20px;
+	}
+}
 .speakers .gridder-list.selectedItem img {
 	filter: none;
 }
@@ -613,12 +629,17 @@ section.speakers .qcTabTitle .section-title {
     width: 33.33%;
   }
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 860px) {
   .speaker-grid .gridder-list {
     width: 25%;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1140px) {
+  .speaker-grid .gridder-list {
+    width: 20%;
+  }
+}
+@media screen and (min-width: 1320px) {
   .speaker-grid .gridder-list {
     width: 16.66667%;
   }
