@@ -1008,50 +1008,72 @@ section.speakers .qcTabTitle .section-title {
 }
 
 .field {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 15px;
   position: relative;
-  padding-bottom: 1.875em;
-  margin-bottom: 1.875em;
-  max-width: 20em;
-  margin-left: auto;
-  margin-right: auto;
 }
+    .field::before, .field::after   {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: 0;
+        background-color: #EB6851;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
 
 .field__label {
-  display: block;
   position: absolute;
-  top: 1.25em;
-  font-size: 0.75em;
-  line-height: 1.25em;
-  font-weight: bold;
+  top: 50%;
+  left: 0;
+  font-size: 14px;
   color: #EB6851;
+  text-transform: uppercase;
+  pointer-events: none;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -ms-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+label.label-floated {
+  top: -5px;
+  font-size: 11px;
+}
+
+input:focus, input:active {
+  outline: none;
 }
 
 .field__input {
-  position: absolute;
-  display: block;
-  box-sizing: border-box;
-  font-size: 1em;
-  line-height: 1.25em;
-  padding: 0.3125em 0;
-  height: 1.875em;
-  width: 100%;
-  border: 0;
-  outline: none;
-  border-bottom: 0.125em solid #bbb;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  color: #3f51b5;
+  font-size: 15px;
+  padding: 10px 0;
 }
-.field__input:valid {
-  position: relative;
-  top: 1.875em;
-  margin-top: -1.875em;
-}
+  
 .field__input:focus {
   border-bottom-color: #EB6851;
 }
 
 #qcSubscribeWidget input[type=submit] {
   background: #eb6851;
-  border-radius: 16px;
-  max-width: 20em;
+  border-radius: 8px;
+  max-width: 18em;
+  padding: 0px 20px;
+  margin-left: 50px;
 }
 #qcSubscribeWidget input[type="text"], input[type="email"] {
   text-indent: 0;
