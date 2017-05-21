@@ -415,6 +415,14 @@ a.link.white {
     top: 6px;
   }
 
+  #qcSiteNav {
+    background-color: rgba(5, 10, 23, .9);
+  }
+
+  #qcPriNav {
+    background-color: rgba(5, 10, 23, .75);
+  }
+
   /* MOBILE STICKY REGISTER NOW BUTTON */
 
   .cta {
