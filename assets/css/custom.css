@@ -616,6 +616,9 @@ section.speakers .qcTabTitle .section-title {
 .speakers .gridder-list.selectedItem .name-title {
 	opacity: 0;
 }
+.speakers .name-title:hover {
+	cursor: pointer;
+}
 /*Speakers Gridder Settings */
 .gridder {
   margin: 0px;
