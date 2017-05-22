@@ -879,6 +879,62 @@ section.speakers .qcTabTitle .section-title {
   line-height: 1.2;
 }
 
+/* TESTIMONIALS SECTION STYLES */
+#qcWidgets {
+  padding: 0;
+}
+.testimonials-section {
+  background-color: #EB6851;
+}
+
+.testimonials-section .section-title {
+  color: #F1D8D3;
+}
+
+.testimonials-section .qcTabTitle {
+  border-color: #F1D8D3;
+}
+
+.owl-carousel li {
+  margin-right: 10px;
+}
+
+.qcSponsorList .owl-controls {
+   position: static;
+}
+
+.owl-buttons {
+  position: relative;
+}
+.qcSponsorList .owl-buttons > .owl-next {
+  top: -150px;
+  right: -40px;
+}
+
+.qcSponsorList .owl-buttons > .owl-prev {
+  left: 25px;
+  top: -150px;
+}
+
+.qcSponsorList .owl-buttons > .owl-prev,
+.qcSponsorList .owl-buttons > .owl-next {
+  background-image: url(../img/theme/carouselNav.png);
+}
+
+@media screen and (max-width: 780px) {
+  .qcSponsorList .owl-buttons > .owl-next {
+    top: 0;
+    right: 40%;
+  }
+  .qcSponsorList .owl-buttons > .owl-prev {
+    left: 50%;
+    top: 0;
+  }
+  .owl-controls {
+    padding-top: 1em;
+  }
+}
+
 /* FAQ SECTION STYLES */
 .faq-section {
   background: url('../img/WSC-coral-bg.jpg') no-repeat center center fixed;
