@@ -551,6 +551,9 @@ section.speakers .qcTabTitle .section-title {
 	padding-bottom: 1em;
 	padding-top: 1em;
 }
+.gridder-expanded-content h5 {
+  line-height: 1.7;
+}
 .gridder-expanded-content {
 	background: rgba(255, 255, 255, .85);
 	border-radius: 8px;
@@ -584,6 +587,7 @@ section.speakers .qcTabTitle .section-title {
 	position: absolute;
 	bottom: 0;
 	right: 0;
+  max-width: 75%;
 	opacity: 1;
 	transition: opacity .5s;
 	-o-transition: opacity .5s;
@@ -644,11 +648,6 @@ section.speakers .qcTabTitle .section-title {
 @media screen and (min-width: 1140px) {
   .speaker-grid .gridder-list {
     width: 20%;
-  }
-}
-@media screen and (min-width: 1320px) {
-  .speaker-grid .gridder-list {
-    width: 16.66667%;
   }
 }
 
