@@ -625,7 +625,7 @@ section.speakers .qcTabTitle .section-title {
   display: none;
 }
 .speaker-grid .gridder-list {
-  width: 50%;
+  width: 100%;
 }
 .speaker-grid .gridder-list:nth-child(n) {
   margin-bottom: 0;
@@ -634,6 +634,11 @@ section.speakers .qcTabTitle .section-title {
 .speaker-grid .gridder-list:nth-of-type(2n) {
   margin-right: 0;
   margin-bottom: 0;
+}
+@media screen and (min-width: 400px) {
+  .speaker-grid .gridder-list {
+    width: 50%;
+  }
 }
 @media screen and (min-width: 600px) {
   .speaker-grid .gridder-list {
@@ -1040,7 +1045,7 @@ input:focus, input:active {
   font-size: 15px;
   padding: 10px 0;
 }
-  
+
 .field__input:focus {
   border-bottom-color: #EB6851;
 }
