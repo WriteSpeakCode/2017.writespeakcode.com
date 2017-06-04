@@ -28,6 +28,21 @@ $(document).ready(function() {
     showNav: false
   });
 
+  // Rotate through tweets when click the feel the love button
+  $('.js-tweet-wrap').slice(0, 2).show();
+  $('#loadTweets').click(function(event) {
+    event.preventDefault();
+    // Hides visible tweets & selects last visible one
+    var lastVisibleTweet = $('.js-tweet-wrap:visible').hide().last();
+    // Grabs next tweets based on last visible tweet
+    var nextTweets = lastVisibleTweet.nextAll().slice(0, 2);
+    // If there are no more tweets, start from the beginning
+    if (nextTweets.length === 0) {
+      nextTweets = $(".js-tweet-wrap").slice(0, 2);
+    }
+    nextTweets.fadeIn(1500);
+  })
+
 });
 
 //sticky desktop nav bar
