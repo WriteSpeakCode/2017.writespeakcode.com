@@ -880,59 +880,62 @@ section.speakers .qcTabTitle .section-title {
 }
 
 /* TESTIMONIALS SECTION STYLES */
-#qcWidgets {
-  padding: 0;
-}
+
 .testimonials-section {
-  background-color: #EB6851;
+  margin: 3em 0;
+  min-height: 360px;
 }
 
-.testimonials-section .section-title {
-  color: #F1D8D3;
+.testimonials-section .js-tweet-wrap {
+  display: none;
+  text-align: center;
 }
 
-.testimonials-section .qcTabTitle {
-  border-color: #F1D8D3;
+.testimonials-section .twitter-tweet {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.owl-carousel li {
-  margin-right: 10px;
+.testimonials-section .love-button {
+  padding: .5em 1em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #172751;
+  border: 1px solid #172751;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 2em;
 }
 
-.qcSponsorList .owl-controls {
-   position: static;
+.testimonials-section .love-button:hover {
+  color: #172751;
+  background-color: white;
 }
 
-.owl-buttons {
-  position: relative;
+/* Styles tweets before twitter script has loaded */
+blockquote.twitter-tweet {
+  display: inline-block;
+  padding: 16px;
+  margin: 10px auto;
+  max-width: 468px;
+  border: #172751 1px solid;
+  border-top-color: #172751;
+  border-bottom-color: #172751;
+  border-radius: 5px;
+  text-align: left;
+  font: normal 14px 'Open Sans', sans-serif;
+  color: black;
 }
-.qcSponsorList .owl-buttons > .owl-next {
-  top: -150px;
-  right: -40px;
+blockquote.twitter-tweet p {
+  font: normal 14px 'Open Sans', sans-serif;
+  margin: 0 5px 10px 0;
 }
 
-.qcSponsorList .owl-buttons > .owl-prev {
-  left: 25px;
-  top: -150px;
-}
-
-.qcSponsorList .owl-buttons > .owl-prev,
-.qcSponsorList .owl-buttons > .owl-next {
-  background-image: url(../img/theme/carouselNav.png);
-}
-
-@media screen and (max-width: 780px) {
-  .qcSponsorList .owl-buttons > .owl-next {
-    top: 0;
-    right: 40%;
-  }
-  .qcSponsorList .owl-buttons > .owl-prev {
-    left: 50%;
-    top: 0;
-  }
-  .owl-controls {
-    padding-top: 1em;
-  }
+blockquote.twitter-tweet a[href^="https://twitter.com"] {
+  font-weight: normal;
+  display: inline;
+  color: #EB6851;
+  font-size: 14px;
 }
 
 /* FAQ SECTION STYLES */
