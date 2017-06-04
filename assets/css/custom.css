@@ -737,58 +737,46 @@ section.speakers .qcTabTitle .section-title {
 }
 
 /* SPONSORS SECTION STYLES */
-.sponsors-section {
+.sponsors-section .all-sponsors {
+  margin-top: 2em;
   margin-bottom: 3em;
 }
-
 .sponsors-section .sponsor-level {
   border: 2px solid #F1D8D3;
-  border-radius: 16px;
-  margin: 2em 0;
+  border-radius: 8px;
+  margin-top: 1em;
   padding: 1em;
 }
-
-.sponsors-section h3 {
-  font-size: 28px;
+.sponsors-section .level-title {
+  font-size: 22px;
   color:#172751;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  padding-bottom: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-
+@media screen and (min-width: 768px) {
+  .sponsors-section .level-title {
+    font-size: 28px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .sponsors-section .sponsor-level.childcare {
+    margin-left: 1em;
+  }
+}
 .sponsors-section p {
   line-height: 1.5em;
   margin-bottom: 16px;
 }
-
-.sponsors-section img {
-  width: 100%;
+.sponsors-section .sponsor-logo {
+  max-width: 180px;
+}
+.sponsors-section .supporter-logo {
+  max-width: 120px;
 }
 @media (max-width: 768px) {
-  .sponsors-section .logo {
+  .sponsors-section .sponsor-logo,
+  .sponsors-section .supporter-logo {
     margin-top: 1em;
-  }
-}
-@media (max-width:1022px) {
-  .sponsors-section img {
-    max-width: 300px;
-  }
-}
-
-.sponsors-section .prospectus-quote {
-  background-color: #F1D8D3;
-  padding: 32px;
-  margin-left: 1em;
-}
-
-.sponsors-section .prospectus-quote p {
-  color: #172751;
-  font-size: 18px;
-  font-family: 'PT Sans', sans-serif;
-}
-@media (max-width: 1023px) {
-  .sponsors-section .prospectus-quote {
-    display: none;
   }
 }
 
