@@ -229,14 +229,14 @@ a.link.white {
   z-index: 11;
 }
 
-.cfp-banner {
+.scholarship-banner {
   margin-top: 2em;
   padding: 1em;
   background-color: RGBA(241, 216, 211, .25);
   color: white;
   border-radius: 8px;
 }
-.cfp-banner a {
+.scholarship-banner a {
   padding-left: 1em;
   display: inline-block;
 }
