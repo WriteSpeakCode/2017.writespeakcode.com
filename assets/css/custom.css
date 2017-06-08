@@ -771,7 +771,7 @@ section.speakers .qcTabTitle .section-title {
   max-width: 180px;
 }
 .sponsors-section .supporter-logo {
-  max-width: 120px;
+  max-width: 150px;
 }
 @media (max-width: 768px) {
   .sponsors-section .sponsor-logo,
