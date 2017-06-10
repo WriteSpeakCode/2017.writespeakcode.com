@@ -1049,7 +1049,6 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
 
 .field {
   display: inline-block;
-  margin-right: 20px;
   margin-bottom: 15px;
   position: relative;
 }
@@ -1111,15 +1110,15 @@ input:focus, input:active {
 #qcSubscribeWidget input[type=submit] {
   background: #eb6851;
   border-radius: 8px;
-  max-width: 18em;
+  max-width: 10em;
   padding: 0px 20px;
-  margin-left: 50px;
 }
 #qcSubscribeWidget input[type="text"], input[type="email"] {
   text-indent: 0;
 }
 
 @media screen and (min-width: 768px) {
+
   #qcSubscribeWidget input[type=submit] {
     width: auto;
     text-align: center;
