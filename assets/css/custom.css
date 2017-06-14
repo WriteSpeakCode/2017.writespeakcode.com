@@ -1114,7 +1114,7 @@ input:focus, input:active {
   border-radius: 8px;
   max-width: 10em;
   padding: 0px 20px;
-  text-align: left;
+  text-align: center;
   margin-top: 13px;
 }
 #qcSubscribeWidget input[type="text"], input[type="email"] {
