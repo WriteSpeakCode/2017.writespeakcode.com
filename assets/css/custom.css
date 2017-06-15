@@ -453,6 +453,14 @@ a.link.white {
   }
 }
 
+.qcPageContentTabs > ul li > a {
+  color: #172751;
+}
+
+.qcPageContentTabs > ul {
+  border-bottom-color: #172751;
+}
+
 .schedule-section .qcPageContentTabs.qcScheduleTabs .box {
     border: 1px #EB6851 solid;
 }
