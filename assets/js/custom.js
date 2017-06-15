@@ -57,6 +57,8 @@ $(function() {
     });
 });
 
+$('.qcSubScheduleContentTabs').tabslet();
+
 ///Mailing list subscription form
 
 $(document).ready(function () {
