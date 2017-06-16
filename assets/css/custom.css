@@ -466,20 +466,20 @@ a.link.white {
 }
 
 .schedule-section .qcSubScheduleContentTabs.qcPageContentTabs.qcScheduleTabs .box {
-    border: 1px #D5A96C solid;
+    border: 1px #EB6851 solid;
 }
 
-.qcSubScheduleContentTabs.qcPageContentTabs > ul li.active > a {
-  color: #D5A96C;
+.schedule-section .qcSubScheduleContentTabs.qcPageContentTabs > ul li.active > a {
+  color: #EB6851;
 }
 
-.qcSubScheduleContentTabs.qcPageContentTabs > ul li.active:after {
-  border-top-color: #D5A96C;
+.schedule-section .qcSubScheduleContentTabs.qcPageContentTabs > ul li.active:after {
+  border-top-color: #EB6851;
 }
 
-.qcSubScheduleContentTabs.qcPageContentTabs > ul li.active:before,
-.qcSubScheduleContentTabs .qcScheduleList > li.toggle:before {
-  background-color: #D5A96C;
+.schedule-section .qcSubScheduleContentTabs.qcPageContentTabs > ul li.active:before,
+.schedule-section .qcSubScheduleContentTabs .qcScheduleList > li.toggle:before {
+  background-color: #EB6851;
 }
 
 .schedule-section .conf_dates{
@@ -513,7 +513,7 @@ a.link.white {
   }
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 699px) {
   .schedule-section .wsc-schedule-tabs li {
     width: 100%;
     border-right: 0;
@@ -523,13 +523,13 @@ a.link.white {
   .schedule-section .qcScheduleTabs li a {
     font-size: 18px;
   }
-  .qcPageContentTabs > ul li.active::before,
-  .qcPageContentTabs > ul li.active::after {
+  .schedule-section .qcPageContentTabs > ul li.active::before,
+  .schedule-section .qcPageContentTabs > ul li.active::after {
     display: none;
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
   .schedule-section .wsc-schedule-tabs li a {
     font-size: 12px;
   }
@@ -544,11 +544,91 @@ a.link.white {
   }
 }
 
-.qcScheduleList > li h3.schedule-tbd {
+.schedule-section .qcScheduleList > li h3.schedule-tbd {
   font-style: italic;
   font-size: 1em;
   text-transform: none;
 }
+
+.schedule-section .qcScheduleList > li h3 {
+  padding-bottom: 1em;
+  font-size: 1.2em;
+  text-transform: none;
+  color: #172751;
+}
+
+.schedule-section .qcScheduleList > li {
+  border-color: #EB6851;
+}
+
+.schedule-section .qcScheduleList > li.active {
+  background: white;
+}
+
+.schedule-section .qcSubScheduleContentTabs.qcPageContentTabs > ul li {
+  width: 49%;
+}
+
+.schedule-section .qcSubScheduleContentTabs.qcPageContentTabs > ul.qcScheduleList > li {
+  min-height: 150px;
+}
+
+@media screen and (max-width: 768px) {
+  .schedule-section .qcScheduleTabs.qcSubScheduleContentTabs li a {
+    font-size: 14px;
+  }
+  .schedule-section .qcScheduleList > li h3 {
+    font-size: 1em;
+  }
+  .schedule-section .qcSchSpeakers img {
+    padding-bottom: 1em;
+  }
+  .schedule-section .qcSubScheduleContentTabs .qcScheduleList > li {
+    min-height: 180px;
+  }
+  /* Sorry so hacky, but this grid is ugh. */
+  .schedule-section .qcScheduleTabs li .col-2 {
+    width: 100%;
+  }
+}
+
+.schedule-section .qcScheduleTabs.qcSubScheduleContentTabs {
+  padding: 3em 0;
+}
+
+.schedule-section .qcTogContent {
+  padding-bottom: 1em;
+}
+@media screen and (max-width: 768px) {
+  .schedule-section .qcTogContent {
+    padding-top: 0;
+  }
+}
+
+.schedule-section .qcScheduleList li.active .qcTogContent {
+  border: 0;
+  margin-top: 0;
+}
+
+.schedule-section .qcTogContent p {
+  line-height: 1.7;
+  margin: .5em 0;
+}
+
+@media screen and (max-width: 600px) {
+  .schedule-section .qcTogContent p {
+    font-size: 14px;
+  }
+}
+
+.schedule-section .qcScheduleList > li .multiple-speakers {
+    margin: 31px 0 14px 0;
+}
+
+.schedule-section .qcScheduleList > li .multiple-speakers .speakers {
+    margin: 0;
+}
+
 
 /* SPEAKERS SECTION STYLES */
 section.speakers {
