@@ -255,9 +255,6 @@ body.home.static {
     height: 65px;
     color: #fff;
 }
-.days_dash .digits {
-    margin-left: -20px;
-}
 .digit {
     position: absolute;
     width: 100%;
