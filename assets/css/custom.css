@@ -880,9 +880,11 @@ section.speakers .qcTabTitle .section-title {
 }
 .sponsors-section .sponsor-logo {
   max-width: 180px;
+  width: 100%;
 }
 .sponsors-section .supporter-logo {
   max-width: 150px;
+  width: 100%;
 }
 @media (max-width: 768px) {
   .sponsors-section .sponsor-logo,
