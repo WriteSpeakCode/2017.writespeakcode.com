@@ -660,6 +660,12 @@ section.speakers .qcTabTitle .section-title {
 	  left: -20px;
 	}
 }
+
+.speakers .name-title h4,
+.speakers .name-title h5 {
+  font-weight: 300;
+}
+
 .speakers .gridder-list.selectedItem img {
 	filter: none;
 }
@@ -678,9 +684,11 @@ section.speakers .qcTabTitle .section-title {
 }
 .gridder-expanded-content h4 {
 	font-size: 22px;
+  font-weight: 300;
 }
 .gridder-expanded-content h5 {
 	font-size: 15px;
+  font-weight: 300;
 }
 .gridder-expanded-content p {
 	line-height: 2.1;
