@@ -695,7 +695,7 @@ section.speakers .qcTabTitle .section-title {
 	color: #172751;
 }
 .speakers .name-title {
-	background-color: #F1D8D3;
+	background-color: rgba(255, 255, 255, .85);
 	font-size: 14px;
 	color: #172751;
 	padding: .5em;
