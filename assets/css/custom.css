@@ -781,78 +781,55 @@ section.speakers .qcTabTitle .section-title {
 }
 
 /* VENUE SECTION STYLES */
-
 .location-section {
   background-color: #F1D8D3;
 }
-
+.location-section .qcPageContentTabs > ul li {
+  width: 49%;
+}
 .location-section .venue-info-bg {
   background-color: #172751;
 }
-
 .location-section .venue-info-map {
   margin: 0;
 }
-
 .location-section .venue-info-bg {
   padding: 3em;
-  color: #F1D8D3;
+  color: white;
   line-height: 2.4;
 }
-
 .location-section iframe {
   width: 100%;
   height: 100%;
   pointer-events: none;
 }
-
 .location-section .venue-info-content a:hover {
   color: #F1D8D3;
 }
-
 .location-section .hotel-section{
-  color: #444;
+  color: #666;
   background: #fff;
   padding: 20px;
 }
-
-.location-section .hotel-blurb{
-  font-size: 16px;
-  color: rgb(102, 102, 102);
-  padding-top: 20px;
+.location-section .qcPostContent {
+  color: #666;
 }
-.location-section .hotel-info{
-  font-size: 17px;
-  line-height: 1.5em;
+.hotels-head {
+  margin-top: 40px;
+  border-top: 1px #999 solid;
+  border-bottom: 1px #999 solid;
 }
-
-.hotel-section .action a {
-  background: #172751;
-  margin-top: 0;
-}
-
-.hotel-section #qcVenueHotelsHead {
-  font: 500 20px/70px 'Open Sans', sans-serif;
-}
-
-@media only screen and (min-device-width: 768px) {
-  .hotel-section .tel-mobile-show {
-    color: #444 !important;
-    text-decoration: none !important;
-    pointer-events: none;
+@media screen and (max-width: 768px) {
+  .location-section .hotels-head {
+    display: none;
+  }
+  .location-section .hotel-section h2 {
+    border-top: 1px solid gray;
+    padding-top: 1em;
   }
 }
-
-@media (max-width: 768px)  {
-  .hotel-section #qcVenueHotelsHead > div {
-    margin-left: 1px;
-  }
-  .hotel-section .hotel-col {
-    width: 37%;
-  }
-  .hotel-section #qcVenueHotelsHead {
-    font: 500 16px/62px 'Open Sans', sans-serif;
-  }
+.location-section .hotel-section h2 {
+  margin-top: 1em;
 }
 
 /* SPONSORS SECTION STYLES */

@@ -23,11 +23,11 @@
   <meta name=”twitter:image” content=”https://2017.writespeakcode.com/assets/img/WSC-coral-bg.jpg” />
   <meta name="twitter:widgets:link-color" content="#EB6851">
 
-  <!-- ## LOAD STYLSHEETS ## -->
-  <link rel="stylesheet" media="all" href="./assets/css/style.css"/>
-  <link rel="stylesheet" media="all" href="./assets/css/custom.css"/>
   <!-- ## FLEXBOX GRID ## -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+  <!-- ## LOAD STYLESHEETS ## -->
+  <link rel="stylesheet" media="all" href="./assets/css/style.css"/>
+  <link rel="stylesheet" media="all" href="./assets/css/custom.css"/>
 
   <!-- ## GOOGLE FONTS ## -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans" rel="stylesheet">
@@ -2147,7 +2147,8 @@
       <div class="row venue-info-map" id="venue-map">
         <div class="col-xs-12 col-sm-6 col-md-4 venue-info-bg">
           <div class="venue-info-content">
-            <a href="http://eliotcenterportland.org/" target="_blank" class="link coral"><h3>Eliot Center</h3></a>
+            <a href="http://eliotcenterportland.org/" target="_blank" class="link coral">
+            <h3>Eliot Center</h3></a>
             1226 SW Salmon St, <br>
             Portland, OR <br>
             97205 <br>
@@ -2159,49 +2160,44 @@
         </div>
       </div>
 
-      <div id="hotels">
-        <div class="hotel-section">
-
-          <!-- ## TAB DESC ## -->
-          <p class="qcPostContent hotel-blurb">We are actively working with hotels to reserve room blocks and will be adding more as soon as they are available. Last year, some attendees arranged amongst themselves to share hotel rooms or Airbnbs on the community Slack, to which you may request an invite after ticket purchase.</p>
-
-          <!-- ## VENUE HOTEL LIST ## -->
-          <div id="qcVenueHotelsHead" class="clearfix">
-            <div class="col-6 col hotel-col">Name</div>
-            <div class="col-3 col">Price</div>
-            <div class="col-3 col">Bookings</div>
+      <div class="row hotel-section" id="hotels">
+        <!-- ## TAB DESC ## -->
+        <p>We are actively working with hotels to reserve room blocks and will be adding more as soon as they are available. Last year, some attendees arranged amongst themselves to share hotel rooms or Airbnbs on the community Slack, to which you may request an invite after ticket purchase.</p>
+        <!-- ## VENUE HOTEL LIST ## -->
+        <div id="qcVenueHotels">
+          <div class="row hotels-head">
+            <div class="col-sm-5">Name</div>
+            <div class="col-sm-3">Price</div>
+            <div class="col-sm-3">Bookings</div>
           </div>
-          <ul id="qcVenueHotels" class="qcVenueHotels">
-            <li class="clearfix">
-              <div class="col-6 col">
-                <a href="http://www.westinportland.com/" target="blank"><h2>The Westin Portland</h2></a>
-                <p class="hotel-info">750 SW Alder St, Portland, OR 97205</p>
-                <p class="hotel-info">503-402-8785 </p>
-                <p class="hotel-info">0.4 miles from Elliot Center </p>
-                <p class="hotel-info">Reserve by 5:00 p.m Pacific Time 7/22/2017</p>
-              </div>
-              <div class="col-3 col">
-                <p class="hotel-info">$239</p>
-              </div>
-              <div class="col-3 col">
-                <p><a href=" https://www.starwoodmeeting.com/events/start.action?id=1704205783&key=24902FA" target="blank" class="button secondary">Book</a></p>
-              </div>
-            </li>
-            <li class="clearfix">
-              <div class="col-6 col">
-                <a href="https://www.acehotel.com/portland" target="blank"><h2>Ace Hotel Portland</h2></a>
-                <p class="hotel-info">1022 SW Stark St, Portland, OR 97205</p>
-                <p class="hotel-info">0.4 miles from Elliot Center </p>
-                <p class="hotel-info">Reserve by 5:00 p.m Pacific Time 7/10/2017</p>
-              </div>
-              <div class="col-3 col">
-                <p class="hotel-info">$255/night + tax</p>
-              </div>
-              <div class="col-3 col">
-                <p><a href="tel:5034028785" class="tel-mobile-show">Call 503-546-8502</a></p>
-              </div>
-            </li>
-          </ul>
+          <div class="row middle-xs">
+            <div class="col-xs-12 col-sm-5">
+              <a href="http://www.westinportland.com/" target="blank"><h2>The Westin Portland</h2></a>
+              <p class="hotel-info">750 SW Alder St, Portland, OR 97205</p>
+              <p class="hotel-info">503-402-8785</p>
+              <p class="hotel-info">0.4 miles from Elliot Center </p>
+              <p class="hotel-info">Reserve by 5:00 p.m Pacific Time 7/22/2017</p>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+              <p class="hotel-info">$239/night + tax</p>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+              <a href=" https://www.starwoodmeeting.com/events/start.action?id=1704205783&key=24902FA" target="blank" class="button secondary">Book a room online</a>
+            </div>
+            <div class="col-xs-12 col-sm-5">
+              <a href="https://www.acehotel.com/portland" target="blank"><h2>Ace Hotel Portland</h2></a>
+              <p class="hotel-info">1022 SW Stark St, Portland, OR 97205</p>
+              <p class="hotel-info">503-546-8502</p>
+              <p class="hotel-info">0.4 miles from Elliot Center </p>
+              <p class="hotel-info">Reserve by 5:00 p.m Pacific Time 7/10/2017</p>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+              <p class="hotel-info">$255/night + tax</p>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+              <a href="tel:5034028785" class="tel-mobile-show button secondary">Call 503-546-8502</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
