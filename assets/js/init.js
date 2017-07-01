@@ -71,7 +71,7 @@ $('#qcCountdown').countDown({
 		'day': 		23,
 		'month': 	8,
 		'year': 	2017,
-		'hour': 	0,
+		'hour': 	9,
 		'min': 		0,
 		'sec': 		0
 	},
