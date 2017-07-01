@@ -810,12 +810,13 @@ section.speakers .qcTabTitle .section-title {
   color: #666;
   background: #fff;
   padding: 20px;
+  line-height: 1.6;
 }
 .location-section .qcPostContent {
   color: #666;
 }
-.hotels-head {
-  margin-top: 40px;
+.location-section .hotels-head {
+  margin-top: 2em;
   border-top: 1px #999 solid;
   border-bottom: 1px #999 solid;
 }
@@ -830,6 +831,16 @@ section.speakers .qcTabTitle .section-title {
 }
 .location-section .hotel-section h2 {
   margin-top: 1em;
+}
+.location-section .hotel-info p {
+  line-height: 1.3;
+  margin-top: .75em;
+  margin-bottom: .25em;
+}
+@media screen and (min-width: 768px) {
+  .location-section .hotel-section .button.secondary.show-on-mobile {
+      display: none;
+  }
 }
 
 /* SPONSORS SECTION STYLES */
