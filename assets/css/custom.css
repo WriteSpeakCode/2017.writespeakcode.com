@@ -1245,6 +1245,37 @@ input:focus, input:active {
   background: #172751;
 }
 
+/* ORGANIZERS STYLES */
+.organizers-section {
+  border-top: 4px solid #EB6851;
+  padding: 1em 0;
+  background-color: #172751;
+  color: #F1D8D3;
+}
+.organizers-section .organizers-title {
+  padding-top: 1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.organizers-section .organizer {
+  font-size: 14px;
+  line-height: 1.2;
+  padding: 1em;
+}
+@media screen and (max-width: 400px) {
+.organizers-section .organizer {
+  flex-basis: 48%;
+  max-width: 48%;
+  }
+}
+.organizers-section .organizer a:hover {
+  color: #F1D8D3;
+}
+.organizers-section img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
 
 /* FOOTER STYLES */
 .footer-section {
