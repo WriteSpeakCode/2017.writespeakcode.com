@@ -197,12 +197,22 @@ a.link.white {
 
 /* PAGE INTRO STYLES */
 .page-intro {
-  background: url('../img/WSC-bg.jpg') no-repeat center center fixed;
+    background: #172751 url('../img/WSC-bg-small.jpg') no-repeat bottom left fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
    padding-bottom: 3em;
+}
+@media screen and (min-width: 1400px) {
+  .page-intro {
+    background: #172751 url('../img/WSC-bg-large.jpg') no-repeat bottom left fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }
 
 .title-subheader{
@@ -1048,7 +1058,7 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
 
 /* FAQ SECTION STYLES */
 .faq-section {
-  background: url('../img/WSC-coral-bg.jpg') no-repeat center center fixed;
+  background: #EB6851 url('../img/WSC-coral-bg.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
