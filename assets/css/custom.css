@@ -219,7 +219,7 @@ a.link.white {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 415px) {
   #qcSlideText h1 {
     font-size: 25px; /* shrink headline to fit on extra tiny screens */
   }
@@ -228,7 +228,11 @@ a.link.white {
 #qcSlideText h1 {
   letter-spacing: 0;
   line-height: 1.1;
-  padding-top: .5em;
+}
+@media screen and (min-width: 768px) {
+  #qcSlideText h1 {
+    padding-top: 1em;
+  }
 }
 
 #qcSlideText .wsc-conf-text {
@@ -273,7 +277,7 @@ a.link.white {
 
 /* adapt page intro for mobile sticky nav  */
 .wsc-logo {
-  padding: 2em 2em 1em 2em;
+  padding: 2em 2em 0 2em;
   width: 250px;
 }
 
