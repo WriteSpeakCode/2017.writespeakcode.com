@@ -366,7 +366,7 @@ a.link.white {
 }
 .nav-section ul li {
   display: inline-block;
-  padding: 1em;
+  padding: 1em .75em;
   font-size: 12px;
 }
 .nav-section .tito-tickets-button {
@@ -376,7 +376,7 @@ a.link.white {
   background-color: rgba(0,0,0,0);
   font-size: 12px;
 }
-@media (min-width: 900px) {
+@media (min-width: 945px) {
   .nav-section ul li {
     padding: 1em 1.25em;
     font-size: 14px;
