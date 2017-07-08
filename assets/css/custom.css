@@ -118,6 +118,10 @@ body {
 
 
 /* UTILITY CLASSES */
+.coral {
+  color: #EB6851;
+}
+
 .margin-bottom {
   margin-bottom: 32px;
 }
@@ -215,18 +219,38 @@ a.link.white {
   }
 }
 
+@media only screen and (max-width: 415px) {
+  #qcSlideText h1 {
+    font-size: 25px; /* shrink headline to fit on extra tiny screens */
+  }
+}
+
+#qcSlideText h1 {
+  letter-spacing: 0;
+  line-height: 1.1;
+}
+@media screen and (min-width: 768px) {
+  #qcSlideText h1 {
+    padding-top: 1em;
+  }
+}
+
+#qcSlideText .wsc-conf-text {
+  font-size: .7em;
+  color: white;
+}
+
+#qcSlideText .wsc-logo-text {
+  color: #D5A96C;
+}
+
 .title-subheader{
   color: white;
   opacity: 0.8;
 }
 
 .page-intro #qcOpenNav {
-    background: url(../img/theme/openNavInvert.png) center center;
-}
-
-#qcSlideText .qcTargetLink {
-  color: white;
-  background: #EB6851;
+  background: url(../img/theme/openNavInvert.png) center center;
 }
 
 #slidedesc {
@@ -253,7 +277,7 @@ a.link.white {
 
 /* adapt page intro for mobile sticky nav  */
 .wsc-logo {
-  padding: 2em;
+  padding: 2em 2em 0 2em;
   width: 250px;
 }
 
@@ -276,12 +300,6 @@ a.link.white {
   #slideContent, .page-intro {
     height: calc(100% + 60px);
     min-height: 600px;
-  }
-}
-
-@media only screen and (max-width: 335px) {
-  #qcSlideText h1 {
-    font-size: 28px; /* shrink headline to fit on extra tiny screens */
   }
 }
 
