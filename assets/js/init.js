@@ -31,7 +31,7 @@ $(document).ready(function() {
 $('#qcOpenNav').click(function() {
 	$('#qcSiteNav').fadeIn();
 });
-$('#qcCloseNav').click(function() {
+$('#qcSiteNav').click(function() {
 	$('#qcSiteNav').fadeOut();
 });
 $('#qcPriNav li').click(function() {
