@@ -263,16 +263,12 @@ a.link.white {
   z-index: 11;
 }
 
-.scholarship-banner {
-  margin-top: 2em;
-  padding: 1em;
-  background-color: RGBA(241, 216, 211, .25);
-  color: white;
-  border-radius: 8px;
-}
-.scholarship-banner a {
-  padding-left: 1em;
-  display: inline-block;
+.volunteer-banner {
+	margin-top: 2em;
+	padding: 1em;
+	background-color: RGBA(241, 216, 211, .25);
+	color: white;
+	border-radius: 8px;
 }
 
 /* adapt page intro for mobile sticky nav  */
