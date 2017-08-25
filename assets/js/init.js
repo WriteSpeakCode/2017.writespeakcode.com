@@ -4,7 +4,7 @@
 // --------- INIT JS ---------  //
 
 // -- 1. NAV MENU --  //
-// -- 2. COUNTDOWN TIMER --  //
+// -- 2. COUNTDOWN TIMER --  Removed //
 // -- 3. CAROUSEL --  //
 // -- 4. TESTIMONIAL --  //
 // -- 5. SCHEDULE TABS --  //
@@ -60,26 +60,6 @@ mbTrigger();
 $(window).resize(function() {
 	mbTrigger();
 });
-
-
-
-// --------- 2. COUNTDOWN TIMER ----------  //
-
-if (jQuery.isFunction(jQuery.fn.countDown)) {
-$('#qcCountdown').countDown({
-	targetDate: {
-		'day': 		23,
-		'month': 	8,
-		'year': 	2017,
-		'hour': 	9,
-		'min': 		0,
-		'sec': 		0
-	},
-	omitWeeks: true
-});
-}
-
-
 
 // --------- 3. CAROUSEL ----------  //
 
