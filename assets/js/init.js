@@ -65,20 +65,20 @@ $(window).resize(function() {
 
 // --------- 2. COUNTDOWN TIMER ----------  //
 
-if (jQuery.isFunction(jQuery.fn.countDown)) {
-$('#qcCountdown').countDown({
-	targetDate: {
-		'day': 		23,
-		'month': 	8,
-		'year': 	2017,
-		'hour': 	9,
-		'min': 		0,
-		'sec': 		0
-	},
-	omitWeeks: true
-});
-}
-
+// if (jQuery.isFunction(jQuery.fn.countDown)) {
+// $('#qcCountdown').countDown({
+// 	targetDate: {
+// 		'day': 		23,
+// 		'month': 	8,
+// 		'year': 	2017,
+// 		'hour': 	9,
+// 		'min': 		0,
+// 		'sec': 		0
+// 	},
+// 	omitWeeks: true
+// });
+// }
+//
 
 
 // --------- 3. CAROUSEL ----------  //
