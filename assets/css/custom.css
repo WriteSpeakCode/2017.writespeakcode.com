@@ -894,8 +894,14 @@ section.speakers .qcTabTitle .section-title {
     margin-top: 16px;
     margin-bottom: 16px;
   }
-  .sponsors-section .sponsor-level.supporters {
+
+  .sponsors-section .sponsor-level.left {
+    height: 100%;
+  }
+
+  .sponsors-section .sponsor-level.right {
     margin-left: 1em;
+    height: 100%;
   }
 }
 .sponsors-section p {
@@ -909,6 +915,9 @@ section.speakers .qcTabTitle .section-title {
 .sponsors-section .supporter-logo {
   max-width: 150px;
   width: 100%;
+}
+.sponsors-section .right .sponsor-logo img {
+  padding: 50px auto;
 }
 @media (max-width: 768px) {
   .sponsors-section .sponsor-logo,
