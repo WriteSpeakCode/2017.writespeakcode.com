@@ -1,7 +1,7 @@
 $(document).ready(function() {
   // Redirect to https. Hacky, but we shouldn't be using Heroku for a static site
   if (window.location.protocol == "http:") {
-    window.location.replace("https://2017.writespeakcode.com/");
+    window.location.replace("https://2018.writespeakcode.com/");
   }
 
 // Enable events on map once you click map

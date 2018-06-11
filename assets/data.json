@@ -1,0 +1,58 @@
+{
+    "speakers": [
+        {
+            "name": "Lara Hogan",
+            "title": "VP Engineering",
+            "company": "Kickstarter",
+            "twitter": "lara_hogan",
+            "linkedin": null,
+            "github": null,
+            "bio": "Lara Hogan is VP of Engineering at Kickstarter and the author of Designing for Performance, Building a Device Lab, and Demystifying Public Speaking. She champions performance as a part of the overall user experience, helps people get comfortable giving presentations, and believes it's important to celebrate career achievements with donuts."
+        },
+        {
+            "name": "Mina Markham",
+            "title": "Senior Engineer",
+            "company": "Slack",
+            "twitter": "minamarkham",
+            "linkedin": "minamarkham",
+            "github": "minamarkham",
+            "bio": "Mina Markham is a front-end architect, conference speaker and organizer and lover of design systems. She writes code for a living, currently for the Growth Marketing team at Slack. Previously a senior engineer at Hillary for America, her work on the Pantsuit pattern library has been spotlighted in WIRED, Fast Company, and Communication Arts. A prolific public speaker, Mina has appeared at events worldwide, including CSS Dev Conf, Fluent, and Future of Web Design. In addition, she’s the co-organizer of Front Porch, a front-end conference which prides itself on showcasing and fostering new speakers. Mina likes ampersands, Oreos, traveling, cupcakes, and the color pink. When she's not crafting sites or teaching others, she is probably in her kitchen baking something chocolatey. Mina graduated cum laude from Syracuse University with a dual major in Graphic Arts from the S.I. Newhouse School of Public Communications and Women’s Studies. She lives in Oakland, California."
+        },
+        {
+            "name": "Rebecca Miller-Webster",
+            "title": "Founder",
+            "company": "Write/Speak/Code",
+            "twitter": "rmillerwebster",
+            "linkedin": "rjmillerwebster",
+            "github": "rmw",
+            "bio": "Rebecca Miller-Webster is a software engineer, conference organizer, and educator. She is the founder of Write/Speak/Code and Practice Lead at DevMynd. Rebecca has been developing software professionally for over a dozen years, previously organized GORUCO, and was the founding teacher at Dev Bootcamp NYC. Rebecca's hobbies include drinking Cherry Coke Zero, wearing trousers, telling computers what to do, cuddling pugs, & wearing all the colors."
+        },
+        {
+            "name": "Courteney Ervin",
+            "title": "Software Engineer",
+            "company": "Teachers Pay Teachers",
+            "twitter": "courteneyervin",
+            "linkedin": null,
+            "github": null,
+            "bio": "Courteney Ervin is a software developer at the New York Public Library, where she is thrilled to be writing code in her happy place: the junction of social good and open source. Previously, Ervin was a founding teacher at Dev Bootcamp’s NYC campus, and she has also led events and technology projects at a variety of nonprofits. She holds a BA in English and Anthropology from Columbia University."
+        },
+        {
+            "name": "Neha Batra",
+            "title": "Senior Software Engineer",
+            "company": "Pivotal Labs",
+            "twitter": "nerdneha",
+            "linkedin": null,
+            "github": null,
+            "bio": "Neha Batra is a senior software engineer at Pivotal Labs who, 5 years ago, was an energy consultant and quit to teach herself programming because “it was time.” She holds a bachelor’s in Mechanical Engineering from MIT and enjoys foodie adventures, planning trips (and has docs for most of her trip plans), and pronouncing GIFs how it should be: jiffs. If you want to hear her ramble on a topic, ask her about pair programming, tdd, or how she came around to agile processes, in general"
+        },
+        {
+            "name": "Amy Wibowo",
+            "title": "Founder",
+            "company": "Bubblesort Zines",
+            "twitter": "sailorhg",
+            "linkedin": null,
+            "github": null,
+            "bio": "Amy is a programmer and designer who cares about STEM and STEAM education and making the world better through human-centric design and technology. She is the founder of Bubblesort Zines—zines that explain computer science concepts via drawings and stories. Previously, she was a web dev at Airbnb, did machine learning research at Honda Research Institute in Japan, and HCI research at the University of Tokyo."
+        }
+    ]
+}
